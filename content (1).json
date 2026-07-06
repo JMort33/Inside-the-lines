@@ -1,0 +1,121 @@
+{
+  "lastUpdated": "",
+  "liveScores": [],
+
+  "analysisHub": [
+    {
+      "category": "Today's Breakdown",
+      "title": "Slate Preview",
+      "body": "Key matchups across today's games, with the angles that matter most before lineups lock.",
+      "date": "2026-07-06"
+    },
+    {
+      "category": "News",
+      "title": "What's Moving",
+      "body": "Injury updates, lineup changes, and roster news that shift the numbers fast.",
+      "date": "2026-07-06"
+    },
+    {
+      "category": "Fantasy",
+      "title": "Fantasy Angles",
+      "body": "Start/sit calls and waiver-wire targets pulled straight from today's matchup notes.",
+      "date": "2026-07-06"
+    }
+  ],
+
+  "market": [
+    {
+      "matchup": "Dodgers @ Padres",
+      "moneyline": "LAD -142",
+      "total": "O/U 8.5",
+      "publicPct": 71,
+      "publicSide": "Over"
+    },
+    {
+      "matchup": "Yankees @ Red Sox",
+      "moneyline": "NYY -118",
+      "total": "O/U 9.0",
+      "publicPct": 48,
+      "publicSide": "Home"
+    },
+    {
+      "matchup": "Arsenal vs Chelsea",
+      "moneyline": "ARS -105",
+      "total": "O/U 2.5",
+      "publicPct": 58,
+      "publicSide": "Arsenal"
+    }
+  ],
+
+  "baseball": [
+    {
+      "section": "Homa Corner",
+      "author": "Lucas",
+      "title": "Top HR Leans — Today's Slate",
+      "body": "Barrel rate, pitcher HR/9, and park factor stacked up for tonight's best power plays.",
+      "date": "2026-07-06"
+    },
+    {
+      "section": "Pitching Matchups",
+      "author": "",
+      "title": "Pitching Matchups",
+      "body": "Starter form, platoon splits, and how each arm has handled contact over the last 3 starts.",
+      "date": "2026-07-06"
+    },
+    {
+      "section": "Daily Insights",
+      "author": "",
+      "title": "Daily MLB Insights",
+      "body": "The stat that actually matters from last night, explained in two sentences.",
+      "date": "2026-07-06"
+    }
+  ],
+
+  "soccer": [
+    {
+      "section": "Match Previews",
+      "author": "",
+      "title": "Match Previews",
+      "body": "Form, injuries, and tactical setup for this week's biggest fixtures.",
+      "date": "2026-07-06"
+    },
+    {
+      "section": "Mung Mortals",
+      "author": "Liam",
+      "title": "Predictions",
+      "body": "Score leans and win-probability calls across the top leagues.",
+      "date": "2026-07-06"
+    },
+    {
+      "section": "League Updates",
+      "author": "",
+      "title": "League Updates",
+      "body": "Table movement, transfer buzz, and storylines shaping the run-in.",
+      "date": "2026-07-06"
+    }
+  ],
+
+  "opinions": [
+    {
+      "type": "Hot Take",
+      "author": "Cade",
+      "title": "Post pending",
+      "body": "Cade's first take goes here once it's written.",
+      "date": "2026-07-06"
+    },
+    {
+      "type": "Recap",
+      "author": "Cade",
+      "title": "Post pending",
+      "body": "Weekly recap slot — reserved.",
+      "date": "2026-07-05"
+    },
+    {
+      "type": "Rant",
+      "author": "Cade",
+      "title": "Post pending",
+      "body": "Reaction piece slot — reserved.",
+      "date": "2026-07-04"
+    }
+  ]
+}
