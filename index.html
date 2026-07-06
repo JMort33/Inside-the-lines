@@ -1,73 +1,693 @@
-INSIDE THE LINES
-.
-MENU
-MLB — LAD -142 ▲
-PUBLIC ON OVER 8.5 — 71%
-MUNG MORTALS: ARSENAL WIN PROB 58%
-HOMA CORNER: TOP HR LEAN — SOTO vs LHP
-NYY/BOS ML ▼ -128 → -118
-FOOTBALL SECTION — LAUNCHING SOON
-MLB — LAD -142 ▲
-PUBLIC ON OVER 8.5 — 71%
-MUNG MORTALS: ARSENAL WIN PROB 58%
-HOMA CORNER: TOP HR LEAN — SOTO vs LHP
-NYY/BOS ML ▼ -128 → -118
-FOOTBALL SECTION — LAUNCHING SOON
-Read the game before it's played.
-Daily baseball and soccer breakdowns, market-side odds analysis, and the takes nobody asked for — all in one place. Football section drops when the season kicks off.
-● BASEBALL — LIVE
-● SOCCER — LIVE
-FOOTBALL — PRESEASON
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Inside the Lines</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy: #0B1220;
+    --navy-2: #101B2D;
+    --panel: #14213A;
+    --line: #24344C;
+    --turf: #1F5C3F;
+    --turf-bright: #2F8F5F;
+    --amber: #F2A900;
+    --clay: #B5651D;
+    --chalk: #E7E3D8;
+    --chalk-dim: #9AA3B0;
+    --font-display: 'Bebas Neue', sans-serif;
+    --font-body: 'Inter', sans-serif;
+    --font-mono: 'IBM Plex Mono', monospace;
+  }
 
-START HERE
-Analysis Hub
-Today's slate at a glance — game breakdowns, what's moving in the news, and fantasy angles worth knowing before first pitch or kickoff.
-Loading today's breakdowns…
-FOLLOW THE MONEY
-Sports Prediction Market Analysis
-Where the odds sit, where the public is piling in, and where the two disagree. Informational and educational only — not betting advice.
-MATCHUP
-MONEYLINE
-TOTAL
-PUBLIC %
-Loading market lines…
-// Edit content.json to update these lines — no code required.
-MLB
-Baseball
-Daily MLB breakdowns, pitching matchups, and the Homa Corner's home run leans.
-01
-The Homa Corner with Numba
-HOME RUN PREDICTIONS — BY LUCAS 
-Loading baseball posts…
-PARK FACTORS — QUICK REF
-Coors Field
-HR +34%
-Oracle Park
-HR -18%
-Yankee Stadium
-HR +12%
-Petco Park
-HR -9%
-GLOBAL GAME
-Soccer
-Match previews, predictions, and league updates — headlined by Mung Mortals.
-02
-Mung Mortals
-SOCCER PREDICTIONS & NEWS — BY LIAM 
-Loading soccer posts…
-LEAGUE WATCH
-Premier League
-Active
-La Liga
-Active
-Champions League
-Active
-OFF THE RECORD
-Opinions
-Hot takes, recaps, and the occasional rant — straight from Rocking Chair Central.
-03
-Rocking Chair Central
-HOT TAKES & REACTIONS — BY CADE 
-Loading opinions…
-Inside the Lines
-All odds, predictions, and market data are provided for informational and educational purposes only and do not constitute betting advice. Football coverage begins when the season starts.
+  *{ margin:0; padding:0; box-sizing:border-box; }
+
+  html{ scroll-behavior:smooth; }
+
+  body{
+    background:var(--navy);
+    color:var(--chalk);
+    font-family:var(--font-body);
+    line-height:1.5;
+  }
+
+  a{ color:inherit; text-decoration:none; }
+
+  /* ===== HEADER ===== */
+  header{
+    position:sticky; top:0; z-index:100;
+    background:rgba(11,18,32,0.92);
+    backdrop-filter:blur(6px);
+    border-bottom:1px solid var(--line);
+  }
+
+  .header-inner{
+    max-width:1180px; margin:0 auto;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:16px 24px;
+  }
+
+  .wordmark{
+    font-family:var(--font-display);
+    font-size:1.7rem;
+    letter-spacing:0.04em;
+    display:flex; align-items:center; gap:8px;
+  }
+  .wordmark .dot{ color:var(--amber); }
+
+  nav.main-nav{
+    display:flex; gap:28px;
+    font-family:var(--font-mono);
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+  }
+  nav.main-nav a{
+    color:var(--chalk-dim);
+    padding-bottom:4px;
+    border-bottom:2px solid transparent;
+    transition:color .2s, border-color .2s;
+  }
+  nav.main-nav a:hover, nav.main-nav a:focus-visible{
+    color:var(--chalk);
+    border-color:var(--amber);
+  }
+  nav.main-nav .soon{
+    color:#5A6577;
+    cursor:default;
+  }
+  nav.main-nav .soon:hover{ color:#5A6577; border-color:transparent; }
+
+  .nav-toggle{
+    display:none;
+    background:none; border:1px solid var(--line);
+    color:var(--chalk); font-family:var(--font-mono);
+    padding:8px 12px; font-size:0.75rem; letter-spacing:0.06em;
+    cursor:pointer;
+  }
+
+  /* ===== TICKER ===== */
+  .ticker-strip{
+    background:var(--turf);
+    border-bottom:1px solid #0F3A28;
+    overflow:hidden;
+    white-space:nowrap;
+  }
+  .ticker-track{
+    display:inline-flex;
+    animation:scroll-ticker 32s linear infinite;
+    font-family:var(--font-mono);
+    font-size:0.78rem;
+    color:#EAF6EE;
+  }
+  .ticker-track span{
+    padding:8px 28px;
+    border-right:1px solid rgba(255,255,255,0.15);
+  }
+  .ticker-track .up{ color:#B7F0C9; }
+  .ticker-track .down{ color:#FFC2B0; }
+  @keyframes scroll-ticker{
+    0%{ transform:translateX(0); }
+    100%{ transform:translateX(-50%); }
+  }
+
+  /* ===== HERO ===== */
+  .hero{
+    max-width:1180px; margin:0 auto;
+    padding:72px 24px 56px;
+    display:grid;
+    grid-template-columns:1.3fr 1fr;
+    gap:48px;
+    align-items:center;
+  }
+  .hero h1{
+    font-family:var(--font-display);
+    font-size:clamp(3rem, 7vw, 5.4rem);
+    line-height:0.95;
+    letter-spacing:0.01em;
+  }
+  .hero h1 .accent{ color:var(--amber); }
+  .hero p{
+    margin-top:20px;
+    max-width:46ch;
+    color:var(--chalk-dim);
+    font-size:1.05rem;
+  }
+  .hero .tags{
+    margin-top:28px;
+    display:flex; gap:12px; flex-wrap:wrap;
+  }
+  .tag{
+    font-family:var(--font-mono);
+    font-size:0.72rem;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    border:1px solid var(--line);
+    padding:6px 12px;
+    color:var(--chalk-dim);
+  }
+  .tag.live{ border-color:var(--turf-bright); color:var(--turf-bright); }
+
+  .field-diagram{
+    aspect-ratio:1/1;
+    position:relative;
+  }
+  .field-diagram svg{ width:100%; height:100%; }
+
+  /* ===== SECTION SCAFFOLDING ===== */
+  section.block{
+    max-width:1180px; margin:0 auto;
+    padding:64px 24px;
+    border-top:1px solid var(--line);
+  }
+  .block-head{
+    display:flex; align-items:baseline; justify-content:space-between;
+    margin-bottom:36px;
+    flex-wrap:wrap; gap:12px;
+  }
+  .block-head .eyebrow{
+    font-family:var(--font-mono);
+    font-size:0.78rem;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color:var(--amber);
+  }
+  .block-head h2{
+    font-family:var(--font-display);
+    font-size:2.6rem;
+    letter-spacing:0.01em;
+    margin-top:6px;
+  }
+  .block-head p.desc{
+    color:var(--chalk-dim);
+    max-width:52ch;
+    font-size:0.95rem;
+  }
+
+  .card-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:20px;
+  }
+  .card{
+    background:var(--panel);
+    border:1px solid var(--line);
+    padding:24px;
+    display:flex; flex-direction:column; gap:10px;
+  }
+  .card .k{
+    font-family:var(--font-mono);
+    font-size:0.7rem;
+    color:var(--chalk-dim);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+  }
+  .card h3{
+    font-family:var(--font-body);
+    font-weight:700;
+    font-size:1.15rem;
+  }
+  .card p{ color:var(--chalk-dim); font-size:0.92rem; }
+  .card .stub{
+    margin-top:auto;
+    font-family:var(--font-mono);
+    font-size:0.75rem;
+    color:var(--turf-bright);
+  }
+
+  /* ===== NAMEPLATE (Lucas / Liam / Cade bylines) ===== */
+  .nameplate{
+    display:flex; align-items:center; gap:14px;
+    background:var(--panel);
+    border-left:3px solid var(--amber);
+    padding:16px 20px;
+    margin-bottom:28px;
+  }
+  .nameplate .num{
+    font-family:var(--font-display);
+    font-size:1.8rem;
+    color:var(--amber);
+    min-width:44px;
+  }
+  .nameplate .info h3{
+    font-family:var(--font-body);
+    font-weight:700; font-size:1.05rem;
+  }
+  .nameplate .info span{
+    font-family:var(--font-mono);
+    font-size:0.72rem;
+    color:var(--chalk-dim);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+  }
+
+  /* ===== MARKET TABLE ===== */
+  .market-table{
+    width:100%;
+    border-collapse:collapse;
+    font-family:var(--font-mono);
+    font-size:0.85rem;
+  }
+  .market-table th{
+    text-align:left;
+    color:var(--chalk-dim);
+    text-transform:uppercase;
+    font-size:0.7rem;
+    letter-spacing:0.08em;
+    padding:10px 12px;
+    border-bottom:1px solid var(--line);
+  }
+  .market-table td{
+    padding:14px 12px;
+    border-bottom:1px solid var(--line);
+  }
+  .market-table tr:hover td{ background:rgba(242,169,0,0.05); }
+  .pub-bar{
+    display:inline-block;
+    height:6px;
+    background:var(--turf-bright);
+    vertical-align:middle;
+    margin-right:8px;
+  }
+  .market-note{
+    margin-top:16px;
+    font-size:0.8rem;
+    color:var(--chalk-dim);
+    font-family:var(--font-mono);
+  }
+
+  /* ===== TWO COL (Baseball / Soccer) ===== */
+  .split{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    gap:24px;
+  }
+  .list-item{
+    padding:16px 0;
+    border-bottom:1px solid var(--line);
+    display:flex; justify-content:space-between; gap:16px;
+  }
+  .list-item:first-child{ padding-top:0; }
+  .list-item h4{ font-size:1rem; font-weight:600; }
+  .list-item p{ color:var(--chalk-dim); font-size:0.85rem; margin-top:4px; }
+  .list-item .meta{
+    font-family:var(--font-mono);
+    font-size:0.72rem;
+    color:var(--turf-bright);
+    white-space:nowrap;
+  }
+
+  .side-panel{
+    background:var(--panel);
+    border:1px solid var(--line);
+    padding:20px;
+  }
+  .side-panel h4{
+    font-family:var(--font-mono);
+    font-size:0.75rem;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    color:var(--amber);
+    margin-bottom:14px;
+  }
+  .side-panel .row{
+    display:flex; justify-content:space-between;
+    font-size:0.85rem;
+    padding:8px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .side-panel .row:last-child{ border-bottom:none; }
+
+  /* ===== OPINIONS ===== */
+  .opinion-feed{ display:flex; flex-direction:column; gap:18px; }
+  .opinion-post{
+    background:var(--panel);
+    border:1px solid var(--line);
+    border-left:3px solid var(--clay);
+    padding:20px 24px;
+  }
+  .opinion-post .tagline{
+    font-family:var(--font-mono);
+    font-size:0.7rem;
+    color:var(--clay);
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    margin-bottom:6px;
+  }
+  .opinion-post h4{ font-size:1.05rem; margin-bottom:6px; }
+  .opinion-post p{ color:var(--chalk-dim); font-size:0.9rem; }
+
+  /* ===== FOOTER ===== */
+  footer{
+    border-top:1px solid var(--line);
+    padding:40px 24px;
+    background:var(--navy-2);
+  }
+  .footer-inner{
+    max-width:1180px; margin:0 auto;
+    display:flex; justify-content:space-between; align-items:flex-start;
+    gap:24px; flex-wrap:wrap;
+  }
+  .footer-inner .brand{
+    font-family:var(--font-display);
+    font-size:1.3rem;
+  }
+  .disclaimer{
+    max-width:56ch;
+    font-size:0.78rem;
+    color:var(--chalk-dim);
+    font-family:var(--font-mono);
+    line-height:1.6;
+  }
+
+  .loading-note{
+    color:var(--chalk-dim);
+    font-family:var(--font-mono);
+    font-size:0.8rem;
+    padding:12px 0;
+  }
+  .post-author{
+    font-family:var(--font-mono);
+    font-size:0.7rem;
+    color:var(--amber);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+  }
+
+  @media (max-width:860px){
+    nav.main-nav{
+      position:absolute; top:100%; left:0; right:0;
+      background:var(--navy); border-bottom:1px solid var(--line);
+      flex-direction:column; padding:16px 24px; gap:16px;
+      display:none;
+    }
+    nav.main-nav.open{ display:flex; }
+    .nav-toggle{ display:inline-block; }
+    .hero{ grid-template-columns:1fr; }
+    .field-diagram{ max-width:280px; margin:0 auto; }
+    .card-grid{ grid-template-columns:1fr; }
+    .split{ grid-template-columns:1fr; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    .ticker-track{ animation:none; }
+    html{ scroll-behavior:auto; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="wordmark">INSIDE THE LINES<span class="dot">.</span></div>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">MENU</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#analysis-hub">Analysis Hub</a>
+      <a href="#market">Market</a>
+      <a href="#baseball">Baseball</a>
+      <a href="#soccer">Soccer</a>
+      <a href="#opinions">Opinions</a>
+      <span class="soon">Football — Coming Soon</span>
+    </nav>
+  </div>
+</header>
+
+<div class="ticker-strip">
+  <div class="ticker-track">
+    <span>MLB — LAD -142 <span class="up">▲</span></span>
+    <span>PUBLIC ON OVER 8.5 — 71%</span>
+    <span>MUNG MORTALS: ARSENAL WIN PROB 58%</span>
+    <span>HOMA CORNER: TOP HR LEAN — SOTO vs LHP</span>
+    <span>NYY/BOS ML <span class="down">▼</span> -128 → -118</span>
+    <span>FOOTBALL SECTION — LAUNCHING SOON</span>
+    <span>MLB — LAD -142 <span class="up">▲</span></span>
+    <span>PUBLIC ON OVER 8.5 — 71%</span>
+    <span>MUNG MORTALS: ARSENAL WIN PROB 58%</span>
+    <span>HOMA CORNER: TOP HR LEAN — SOTO vs LHP</span>
+    <span>NYY/BOS ML <span class="down">▼</span> -128 → -118</span>
+    <span>FOOTBALL SECTION — LAUNCHING SOON</span>
+  </div>
+</div>
+
+<div class="hero">
+  <div>
+    <h1>Read the game<br>before it's <span class="accent">played.</span></h1>
+    <p>Daily baseball and soccer breakdowns, market-side odds analysis, and the takes nobody asked for — all in one place. Football section drops when the season kicks off.</p>
+    <div class="tags">
+      <span class="tag live">● Baseball — Live</span>
+      <span class="tag live">● Soccer — Live</span>
+      <span class="tag">Football — Preseason</span>
+    </div>
+  </div>
+  <div class="field-diagram">
+    <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
+      <rect x="0" y="0" width="300" height="300" fill="none"/>
+      <path d="M150 260 L60 170 A127 127 0 0 1 240 170 Z" fill="#173D2B" stroke="#2F8F5F" stroke-width="1.5"/>
+      <rect x="130" y="240" width="40" height="40" fill="#2A3A2E" stroke="#2F8F5F" stroke-width="1" transform="rotate(45 150 260)"/>
+      <circle cx="150" cy="150" r="4" fill="#F2A900"/>
+      <line x1="150" y1="260" x2="150" y2="60" stroke="#24344C" stroke-width="1" stroke-dasharray="4 6"/>
+      <circle cx="90" cy="200" r="3" fill="#E7E3D8"/>
+      <circle cx="210" cy="200" r="3" fill="#E7E3D8"/>
+      <circle cx="150" cy="140" r="3" fill="#E7E3D8"/>
+    </svg>
+  </div>
+</div>
+
+<!-- ================= ANALYSIS HUB ================= -->
+<section class="block" id="analysis-hub">
+  <div class="block-head">
+    <div>
+      <div class="eyebrow">Start Here</div>
+      <h2>Analysis Hub</h2>
+    </div>
+    <p class="desc">Today's slate at a glance — game breakdowns, what's moving in the news, and fantasy angles worth knowing before first pitch or kickoff.</p>
+  </div>
+  <div class="card-grid" id="analysisHubGrid">
+    <p class="loading-note">Loading today's breakdowns…</p>
+  </div>
+</section>
+
+<!-- ================= MARKET ================= -->
+<section class="block" id="market">
+  <div class="block-head">
+    <div>
+      <div class="eyebrow">Follow The Money</div>
+      <h2>Sports Prediction Market Analysis</h2>
+    </div>
+    <p class="desc">Where the odds sit, where the public is piling in, and where the two disagree. Informational and educational only — not betting advice.</p>
+  </div>
+  <table class="market-table">
+    <thead>
+      <tr><th>Matchup</th><th>Moneyline</th><th>Total</th><th>Public %</th></tr>
+    </thead>
+    <tbody id="marketBody">
+      <tr><td colspan="4" class="loading-note">Loading market lines…</td></tr>
+    </tbody>
+  </table>
+  <p class="market-note">// Edit content.json to update these lines — no code required.</p>
+</section>
+
+<!-- ================= BASEBALL ================= -->
+<section class="block" id="baseball">
+  <div class="block-head">
+    <div>
+      <div class="eyebrow">MLB</div>
+      <h2>Baseball</h2>
+    </div>
+    <p class="desc">Daily MLB breakdowns, pitching matchups, and the Homa Corner's home run leans.</p>
+  </div>
+
+  <div class="nameplate">
+    <div class="num">01</div>
+    <div class="info">
+      <h3>The Homa Corner with Numba</h3>
+      <span>Home Run Predictions — by Lucas</span>
+    </div>
+  </div>
+
+  <div class="split">
+    <div id="baseballList">
+      <p class="loading-note">Loading baseball posts…</p>
+    </div>
+    <div class="side-panel">
+      <h4>Park Factors — Quick Ref</h4>
+      <div class="row"><span>Coors Field</span><span>HR +34%</span></div>
+      <div class="row"><span>Oracle Park</span><span>HR -18%</span></div>
+      <div class="row"><span>Yankee Stadium</span><span>HR +12%</span></div>
+      <div class="row"><span>Petco Park</span><span>HR -9%</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SOCCER ================= -->
+<section class="block" id="soccer">
+  <div class="block-head">
+    <div>
+      <div class="eyebrow">Global Game</div>
+      <h2>Soccer</h2>
+    </div>
+    <p class="desc">Match previews, predictions, and league updates — headlined by Mung Mortals.</p>
+  </div>
+
+  <div class="nameplate">
+    <div class="num">02</div>
+    <div class="info">
+      <h3>Mung Mortals</h3>
+      <span>Soccer Predictions & News — by Liam</span>
+    </div>
+  </div>
+
+  <div class="split">
+    <div id="soccerList">
+      <p class="loading-note">Loading soccer posts…</p>
+    </div>
+    <div class="side-panel">
+      <h4>League Watch</h4>
+      <div class="row"><span>Premier League</span><span>Active</span></div>
+      <div class="row"><span>La Liga</span><span>Active</span></div>
+      <div class="row"><span>Champions League</span><span>Active</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= OPINIONS ================= -->
+<section class="block" id="opinions">
+  <div class="block-head">
+    <div>
+      <div class="eyebrow">Off The Record</div>
+      <h2>Opinions</h2>
+    </div>
+    <p class="desc">Hot takes, recaps, and the occasional rant — straight from Rocking Chair Central.</p>
+  </div>
+
+  <div class="nameplate">
+    <div class="num">03</div>
+    <div class="info">
+      <h3>Rocking Chair Central</h3>
+      <span>Hot Takes & Reactions — by Cade</span>
+    </div>
+  </div>
+
+  <div class="opinion-feed" id="opinionsFeed">
+    <p class="loading-note">Loading opinions…</p>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-inner">
+    <div class="brand">Inside the Lines</div>
+    <p class="disclaimer">All odds, predictions, and market data are provided for informational and educational purposes only and do not constitute betting advice. Football coverage begins when the season starts.</p>
+  </div>
+</footer>
+
+<script>
+  const navToggle = document.getElementById('navToggle');
+  const mainNav = document.getElementById('mainNav');
+  navToggle.addEventListener('click', () => {
+    mainNav.classList.toggle('open');
+  });
+  mainNav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => mainNav.classList.remove('open'));
+  });
+
+  // ===== Content loader: reads content.json so daily updates need no code =====
+  function fmtDate(d){
+    if(!d) return '';
+    const parts = d.split('-');
+    const dt = new Date(Number(parts[0]), Number(parts[1])-1, Number(parts[2]));
+    return dt.toLocaleDateString('en-US', { month:'short', day:'numeric' });
+  }
+
+  function byNewest(a, b){
+    return new Date(b.date || 0) - new Date(a.date || 0);
+  }
+
+  function renderAnalysisHub(items){
+    const grid = document.getElementById('analysisHubGrid');
+    if(!items || !items.length){
+      grid.innerHTML = '<p class="loading-note">No breakdowns posted yet. Add entries to content.json under "analysisHub".</p>';
+      return;
+    }
+    grid.innerHTML = items.slice().sort(byNewest).map(item => `
+      <div class="card">
+        <span class="k">${item.category || ''}</span>
+        <h3>${item.title || ''}</h3>
+        <p>${item.body || ''}</p>
+        <span class="stub">${fmtDate(item.date)}</span>
+      </div>
+    `).join('');
+  }
+
+  function renderMarket(items){
+    const body = document.getElementById('marketBody');
+    if(!items || !items.length){
+      body.innerHTML = '<tr><td colspan="4" class="loading-note">No lines posted yet. Add entries to content.json under "market".</td></tr>';
+      return;
+    }
+    body.innerHTML = items.map(item => `
+      <tr>
+        <td>${item.matchup || ''}</td>
+        <td>${item.moneyline || ''}</td>
+        <td>${item.total || ''}</td>
+        <td><span class="pub-bar" style="width:${Math.round((item.publicPct||0)/2)}px;"></span>${item.publicPct || 0}% ${item.publicSide || ''}</td>
+      </tr>
+    `).join('');
+  }
+
+  function renderPostList(containerId, items){
+    const el = document.getElementById(containerId);
+    if(!items || !items.length){
+      el.innerHTML = '<p class="loading-note">No posts yet. Add entries to content.json.</p>';
+      return;
+    }
+    el.innerHTML = items.slice().sort(byNewest).map(item => `
+      <div class="list-item">
+        <div>
+          <h4>${item.title || ''}</h4>
+          <p>${item.body || ''}</p>
+          ${item.author ? `<span class="post-author">${item.section || ''} — ${item.author}</span>` : ''}
+        </div>
+        <div class="meta">${fmtDate(item.date)}</div>
+      </div>
+    `).join('');
+  }
+
+  function renderOpinions(items){
+    const el = document.getElementById('opinionsFeed');
+    if(!items || !items.length){
+      el.innerHTML = '<p class="loading-note">No takes posted yet. Add entries to content.json under "opinions".</p>';
+      return;
+    }
+    el.innerHTML = items.slice().sort(byNewest).map(item => `
+      <div class="opinion-post">
+        <div class="tagline">${item.type || ''}${item.author ? ' — ' + item.author : ''}</div>
+        <h4>${item.title || ''}</h4>
+        <p>${item.body || ''}</p>
+      </div>
+    `).join('');
+  }
+
+  fetch('content.json')
+    .then(res => {
+      if(!res.ok) throw new Error('content.json not found');
+      return res.json();
+    })
+    .then(data => {
+      renderAnalysisHub(data.analysisHub);
+      renderMarket(data.market);
+      renderPostList('baseballList', data.baseball);
+      renderPostList('soccerList', data.soccer);
+      renderOpinions(data.opinions);
+    })
+    .catch(() => {
+      document.querySelectorAll('.loading-note').forEach(el => {
+        el.textContent = 'Could not load content.json — make sure it sits next to index.html in the repo.';
+      });
+    });
+</script>
+
+</body>
+</html>
