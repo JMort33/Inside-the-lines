@@ -404,6 +404,15 @@
   }
   .score-card .team-row .team{ font-size:0.95rem; font-weight:600; }
   .score-card .team-row .score{ font-size:1.2rem; font-weight:600; color:var(--amber); }
+  .score-card .odds-row{
+    margin-top:10px;
+    padding-top:10px;
+    border-top:1px solid var(--line);
+    display:flex; flex-wrap:wrap; gap:10px;
+    font-family:var(--font-mono);
+    font-size:0.72rem;
+    color:var(--turf-bright);
+  }
 
   @media (max-width:860px){
     nav.main-nav{
@@ -763,6 +772,15 @@
     `).join('');
   }
 
+  let latestMarket = [];
+
+  function findOdds(awayName, homeName){
+    return latestMarket.find(row => {
+      const m = row.matchup || '';
+      return m.includes(awayName) && m.includes(homeName);
+    });
+  }
+
   function renderScoreboard(events){
     const grid = document.getElementById('mlbScoreboard');
     if(!events || !events.length){
@@ -771,11 +789,20 @@
     }
     grid.innerHTML = events.map(ev => {
       const isFinal = ev.status.toLowerCase().includes('final');
+      const odds = findOdds(ev.awayName, ev.homeName);
+      const oddsRow = odds
+        ? `<div class="odds-row">
+             ${odds.moneyline ? `<span>${odds.moneyline}</span>` : ''}
+             ${odds.total ? `<span>${odds.total}</span>` : ''}
+             ${odds.publicPct != null ? `<span>${odds.publicPct}% ${odds.publicSide || ''}</span>` : ''}
+           </div>`
+        : '';
       return `
       <div class="score-card">
         <div class="status ${isFinal ? 'final' : ''}">${ev.status}</div>
         <div class="team-row"><span class="team">${ev.away}</span><span class="score">${ev.awayScore}</span></div>
         <div class="team-row"><span class="team">${ev.home}</span><span class="score">${ev.homeScore}</span></div>
+        ${oddsRow}
       </div>
     `;
     }).join('');
@@ -792,6 +819,8 @@
           return {
             away: away.team.abbreviation,
             home: home.team.abbreviation,
+            awayName: away.team.displayName,
+            homeName: home.team.displayName,
             awayScore: away.score ?? '0',
             homeScore: home.score ?? '0',
             status: comp.status.type.shortDetail
@@ -819,6 +848,7 @@
       .then(data => {
         renderAnalysisHub(data.analysisHub);
         renderMarket(data.market);
+        latestMarket = data.market || [];
         renderPostList('baseballList', data.baseball);
         renderPostList('soccerList', data.soccer);
         renderOpinions(data.opinions);
