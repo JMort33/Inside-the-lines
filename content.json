@@ -21,37 +21,37 @@
   ],
   "market": [
     {
-      "matchup": "New York Mets @ Atlanta Braves",
-      "moneyline": "ATL -118",
-      "total": "O/U 12.5",
-      "publicPct": null,
-      "publicSide": ""
-    },
-    {
       "matchup": "Milwaukee Brewers @ St. Louis Cardinals",
-      "moneyline": "ST. +870",
+      "moneyline": "ST. +160",
       "total": "O/U 7.5",
       "publicPct": null,
       "publicSide": ""
     },
     {
-      "matchup": "Arizona Diamondbacks @ San Diego Padres",
-      "moneyline": "SAN +1060",
-      "total": "O/U 11.5",
+      "matchup": "Chicago Cubs @ Baltimore Orioles",
+      "moneyline": "BAL -104",
+      "total": "O/U 9.5",
       "publicPct": null,
       "publicSide": ""
     },
     {
-      "matchup": "Toronto Blue Jays @ San Francisco Giants",
-      "moneyline": "SAN -235",
-      "total": "O/U 5.5",
+      "matchup": "Athletics @ Detroit Tigers",
+      "moneyline": "DET -190",
+      "total": "O/U 8.0",
       "publicPct": null,
       "publicSide": ""
     },
     {
-      "matchup": "Colorado Rockies @ Los Angeles Dodgers",
-      "moneyline": "LOS -220",
-      "total": "O/U 8.5",
+      "matchup": "Atlanta Braves @ Pittsburgh Pirates",
+      "moneyline": "PIT -172",
+      "total": "O/U 8.0",
+      "publicPct": null,
+      "publicSide": ""
+    },
+    {
+      "matchup": "Seattle Mariners @ Miami Marlins",
+      "moneyline": "MIA -116",
+      "total": "O/U 8.0",
       "publicPct": null,
       "publicSide": ""
     },
@@ -189,9 +189,9 @@
       "league": "MLB",
       "away": "NYM",
       "home": "ATL",
-      "awayScore": "5",
-      "homeScore": "5",
-      "status": "End 9th"
+      "awayScore": "7",
+      "homeScore": "6",
+      "status": "Final/10"
     },
     {
       "league": "MLB",
@@ -199,31 +199,31 @@
       "home": "STL",
       "awayScore": "4",
       "homeScore": "3",
-      "status": "End 9th"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "ARI",
       "home": "SD",
-      "awayScore": "6",
+      "awayScore": "8",
       "homeScore": "0",
-      "status": "Bot 3rd"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "TOR",
       "home": "SF",
-      "awayScore": "0",
-      "homeScore": "1",
-      "status": "Top 4th"
+      "awayScore": "1",
+      "homeScore": "10",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "COL",
       "home": "LAD",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Top 2nd"
+      "awayScore": "7",
+      "homeScore": "8",
+      "status": "Final/11"
     },
     {
       "league": "EPL",
@@ -234,5 +234,5 @@
       "status": "Scheduled"
     }
   ],
-  "lastUpdated": "2026-07-07T02:32:32.804481+00:00"
+  "lastUpdated": "2026-07-07T12:18:20.645428+00:00"
 }
