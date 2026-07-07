@@ -444,7 +444,6 @@
     <nav class="main-nav" id="mainNav">
       <a href="#analysis-hub">Analysis Hub</a>
       <a href="#today-in-sports">Today in Sports</a>
-      <a href="#market">Market</a>
       <a href="#baseball">Baseball</a>
       <a href="#soccer">Soccer</a>
       <a href="#opinions">Opinions</a>
@@ -518,26 +517,6 @@
   <div class="opinion-feed" id="todayInSportsFeed">
     <p class="loading-note">Loading today's history bulletin…</p>
   </div>
-</section>
-
-<!-- ================= MARKET ================= -->
-<section class="block" id="market">
-  <div class="block-head">
-    <div>
-      <div class="eyebrow">Follow The Money</div>
-      <h2>Sports Prediction Market Analysis</h2>
-    </div>
-    <p class="desc">Where the odds sit, where the public is piling in, and where the two disagree. Informational and educational only — not betting advice.</p>
-  </div>
-  <table class="market-table">
-    <thead>
-      <tr><th>Matchup</th><th>Moneyline</th><th>Total</th><th>Public %</th></tr>
-    </thead>
-    <tbody id="marketBody">
-      <tr><td colspan="4" class="loading-note">Loading market lines…</td></tr>
-    </tbody>
-  </table>
-  <p class="market-note">// Edit content.json to update these lines — no code required.</p>
 </section>
 
 <!-- ================= BASEBALL ================= -->
@@ -680,28 +659,6 @@
         <span class="stub">${fmtDate(item.date)}</span>
       </div>
     `).join('');
-  }
-
-  function renderMarket(items){
-    const body = document.getElementById('marketBody');
-    if(!items || !items.length){
-      body.innerHTML = '<tr><td colspan="4" class="loading-note">No lines posted yet. Add entries to content.json under "market".</td></tr>';
-      return;
-    }
-    body.innerHTML = items.map(item => {
-      const hasPublic = item.publicPct !== null && item.publicPct !== undefined;
-      const publicCell = hasPublic
-        ? `<span class="pub-bar" style="width:${Math.round(item.publicPct/2)}px;"></span>${item.publicPct}% ${item.publicSide || ''}`
-        : '—';
-      return `
-      <tr>
-        <td>${item.matchup || ''}</td>
-        <td>${item.moneyline || ''}</td>
-        <td>${item.total || ''}</td>
-        <td>${publicCell}</td>
-      </tr>
-    `;
-    }).join('');
   }
 
   function renderTicker(liveScores, market, lastUpdated){
@@ -847,7 +804,6 @@
       })
       .then(data => {
         renderAnalysisHub(data.analysisHub);
-        renderMarket(data.market);
         latestMarket = data.market || [];
         renderPostList('baseballList', data.baseball);
         renderPostList('soccerList', data.soccer);
