@@ -377,6 +377,34 @@
     letter-spacing:0.06em;
   }
 
+  .scoreboard-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(220px, 1fr));
+    gap:14px;
+    margin-bottom:36px;
+  }
+  .score-card{
+    background:var(--panel);
+    border:1px solid var(--line);
+    padding:16px 18px;
+  }
+  .score-card .status{
+    font-family:var(--font-mono);
+    font-size:0.68rem;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--turf-bright);
+    margin-bottom:10px;
+  }
+  .score-card .status.final{ color:var(--chalk-dim); }
+  .score-card .team-row{
+    display:flex; justify-content:space-between; align-items:baseline;
+    padding:4px 0;
+    font-family:var(--font-mono);
+  }
+  .score-card .team-row .team{ font-size:0.95rem; font-weight:600; }
+  .score-card .team-row .score{ font-size:1.2rem; font-weight:600; color:var(--amber); }
+
   @media (max-width:860px){
     nav.main-nav{
       position:absolute; top:100%; left:0; right:0;
@@ -406,6 +434,7 @@
     <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">MENU</button>
     <nav class="main-nav" id="mainNav">
       <a href="#analysis-hub">Analysis Hub</a>
+      <a href="#today-in-sports">Today in Sports</a>
       <a href="#market">Market</a>
       <a href="#baseball">Baseball</a>
       <a href="#soccer">Soccer</a>
@@ -416,19 +445,8 @@
 </header>
 
 <div class="ticker-strip">
-  <div class="ticker-track">
-    <span>MLB — LAD -142 <span class="up">▲</span></span>
-    <span>PUBLIC ON OVER 8.5 — 71%</span>
-    <span>MUNG MORTALS: ARSENAL WIN PROB 58%</span>
-    <span>HOMA CORNER: TOP HR LEAN — SOTO vs LHP</span>
-    <span>NYY/BOS ML <span class="down">▼</span> -128 → -118</span>
-    <span>FOOTBALL SECTION — LAUNCHING SOON</span>
-    <span>MLB — LAD -142 <span class="up">▲</span></span>
-    <span>PUBLIC ON OVER 8.5 — 71%</span>
-    <span>MUNG MORTALS: ARSENAL WIN PROB 58%</span>
-    <span>HOMA CORNER: TOP HR LEAN — SOTO vs LHP</span>
-    <span>NYY/BOS ML <span class="down">▼</span> -128 → -118</span>
-    <span>FOOTBALL SECTION — LAUNCHING SOON</span>
+  <div class="ticker-track" id="tickerTrack">
+    <span>Loading live scores…</span>
   </div>
 </div>
 
@@ -470,6 +488,29 @@
   </div>
 </section>
 
+<!-- ================= TODAY IN SPORTS ================= -->
+<section class="block" id="today-in-sports">
+  <div class="block-head">
+    <div>
+      <div class="eyebrow">On This Date</div>
+      <h2>Today in Sports</h2>
+    </div>
+    <p class="desc">A daily dig through the record books — one fact worth knowing before you keep scrolling.</p>
+  </div>
+
+  <div class="nameplate">
+    <div class="num">04</div>
+    <div class="info">
+      <h3>History Bulletin</h3>
+      <span>Today in Sports — by Gary</span>
+    </div>
+  </div>
+
+  <div class="opinion-feed" id="todayInSportsFeed">
+    <p class="loading-note">Loading today's history bulletin…</p>
+  </div>
+</section>
+
 <!-- ================= MARKET ================= -->
 <section class="block" id="market">
   <div class="block-head">
@@ -504,8 +545,19 @@
     <div class="num">01</div>
     <div class="info">
       <h3>The Homa Corner with Numba</h3>
-      <span>Home Run Predictions</span>
+      <span>Home Run Predictions — by Lucas</span>
     </div>
+  </div>
+
+  <div class="block-head" style="margin-top:8px; margin-bottom:20px;">
+    <div>
+      <div class="eyebrow">Live</div>
+      <h2 style="font-size:1.8rem;">MLB Scoreboard</h2>
+    </div>
+    <p class="desc" id="scoreboardUpdated">Refreshes automatically every 30 seconds.</p>
+  </div>
+  <div class="scoreboard-grid" id="mlbScoreboard">
+    <p class="loading-note">Loading live scores…</p>
   </div>
 
   <div class="split">
@@ -536,7 +588,7 @@
     <div class="num">02</div>
     <div class="info">
       <h3>Mung Mortals</h3>
-      <span>Soccer Predictions & News</span>
+      <span>Soccer Predictions & News — by Liam</span>
     </div>
   </div>
 
@@ -567,7 +619,7 @@
     <div class="num">03</div>
     <div class="info">
       <h3>Rocking Chair Central</h3>
-      <span>Hot Takes & Reactions</span>
+      <span>Hot Takes & Reactions — by Cade</span>
     </div>
   </div>
 
@@ -627,14 +679,40 @@
       body.innerHTML = '<tr><td colspan="4" class="loading-note">No lines posted yet. Add entries to content.json under "market".</td></tr>';
       return;
     }
-    body.innerHTML = items.map(item => `
+    body.innerHTML = items.map(item => {
+      const hasPublic = item.publicPct !== null && item.publicPct !== undefined;
+      const publicCell = hasPublic
+        ? `<span class="pub-bar" style="width:${Math.round(item.publicPct/2)}px;"></span>${item.publicPct}% ${item.publicSide || ''}`
+        : '—';
+      return `
       <tr>
         <td>${item.matchup || ''}</td>
         <td>${item.moneyline || ''}</td>
         <td>${item.total || ''}</td>
-        <td><span class="pub-bar" style="width:${Math.round((item.publicPct||0)/2)}px;"></span>${item.publicPct || 0}% ${item.publicSide || ''}</td>
+        <td>${publicCell}</td>
       </tr>
-    `).join('');
+    `;
+    }).join('');
+  }
+
+  function renderTicker(liveScores, market, lastUpdated){
+    const track = document.getElementById('tickerTrack');
+    const items = [];
+    (liveScores || []).forEach(g => {
+      items.push(`<span>${g.league || ''} — ${g.away} ${g.awayScore ?? ''} @ ${g.home} ${g.homeScore ?? ''} <span class="post-author">(${g.status || ''})</span></span>`);
+    });
+    (market || []).forEach(m => {
+      if(m.moneyline) items.push(`<span>${m.matchup} — ${m.moneyline}</span>`);
+    });
+    if(!items.length){
+      items.push('<span>No live games right now — check back soon.</span>');
+    }
+    if(lastUpdated){
+      const dt = new Date(lastUpdated);
+      items.push(`<span>Updated ${dt.toLocaleTimeString('en-US', { hour:'numeric', minute:'2-digit' })}</span>`);
+    }
+    // duplicate the list once so the scrolling loop reads seamlessly
+    track.innerHTML = items.concat(items).join('');
   }
 
   function renderPostList(containerId, items){
@@ -655,6 +733,21 @@
     `).join('');
   }
 
+  function renderTodayInSports(items){
+    const el = document.getElementById('todayInSportsFeed');
+    if(!items || !items.length){
+      el.innerHTML = '<p class="loading-note">No entries yet. Add entries to content.json under "todayInSports".</p>';
+      return;
+    }
+    el.innerHTML = items.slice().sort(byNewest).map(item => `
+      <div class="opinion-post">
+        <div class="tagline">${fmtDate(item.date)}${item.author ? ' — ' + item.author : ''}</div>
+        <h4>${item.title || ''}</h4>
+        <p>${item.body || ''}</p>
+      </div>
+    `).join('');
+  }
+
   function renderOpinions(items){
     const el = document.getElementById('opinionsFeed');
     if(!items || !items.length){
@@ -670,23 +763,79 @@
     `).join('');
   }
 
-  fetch('content.json')
-    .then(res => {
-      if(!res.ok) throw new Error('content.json not found');
-      return res.json();
-    })
-    .then(data => {
-      renderAnalysisHub(data.analysisHub);
-      renderMarket(data.market);
-      renderPostList('baseballList', data.baseball);
-      renderPostList('soccerList', data.soccer);
-      renderOpinions(data.opinions);
-    })
-    .catch(() => {
-      document.querySelectorAll('.loading-note').forEach(el => {
-        el.textContent = 'Could not load content.json — make sure it sits next to index.html in the repo.';
+  function renderScoreboard(events){
+    const grid = document.getElementById('mlbScoreboard');
+    if(!events || !events.length){
+      grid.innerHTML = '<p class="loading-note">No games found right now.</p>';
+      return;
+    }
+    grid.innerHTML = events.map(ev => {
+      const isFinal = ev.status.toLowerCase().includes('final');
+      return `
+      <div class="score-card">
+        <div class="status ${isFinal ? 'final' : ''}">${ev.status}</div>
+        <div class="team-row"><span class="team">${ev.away}</span><span class="score">${ev.awayScore}</span></div>
+        <div class="team-row"><span class="team">${ev.home}</span><span class="score">${ev.homeScore}</span></div>
+      </div>
+    `;
+    }).join('');
+  }
+
+  function fetchLiveScoreboard(){
+    fetch('https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard')
+      .then(res => res.json())
+      .then(data => {
+        const events = (data.events || []).map(event => {
+          const comp = event.competitions[0];
+          const home = comp.competitors.find(c => c.homeAway === 'home');
+          const away = comp.competitors.find(c => c.homeAway === 'away');
+          return {
+            away: away.team.abbreviation,
+            home: home.team.abbreviation,
+            awayScore: away.score ?? '0',
+            homeScore: home.score ?? '0',
+            status: comp.status.type.shortDetail
+          };
+        });
+        renderScoreboard(events);
+        document.getElementById('scoreboardUpdated').textContent =
+          'Last checked ' + new Date().toLocaleTimeString('en-US', { hour:'numeric', minute:'2-digit' });
+      })
+      .catch(() => {
+        document.getElementById('mlbScoreboard').innerHTML =
+          '<p class="loading-note">Could not reach live scores right now — try refreshing the page.</p>';
       });
-    });
+  }
+
+  fetchLiveScoreboard();
+  setInterval(fetchLiveScoreboard, 30000);
+
+  function loadContent(){
+    fetch('content.json?t=' + Date.now())
+      .then(res => {
+        if(!res.ok) throw new Error('content.json not found');
+        return res.json();
+      })
+      .then(data => {
+        renderAnalysisHub(data.analysisHub);
+        renderMarket(data.market);
+        renderPostList('baseballList', data.baseball);
+        renderPostList('soccerList', data.soccer);
+        renderOpinions(data.opinions);
+        renderTodayInSports(data.todayInSports);
+        renderTicker(data.liveScores, data.market, data.lastUpdated);
+      })
+      .catch(() => {
+        document.querySelectorAll('.loading-note').forEach(el => {
+          el.textContent = 'Could not load content.json — make sure it sits next to index.html in the repo.';
+        });
+      });
+  }
+
+  loadContent();
+  // Re-check content.json every 60s so scores/odds feel live while someone's on the page.
+  // The GitHub Action updates the file itself every 30 minutes.
+  setInterval(loadContent, 60000);
 </script>
 
 </body>
