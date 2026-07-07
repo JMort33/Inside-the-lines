@@ -17,12 +17,13 @@
       "title": "Sal Stewart",
       "body": "Sal Stewart.",
       "date": "2026-07-06"
-    },
+    }
+  ],
+  "todayInSports": [
     {
-      "category": "Today in Sports",
       "title": "Kid Nichols Joins the 300-Win Club",
       "author": "Gary",
-       "body": "July 7th, 1900 - Charles \"Kid\" Nichols of the Boston Beaneaters defeats the Chicago Orphans 11-4 to become the youngest player in MLB History to join the 300-win club.\n\nInitially, I selected this fact as today's History Bulletin solely because of the names of the two competing teams. Both names feel like something you can only find in the weird and wacky early eras of Major League Baseball. The Orphans would only be the nickname for Chicago for four years, 1898-1902, until changing the epithet to the Cubs in 1903. Boston would go on to have several different titles, including the Boston Bees, until landing on the Braves in the 40s. The team would then go on to relocate from Boston to Milwaukee and then to their current home in Atlanta.\n\nHowever, as fun as classic MLB team names are, what truly caught my eye in my research was the career of Charles \"Kid\" Nichols. Making his MLB debut in 1890, he would go on to rack up 10 consecutive seasons with 20 or more wins and 11 in total over his 16-year career. 7 of these seasons would also cross over the 30-win mark as well. The best season of his career came in 1893, when he was truly dealing - with an overall record of 34-14, 43 of which were complete games, and racked up a total of 425 innings pitched.\n\nIf that is not enough evidence to tip your cap to Mr. Nichols, just know he was a two-sport athlete - winning the Kansas City Class A Bowling Championship at the age of 68!",
+      "body": "July 7th, 1900 - Charles \"Kid\" Nichols of the Boston Beaneaters defeats the Chicago Orphans 11-4 to become the youngest player in MLB History to join the 300-win club.\n\nInitially, I selected this fact as today's History Bulletin solely because of the names of the two competing teams. Both names feel like something you can only find in the weird and wacky early eras of Major League Baseball. The Orphans would only be the nickname for Chicago for four years, 1898-1902, until changing the epithet to the Cubs in 1903. Boston would go on to have several different titles, including the Boston Bees, until landing on the Braves in the 40s. The team would then go on to relocate from Boston to Milwaukee and then to their current home in Atlanta.\n\nHowever, as fun as classic MLB team names are, what truly caught my eye in my research was the career of Charles \"Kid\" Nichols. Making his MLB debut in 1890, he would go on to rack up 10 consecutive seasons with 20 or more wins and 11 in total over his 16-year career. 7 of these seasons would also cross over the 30-win mark as well. The best season of his career came in 1893, when he was truly dealing - with an overall record of 34-14, 43 of which were complete games, and racked up a total of 425 innings pitched.\n\nIf that is not enough evidence to tip your cap to Mr. Nichols, just know he was a two-sport athlete - winning the Kansas City Class A Bowling Championship at the age of 68!",
       "date": "2026-07-07"
     }
   ],
@@ -156,7 +157,7 @@
       "type": "Recap",
       "author": "Cade",
       "title": "Post pending",
-      "body": "Weekly recap slot \u2014 reserved.",
+      "body": "Weekly recap slot â reserved.",
       "date": "2026-07-05"
     },
     {
@@ -241,5 +242,6 @@
       "status": "Scheduled"
     }
   ],
+  "processedSubmissions": [],
   "lastUpdated": "2026-07-07T21:06:21.617334+00:00"
 }
