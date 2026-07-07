@@ -293,6 +293,35 @@
   .list-item:first-child{ padding-top:0; }
   .list-item h4{ font-size:1rem; font-weight:600; }
   .list-item p{ color:var(--chalk-dim); font-size:0.85rem; margin-top:4px; }
+
+  .pick-block{
+    padding:14px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .pick-block:last-child{ border-bottom:none; }
+  .pick-label{
+    font-family:var(--font-display);
+    font-size:1.15rem;
+    letter-spacing:0.03em;
+    color:var(--amber);
+  }
+  .pick-matchup{
+    font-weight:600;
+    font-size:0.95rem;
+    margin-top:2px;
+  }
+  .pick-odds{
+    font-family:var(--font-mono);
+    font-size:0.78rem;
+    color:var(--turf-bright);
+    margin-top:2px;
+  }
+  .pick-analysis{
+    color:var(--chalk-dim);
+    font-size:0.88rem;
+    margin-top:6px;
+    line-height:1.55;
+  }
   .list-item .meta{
     font-family:var(--font-mono);
     font-size:0.72rem;
@@ -661,24 +690,49 @@
     `).join('');
   }
 
-  function renderTicker(liveScores, market, lastUpdated){
+  function renderTicker(events){
     const track = document.getElementById('tickerTrack');
-    const items = [];
-    (liveScores || []).forEach(g => {
-      items.push(`<span>${g.league || ''} — ${g.away} ${g.awayScore ?? ''} @ ${g.home} ${g.homeScore ?? ''} <span class="post-author">(${g.status || ''})</span></span>`);
-    });
-    (market || []).forEach(m => {
-      if(m.moneyline) items.push(`<span>${m.matchup} — ${m.moneyline}</span>`);
-    });
+    const items = (events || []).map(ev =>
+      `<span>MLB — ${ev.away} ${ev.awayScore} @ ${ev.home} ${ev.homeScore} <span class="post-author">(${ev.status})</span></span>`
+    );
     if(!items.length){
       items.push('<span>No live games right now — check back soon.</span>');
     }
-    if(lastUpdated){
-      const dt = new Date(lastUpdated);
-      items.push(`<span>Updated ${dt.toLocaleTimeString('en-US', { hour:'numeric', minute:'2-digit' })}</span>`);
-    }
     // duplicate the list once so the scrolling loop reads seamlessly
     track.innerHTML = items.concat(items).join('');
+  }
+
+  function formatBody(body, section){
+    if(!body) return '';
+    const blocks = body.split(/\n\s*\n/);
+
+    if(section === 'Homa Corner'){
+      const looksLikePick = blocks.length > 1 && /^[A-Z0-9%() ]+$/.test(blocks[0].split('\n')[0].trim());
+      if(looksLikePick){
+        return blocks.map(block => {
+          const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
+          const isLabelBlock = /^[A-Z0-9%() ]+$/.test(lines[0] || '');
+          if(!isLabelBlock){
+            return `<p class="pick-analysis">${lines.join(' ')}</p>`;
+          }
+          const label = lines[0];
+          const matchup = lines[1] || '';
+          const oddsLine = lines.find(l => /^odds:/i.test(l));
+          const analysisLines = lines.filter(l => l !== label && l !== matchup && l !== oddsLine);
+          return `
+            <div class="pick-block">
+              <div class="pick-label">${label}</div>
+              ${matchup ? `<div class="pick-matchup">${matchup}</div>` : ''}
+              ${oddsLine ? `<div class="pick-odds">${oddsLine}</div>` : ''}
+              ${analysisLines.length ? `<p class="pick-analysis">${analysisLines.join(' ')}</p>` : ''}
+            </div>
+          `;
+        }).join('');
+      }
+    }
+
+    // Default: preserve paragraph breaks for everything else
+    return blocks.map(b => `<p>${b.replace(/\n/g, ' ')}</p>`).join('');
   }
 
   function renderPostList(containerId, items){
@@ -691,7 +745,7 @@
       <div class="list-item">
         <div>
           <h4>${item.title || ''}</h4>
-          <p>${item.body || ''}</p>
+          ${formatBody(item.body, item.section)}
           ${item.author ? `<span class="post-author">${item.section || ''} — ${item.author}</span>` : ''}
         </div>
         <div class="meta">${fmtDate(item.date)}</div>
@@ -784,6 +838,7 @@
           };
         });
         renderScoreboard(events);
+        renderTicker(events);
         document.getElementById('scoreboardUpdated').textContent =
           'Last checked ' + new Date().toLocaleTimeString('en-US', { hour:'numeric', minute:'2-digit' });
       })
@@ -809,7 +864,6 @@
         renderPostList('soccerList', data.soccer);
         renderOpinions(data.opinions);
         renderTodayInSports(data.todayInSports);
-        renderTicker(data.liveScores, data.market, data.lastUpdated);
       })
       .catch(() => {
         document.querySelectorAll('.loading-note').forEach(el => {
