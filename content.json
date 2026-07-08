@@ -31,72 +31,52 @@
     {
       "matchup": "Milwaukee Brewers @ St. Louis Cardinals",
       "moneyline": "ST. +1700",
-      "total": "O/U 7.5",
-      "publicPct": null,
-      "publicSide": ""
+      "total": "O/U 7.5"
     },
     {
       "matchup": "Chicago Cubs @ Baltimore Orioles",
       "moneyline": "BAL -104",
-      "total": "O/U 9.5",
-      "publicPct": null,
-      "publicSide": ""
+      "total": "O/U 9.5"
     },
     {
       "matchup": "Athletics @ Detroit Tigers",
       "moneyline": "DET -225",
-      "total": "O/U 8.5",
-      "publicPct": null,
-      "publicSide": ""
+      "total": "O/U 8.5"
     },
     {
       "matchup": "Atlanta Braves @ Pittsburgh Pirates",
       "moneyline": "PIT -152",
-      "total": "O/U 8.5",
-      "publicPct": null,
-      "publicSide": ""
+      "total": "O/U 8.5"
     },
     {
       "matchup": "Seattle Mariners @ Miami Marlins",
       "moneyline": "MIA -122",
-      "total": "O/U 8.0",
-      "publicPct": null,
-      "publicSide": ""
+      "total": "O/U 8.0"
     },
     {
       "matchup": "Coventry City @ Arsenal",
       "moneyline": "ARS -650",
-      "total": "",
-      "publicPct": null,
-      "publicSide": ""
+      "total": ""
     },
     {
       "matchup": "Manchester United @ Hull City",
       "moneyline": "HUL +600",
-      "total": "",
-      "publicPct": null,
-      "publicSide": ""
+      "total": ""
     },
     {
       "matchup": "Crystal Palace @ Everton",
       "moneyline": "EVE +100",
-      "total": "",
-      "publicPct": null,
-      "publicSide": ""
+      "total": ""
     },
     {
       "matchup": "Sunderland @ Ipswich Town",
       "moneyline": "IPS +160",
-      "total": "",
-      "publicPct": null,
-      "publicSide": ""
+      "total": ""
     },
     {
       "matchup": "Leeds United @ Nottingham Forest",
       "moneyline": "NOT +115",
-      "total": "",
-      "publicPct": null,
-      "publicSide": ""
+      "total": ""
     }
   ],
   "baseball": [
@@ -157,7 +137,7 @@
       "type": "Recap",
       "author": "Cade",
       "title": "Post pending",
-      "body": "Weekly recap slot â reserved.",
+      "body": "Weekly recap slot — reserved.",
       "date": "2026-07-05"
     },
     {
@@ -243,5 +223,35 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-07T21:06:21.617334+00:00"
+  "lastUpdated": "2026-07-07T21:06:21.617334+00:00",
+  "golf": [
+    {
+      "type": "Weekend Preview",
+      "author": "",
+      "title": "This Week's Tournament",
+      "body": "Course breakdown, field strength, and what to expect heading into Thursday.",
+      "date": "2026-07-07"
+    },
+    {
+      "type": "Predictions",
+      "author": "",
+      "title": "Who Wins It",
+      "body": "Top contenders and dark horses for the weekend.",
+      "date": "2026-07-07"
+    },
+    {
+      "type": "Who to Watch",
+      "author": "",
+      "title": "Players On Our Radar",
+      "body": "Names worth following this week, in form or in the mix.",
+      "date": "2026-07-07"
+    },
+    {
+      "type": "Bets",
+      "author": "",
+      "title": "Betting Angles",
+      "body": "Outright picks, matchups, and prop leans for the week.",
+      "date": "2026-07-07"
+    }
+  ]
 }
