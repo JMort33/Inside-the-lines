@@ -342,6 +342,118 @@
   }
   .side-panel .row:last-child{ border-bottom:none; }
 
+  .park-row{
+    display:flex; justify-content:space-between; align-items:center;
+    padding:12px 0;
+    border-bottom:1px solid var(--line);
+    gap:12px;
+  }
+  .park-row:last-child{ border-bottom:none; }
+  .park-row-main{ display:flex; flex-direction:column; gap:2px; }
+  .park-name{ font-size:0.9rem; font-weight:600; }
+  .park-hr{ font-family:var(--font-mono); font-size:0.72rem; color:var(--chalk-dim); }
+  .park-wind{ display:flex; flex-direction:column; align-items:flex-end; gap:2px; }
+  .wind-chip{
+    font-family:var(--font-mono);
+    font-size:0.95rem;
+    font-weight:600;
+    color:var(--amber);
+    background:rgba(242,169,0,0.1);
+    padding:4px 10px;
+    border-radius:3px;
+    white-space:nowrap;
+  }
+  .wind-chip.dome-chip{ color:var(--chalk-dim); background:rgba(154,163,176,0.08); font-size:0.75rem; font-weight:500; text-transform:uppercase; }
+  .wind-compass{ font-family:var(--font-mono); font-size:0.68rem; color:var(--chalk-dim); }
+  .est-tag{ color:var(--amber); cursor:help; }
+
+  /* ===== STAT CHECK GAME ===== */
+  .trivia-wrap{ max-width:560px; margin:0 auto; }
+  .trivia-scorebar{
+    display:flex; justify-content:space-around;
+    background:var(--panel);
+    border:1px solid var(--line);
+    padding:14px 0;
+    margin-bottom:20px;
+  }
+  .trivia-stat{ display:flex; flex-direction:column; align-items:center; gap:2px; }
+  .trivia-stat-label{
+    font-family:var(--font-mono); font-size:0.68rem;
+    text-transform:uppercase; letter-spacing:0.08em; color:var(--chalk-dim);
+  }
+  .trivia-stat-value{
+    font-family:var(--font-display); font-size:1.8rem; color:var(--amber);
+  }
+  .trivia-card{
+    background:var(--panel);
+    border:1px solid var(--line);
+    padding:32px 24px;
+    text-align:center;
+    min-height:220px;
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    gap:18px;
+  }
+  .trivia-league{
+    font-family:var(--font-mono); font-size:0.7rem;
+    text-transform:uppercase; letter-spacing:0.1em; color:var(--turf-bright);
+  }
+  .trivia-player{
+    font-family:var(--font-display); font-size:2rem; letter-spacing:0.01em;
+  }
+  .trivia-question{
+    font-size:1.05rem; color:var(--chalk); line-height:1.5; max-width:40ch;
+  }
+  .trivia-question b{ color:var(--amber); }
+  .trivia-buttons{ display:flex; gap:14px; width:100%; max-width:340px; }
+  .trivia-btn{
+    flex:1;
+    font-family:var(--font-display);
+    font-size:1.3rem;
+    letter-spacing:0.04em;
+    padding:16px 0;
+    border:1px solid var(--turf-bright);
+    background:transparent;
+    color:var(--chalk);
+    cursor:pointer;
+    transition:background .15s, transform .1s;
+  }
+  .trivia-btn:hover{ background:rgba(47,143,95,0.15); }
+  .trivia-btn:active{ transform:scale(0.97); }
+  .trivia-btn.more{ border-color:var(--turf-bright); }
+  .trivia-btn.less{ border-color:var(--clay); }
+  .trivia-btn.less:hover{ background:rgba(181,101,29,0.15); }
+
+  .trivia-result{
+    animation:fadeIn .3s ease;
+    display:flex; flex-direction:column; align-items:center; gap:10px;
+  }
+  .trivia-result-label{
+    font-family:var(--font-display); font-size:1.8rem; letter-spacing:0.03em;
+  }
+  .trivia-result-label.correct{ color:var(--turf-bright); }
+  .trivia-result-label.incorrect{ color:var(--clay); }
+  .trivia-result-detail{ font-size:0.95rem; color:var(--chalk-dim); }
+  .trivia-result-detail b{ color:var(--chalk); }
+  .trivia-next-btn{
+    margin-top:6px;
+    font-family:var(--font-mono);
+    font-size:0.8rem;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    padding:10px 24px;
+    border:1px solid var(--amber);
+    background:transparent;
+    color:var(--amber);
+    cursor:pointer;
+  }
+  .trivia-next-btn:hover{ background:rgba(242,169,0,0.1); }
+
+  @media (max-width:480px){
+    .trivia-player{ font-size:1.6rem; }
+    .trivia-buttons{ flex-direction:row; }
+    .trivia-btn{ font-size:1.1rem; padding:14px 0; }
+  }
+
   /* ===== OPINIONS ===== */
   .opinion-feed{ display:flex; flex-direction:column; gap:18px; }
   .opinion-post{
@@ -390,6 +502,22 @@
     font-size:0.8rem;
     padding:12px 0;
   }
+  .read-more-link{
+    display:inline-block;
+    margin-top:8px;
+    font-family:var(--font-mono);
+    font-size:0.75rem;
+    text-transform:uppercase;
+    letter-spacing:0.05em;
+    color:var(--amber);
+    cursor:pointer;
+    border-bottom:1px solid transparent;
+    transition:border-color .15s;
+  }
+  .read-more-link:hover{ border-color:var(--amber); }
+  .article-preview p, .article-full p{ margin:0; }
+  .article-full{ animation:fadeIn .25s ease; }
+  @keyframes fadeIn{ from{ opacity:0; } to{ opacity:1; } }
   .post-author{
     font-family:var(--font-mono);
     font-size:0.7rem;
@@ -502,6 +630,7 @@
       <a href="#soccer">Soccer</a>
       <a href="#golf">Golf</a>
       <a href="#opinions">Opinions</a>
+      <a href="#stat-check">Stat Check</a>
       <span class="soon">Football — Coming Soon</span>
     </nav>
   </div>
@@ -612,7 +741,7 @@
   <div class="block-head" style="margin-top:8px; margin-bottom:20px;">
     <div>
       <div class="eyebrow">Live</div>
-      <h2 style="font-size:1.8rem;">MLB Scoreboard</h2>
+      <h2 style="font-size:1.8rem;" id="scoreboardHeading">MLB Scoreboard</h2>
     </div>
     <p class="desc" id="scoreboardUpdated">Refreshes automatically every 30 seconds.</p>
   </div>
@@ -725,6 +854,29 @@
   </div>
 </section>
 
+<!-- ================= STAT CHECK ================= -->
+<section class="block" id="stat-check">
+  <div class="block-head">
+    <div>
+      <div class="eyebrow">Test Yourself</div>
+      <h2>Stat Check</h2>
+    </div>
+    <p class="desc">MLB, NBA, and NFL career stats — guess more or less. Approximate career totals, for fun.</p>
+  </div>
+
+  <div class="trivia-wrap">
+    <div class="trivia-scorebar">
+      <div class="trivia-stat"><span class="trivia-stat-label">Score</span><span class="trivia-stat-value" id="triviaScore">0</span></div>
+      <div class="trivia-stat"><span class="trivia-stat-label">Streak</span><span class="trivia-stat-value" id="triviaStreak">0</span></div>
+      <div class="trivia-stat"><span class="trivia-stat-label">Best</span><span class="trivia-stat-value" id="triviaBest">0</span></div>
+    </div>
+
+    <div class="trivia-card" id="triviaCard">
+      <p class="loading-note">Loading players…</p>
+    </div>
+  </div>
+</section>
+
 <footer>
   <div class="footer-inner">
     <div class="brand">Inside the Lines</div>
@@ -764,7 +916,7 @@
       <div class="card">
         <span class="k">${item.category || ''}</span>
         <h3>${item.title || ''}</h3>
-        <p>${item.body || ''}</p>
+        ${expandable(item, `<p>${item.body || ''}</p>`, 100)}
         <span class="stub">${fmtDate(item.date)}</span>
       </div>
     `).join('');
@@ -780,6 +932,45 @@
     }
     // duplicate the list once so the scrolling loop reads seamlessly
     track.innerHTML = items.concat(items).join('');
+  }
+
+  // ===== Read More / Show Less system =====
+  // Works from content.json alone — no HTML edits needed per article.
+  // If an entry has a "preview" field, that's used as the short version.
+  // Otherwise a preview is auto-generated from the first ~180 characters of "body".
+  let expandCounter = 0;
+  function toggleReadMore(uid){
+    const preview = document.getElementById(uid + '-preview');
+    const full = document.getElementById(uid + '-full');
+    const showingFull = full.style.display !== 'none';
+    preview.style.display = showingFull ? 'block' : 'none';
+    full.style.display = showingFull ? 'none' : 'block';
+  }
+  window.toggleReadMore = toggleReadMore;
+
+  function expandable(item, fullHtml, limit){
+    limit = limit || 180;
+    const plainBody = (item.body || '').replace(/\s+/g, ' ').trim();
+    const hasCustomPreview = !!item.preview;
+    const previewText = hasCustomPreview
+      ? item.preview
+      : (plainBody.length > limit ? plainBody.slice(0, limit).trim() + '…' : plainBody);
+    const needsToggle = hasCustomPreview || plainBody.length > limit;
+
+    if(!needsToggle){
+      return fullHtml;
+    }
+    const uid = 'exp' + (expandCounter++);
+    return `
+      <div class="article-preview" id="${uid}-preview">
+        <p>${previewText}</p>
+        <span class="read-more-link" onclick="toggleReadMore('${uid}')">Read more...</span>
+      </div>
+      <div class="article-full" id="${uid}-full" style="display:none;">
+        ${fullHtml}
+        <span class="read-more-link" onclick="toggleReadMore('${uid}')">Show less</span>
+      </div>
+    `;
   }
 
   function isAllCapsLabel(line){
@@ -852,7 +1043,7 @@
       <div class="list-item">
         <div>
           <h4>${item.title || ''}</h4>
-          ${formatBody(item.body, item.section)}
+          ${item.section === 'Homa Corner' ? formatBody(item.body, item.section) : expandable(item, formatBody(item.body, item.section))}
           ${item.author ? `<span class="post-author">${item.section || ''} — ${item.author}</span>` : ''}
         </div>
         <div class="meta">${fmtDate(item.date)}</div>
@@ -865,7 +1056,7 @@
       <div class="opinion-post">
         <div class="tagline">${item.type || ''}${item.author ? ' — ' + item.author : ''}</div>
         <h4>${item.title || ''}</h4>
-        ${formatBody(item.body)}
+        ${expandable(item, formatBody(item.body))}
       </div>
     `);
   }
@@ -875,7 +1066,7 @@
       <div class="opinion-post">
         <div class="tagline">${fmtDate(item.date)}${item.author ? ' — ' + item.author : ''}</div>
         <h4>${item.title || ''}</h4>
-        <p>${item.body || ''}</p>
+        ${expandable(item, `<p>${item.body || ''}</p>`)}
       </div>
     `);
   }
@@ -885,7 +1076,7 @@
       <div class="opinion-post">
         <div class="tagline">${item.type || ''}${item.author ? ' — ' + item.author : ''}</div>
         <h4>${item.title || ''}</h4>
-        <p>${item.body || ''}</p>
+        ${expandable(item, `<p>${item.body || ''}</p>`)}
       </div>
     `);
   }
@@ -927,42 +1118,61 @@
   // HR park factors are seasonal (they don't shift day to day), so this is a
   // fixed reference table — what updates automatically each day is WHICH
   // parks show up here, based on who's actually playing tonight.
+  //
+  // "facing" = compass degrees the batter faces (home plate toward center
+  // field), read from the uploaded ballpark-orientation chart. Parks marked
+  // estimated: true have moved/rebuilt since that chart was made, or weren't
+  // on it at all — those numbers are reasonable placeholders, not measured.
   const PARK_FACTORS = {
-    ARI: { park: "Chase Field", hr: "-4%", lat: 33.4453, lon: -112.0667, dome: true },
-    ATL: { park: "Truist Park", hr: "+8%", lat: 33.8908, lon: -84.4678 },
-    BAL: { park: "Camden Yards", hr: "-6%", lat: 39.2839, lon: -76.6218 },
-    BOS: { park: "Fenway Park", hr: "-2%", lat: 42.3467, lon: -71.0972 },
-    CHC: { park: "Wrigley Field", hr: "+3%", lat: 41.9484, lon: -87.6553 },
-    CWS: { park: "Rate Field", hr: "+9%", lat: 41.8299, lon: -87.6338 },
-    CIN: { park: "Great American Ball Park", hr: "+18%", lat: 39.0975, lon: -84.5061 },
-    CLE: { park: "Progressive Field", hr: "-11%", lat: 41.4962, lon: -81.6852 },
-    COL: { park: "Coors Field", hr: "+34%", lat: 39.7559, lon: -104.9942 },
-    DET: { park: "Comerica Park", hr: "-14%", lat: 42.3390, lon: -83.0485 },
-    HOU: { park: "Daikin Park", hr: "+2%", lat: 29.7573, lon: -95.3555, dome: true },
-    KC: { park: "Kauffman Stadium", hr: "-16%", lat: 39.0517, lon: -94.4803 },
-    LAA: { park: "Angel Stadium", hr: "+1%", lat: 33.8003, lon: -117.8827 },
-    LAD: { park: "Dodger Stadium", hr: "+5%", lat: 34.0739, lon: -118.2400 },
-    MIA: { park: "loanDepot park", hr: "-15%", lat: 25.7781, lon: -80.2196, dome: true },
-    MIL: { park: "American Family Field", hr: "+10%", lat: 43.0280, lon: -87.9712, dome: true },
-    MIN: { park: "Target Field", hr: "-7%", lat: 44.9817, lon: -93.2776 },
-    NYM: { park: "Citi Field", hr: "-8%", lat: 40.7571, lon: -73.8458 },
-    NYY: { park: "Yankee Stadium", hr: "+12%", lat: 40.8296, lon: -73.9262 },
-    ATH: { park: "Sutter Health Park", hr: "-5%", lat: 38.5802, lon: -121.5133 },
-    PHI: { park: "Citizens Bank Park", hr: "+15%", lat: 39.9057, lon: -75.1665 },
-    PIT: { park: "PNC Park", hr: "-13%", lat: 40.4469, lon: -80.0057 },
-    SD: { park: "Petco Park", hr: "-9%", lat: 32.7073, lon: -117.1566 },
-    SF: { park: "Oracle Park", hr: "-18%", lat: 37.7786, lon: -122.3893 },
-    SEA: { park: "T-Mobile Park", hr: "-10%", lat: 47.5914, lon: -122.3325, dome: true },
-    STL: { park: "Busch Stadium", hr: "-6%", lat: 38.6226, lon: -90.1928 },
-    TB: { park: "Steinbrenner Field", hr: "0%", lat: 27.9803, lon: -82.5065 },
-    TEX: { park: "Globe Life Field", hr: "-3%", lat: 32.7473, lon: -97.0842, dome: true },
-    TOR: { park: "Rogers Centre", hr: "+4%", lat: 43.6414, lon: -79.3894, dome: true },
-    WSH: { park: "Nationals Park", hr: "-1%", lat: 38.8730, lon: -77.0074 }
+    ARI: { park: "Chase Field", hr: "-4%", lat: 33.4453, lon: -112.0667, dome: true, facing: 13 },
+    ATL: { park: "Truist Park", hr: "+8%", lat: 33.8908, lon: -84.4678, facing: 35, estimated: true },
+    BAL: { park: "Camden Yards", hr: "-6%", lat: 39.2839, lon: -76.6218, facing: 36 },
+    BOS: { park: "Fenway Park", hr: "-2%", lat: 42.3467, lon: -71.0972, facing: 47 },
+    CHC: { park: "Wrigley Field", hr: "+3%", lat: 41.9484, lon: -87.6553, facing: 39 },
+    CWS: { park: "Rate Field", hr: "+9%", lat: 41.8299, lon: -87.6338, facing: 130 },
+    CIN: { park: "Great American Ball Park", hr: "+18%", lat: 39.0975, lon: -84.5061, facing: 120 },
+    CLE: { park: "Progressive Field", hr: "-11%", lat: 41.4962, lon: -81.6852, facing: 3 },
+    COL: { park: "Coors Field", hr: "+34%", lat: 39.7559, lon: -104.9942, facing: 8 },
+    DET: { park: "Comerica Park", hr: "-14%", lat: 42.3390, lon: -83.0485, facing: 195 },
+    HOU: { park: "Daikin Park", hr: "+2%", lat: 29.7573, lon: -95.3555, dome: true, facing: 355 },
+    KC: { park: "Kauffman Stadium", hr: "-16%", lat: 39.0517, lon: -94.4803, facing: 51 },
+    LAA: { park: "Angel Stadium", hr: "+1%", lat: 33.8003, lon: -117.8827, facing: 43 },
+    LAD: { park: "Dodger Stadium", hr: "+5%", lat: 34.0739, lon: -118.2400, facing: 29 },
+    MIA: { park: "loanDepot park", hr: "-15%", lat: 25.7781, lon: -80.2196, dome: true, facing: 40, estimated: true },
+    MIL: { park: "American Family Field", hr: "+10%", lat: 43.0280, lon: -87.9712, dome: true, facing: 135 },
+    MIN: { park: "Target Field", hr: "-7%", lat: 44.9817, lon: -93.2776, facing: 90, estimated: true },
+    NYM: { park: "Citi Field", hr: "-8%", lat: 40.7571, lon: -73.8458, facing: 24 },
+    NYY: { park: "Yankee Stadium", hr: "+12%", lat: 40.8296, lon: -73.9262, facing: 78 },
+    ATH: { park: "Sutter Health Park", hr: "-5%", lat: 38.5802, lon: -121.5133, facing: 45, estimated: true },
+    PHI: { park: "Citizens Bank Park", hr: "+15%", lat: 39.9057, lon: -75.1665, facing: 18 },
+    PIT: { park: "PNC Park", hr: "-13%", lat: 40.4469, lon: -80.0057, facing: 115 },
+    SD: { park: "Petco Park", hr: "-9%", lat: 32.7073, lon: -117.1566, facing: 358 },
+    SF: { park: "Oracle Park", hr: "-18%", lat: 37.7786, lon: -122.3893, facing: 90 },
+    SEA: { park: "T-Mobile Park", hr: "-10%", lat: 47.5914, lon: -122.3325, dome: true, facing: 55 },
+    STL: { park: "Busch Stadium", hr: "-6%", lat: 38.6226, lon: -90.1928, facing: 70 },
+    TB: { park: "Steinbrenner Field", hr: "0%", lat: 27.9803, lon: -82.5065, facing: 45, estimated: true },
+    TEX: { park: "Globe Life Field", hr: "-3%", lat: 32.7473, lon: -97.0842, dome: true, facing: 140, estimated: true },
+    TOR: { park: "Rogers Centre", hr: "+4%", lat: 43.6414, lon: -79.3894, dome: true, facing: 337 },
+    WSH: { park: "Nationals Park", hr: "-1%", lat: 38.8730, lon: -77.0074, facing: 33 }
   };
 
   const WIND_COMPASS = ["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"];
   function degToCompass(deg){
     return WIND_COMPASS[Math.round(deg / 22.5) % 16];
+  }
+
+  // Converts a meteorological wind reading + park orientation into a
+  // field-relative arrow: out to CF (↑), in toward home (↓), or blowing
+  // toward left/right field (←/→) from the batter's point of view.
+  function windRelativeToField(windSourceDeg, facingDeg){
+    const blowingToward = (windSourceDeg + 180) % 360; // direction the wind is actually traveling
+    const rel = ((blowingToward - facingDeg) % 360 + 360) % 360;
+    let arrow, label;
+    if(rel >= 315 || rel < 45){ arrow = '↑'; label = 'Blowing Out'; }
+    else if(rel >= 45 && rel < 135){ arrow = '→'; label = 'Toward Right Field'; }
+    else if(rel >= 135 && rel < 225){ arrow = '↓'; label = 'Blowing In'; }
+    else { arrow = '←'; label = 'Toward Left Field'; }
+    return { arrow, label };
   }
 
   function fetchWind(lat, lon){
@@ -972,7 +1182,11 @@
       .then(data => {
         const c = data.current;
         if(!c) return null;
-        return { speed: Math.round(c.wind_speed_10m), dir: degToCompass(c.wind_direction_10m) };
+        return {
+          speed: Math.round(c.wind_speed_10m),
+          dir: degToCompass(c.wind_direction_10m),
+          rawDeg: c.wind_direction_10m
+        };
       })
       .catch(() => null);
   }
@@ -994,7 +1208,17 @@
       return;
     }
 
-    el.innerHTML = parks.map(p => `<div class="row"><span>${p.park}</span><span>HR ${p.hr}</span></div>`).join('');
+    const renderRow = (p, windHtml) => `
+      <div class="park-row">
+        <div class="park-row-main">
+          <span class="park-name">${p.park}</span>
+          <span class="park-hr">HR ${p.hr}</span>
+        </div>
+        <div class="park-wind">${windHtml}</div>
+      </div>
+    `;
+
+    el.innerHTML = parks.map(p => renderRow(p, '<span class="loading-note">wind…</span>')).join('');
 
     // Fetch live wind for outdoor parks only — domes don't need it.
     const outdoorParks = parks.filter(p => !p.dome);
@@ -1003,18 +1227,50 @@
       outdoorParks.forEach((p, i) => { windByPark[p.park] = results[i]; });
 
       el.innerHTML = parks.map(p => {
-        let windText = 'Dome — no wind';
-        if(!p.dome){
-          const w = windByPark[p.park];
-          windText = w ? `${w.speed} mph ${w.dir}` : '—';
+        if(p.dome){
+          return renderRow(p, '<span class="wind-chip dome-chip">Dome</span>');
         }
-        return `<div class="row"><span>${p.park}</span><span>HR ${p.hr} · ${windText}</span></div>`;
+        const w = windByPark[p.park];
+        if(!w){
+          return renderRow(p, '<span class="loading-note">—</span>');
+        }
+        const { arrow, label } = windRelativeToField(w.rawDeg, p.facing);
+        const estTag = p.estimated ? '<span class="est-tag" title="Stadium orientation estimated">*</span>' : '';
+        return renderRow(p, `
+          <span class="wind-chip" title="${label}">${arrow} ${w.speed} MPH</span>
+          <span class="wind-compass">${w.dir}${estTag}</span>
+        `);
       }).join('');
     });
   }
 
+  // MLB's scoreboard shouldn't flip to a new slate right at midnight — most
+  // games are still being played then. Instead: before 9:30am Eastern, keep
+  // showing yesterday's games (final scores). At 9:30am, switch over to
+  // today's schedule. This matches how ESPN's own broadcast graphics behave.
+  function getScoreboardTarget(){
+    const nowET = new Date(new Date().toLocaleString('en-US', { timeZone: 'America/New_York' }));
+    const beforeCutover = nowET.getHours() < 9 || (nowET.getHours() === 9 && nowET.getMinutes() < 30);
+    const target = new Date(nowET);
+    if(beforeCutover){
+      target.setDate(target.getDate() - 1);
+    }
+    const y = target.getFullYear();
+    const m = String(target.getMonth() + 1).padStart(2, '0');
+    const d = String(target.getDate()).padStart(2, '0');
+    return {
+      apiDate: `${y}${m}${d}`,
+      label: target.toLocaleDateString('en-US', { month: 'long', day: 'numeric' }),
+      isPastSlate: beforeCutover
+    };
+  }
+
   function fetchLiveScoreboard(){
-    fetch('https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard')
+    const target = getScoreboardTarget();
+    document.getElementById('scoreboardHeading').textContent =
+      `${target.label} ${target.isPastSlate ? 'Scores' : 'Schedule'}`;
+
+    fetch(`https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard?dates=${target.apiDate}`)
       .then(res => res.json())
       .then(data => {
         const events = (data.events || []).map(event => {
@@ -1090,6 +1346,119 @@
   // Re-check content.json every 60s so scores/odds feel live while someone's on the page.
   // The GitHub Action updates the file itself every 30 minutes.
   setInterval(loadContent, 60000);
+
+  // ===== STAT CHECK trivia game =====
+  let triviaPlayers = [];
+  let triviaScore = 0;
+  let triviaStreak = 0;
+  let triviaBest = 0;
+  let currentQuestion = null;
+
+  function fmtStatValue(label, value){
+    if(label === "Batting Average"){
+      return value.toFixed(3).replace(/^0/, '');
+    }
+    if(label === "Sacks" && value % 1 !== 0){
+      return value.toFixed(1);
+    }
+    return Math.round(value).toLocaleString('en-US');
+  }
+
+  function pickTriviaQuestion(){
+    if(!triviaPlayers.length) return null;
+    const player = triviaPlayers[Math.floor(Math.random() * triviaPlayers.length)];
+    const statKeys = Object.keys(player.stats);
+    const statLabel = statKeys[Math.floor(Math.random() * statKeys.length)];
+    const actual = player.stats[statLabel];
+
+    // Build a threshold offset from the real value so it's not a giveaway —
+    // roughly 15-40% off, rounded to something clean depending on scale.
+    const pct = 0.15 + Math.random() * 0.25;
+    let offset = actual * pct;
+    let threshold;
+    if(statLabel === "Batting Average"){
+      offset = Math.max(0.01, Math.round(offset * 1000) / 1000);
+      threshold = Math.random() < 0.5 ? actual - offset : actual + offset;
+      threshold = Math.round(threshold * 1000) / 1000;
+      if(threshold <= 0) threshold = 0.05;
+    } else {
+      offset = Math.max(1, Math.round(offset));
+      threshold = Math.random() < 0.5 ? actual - offset : actual + offset;
+      threshold = Math.round(threshold);
+      if(threshold <= 0) threshold = Math.max(1, Math.round(actual * 0.3));
+    }
+    if(threshold === actual){
+      threshold = actual + (statLabel === "Batting Average" ? 0.01 : 1);
+    }
+
+    return { player: player.name, league: player.league, statLabel, actual, threshold };
+  }
+
+  function renderTriviaQuestion(){
+    currentQuestion = pickTriviaQuestion();
+    const card = document.getElementById('triviaCard');
+    if(!currentQuestion){
+      card.innerHTML = '<p class="loading-note">Could not load players.json.</p>';
+      return;
+    }
+    const q = currentQuestion;
+    const thresholdDisplay = fmtStatValue(q.statLabel, q.threshold);
+    card.innerHTML = `
+      <span class="trivia-league">${q.league}</span>
+      <div class="trivia-player">${q.player}</div>
+      <div class="trivia-question">Did <b>${q.player}</b> have <b>MORE</b> or <b>LESS</b> than <b>${thresholdDisplay} ${q.statLabel}</b>?</div>
+      <div class="trivia-buttons">
+        <button class="trivia-btn more" onclick="answerTrivia('more')">MORE</button>
+        <button class="trivia-btn less" onclick="answerTrivia('less')">LESS</button>
+      </div>
+    `;
+  }
+
+  function answerTrivia(guess){
+    if(!currentQuestion) return;
+    const q = currentQuestion;
+    const correctAnswer = q.actual > q.threshold ? 'more' : 'less';
+    const isCorrect = guess === correctAnswer;
+    const actualDisplay = fmtStatValue(q.statLabel, q.actual);
+
+    if(isCorrect){
+      triviaScore += 10;
+      triviaStreak += 1;
+      triviaBest = Math.max(triviaBest, triviaStreak);
+    } else {
+      triviaStreak = 0;
+    }
+    document.getElementById('triviaScore').textContent = triviaScore;
+    document.getElementById('triviaStreak').textContent = triviaStreak;
+    document.getElementById('triviaBest').textContent = triviaBest;
+
+    const card = document.getElementById('triviaCard');
+    card.innerHTML = `
+      <div class="trivia-result">
+        <span class="trivia-league">${q.league}</span>
+        <div class="trivia-result-label ${isCorrect ? 'correct' : 'incorrect'}">${isCorrect ? 'CORRECT' : 'INCORRECT'}</div>
+        <div class="trivia-result-detail"><b>${q.player}</b> had <b>${actualDisplay} ${q.statLabel}</b>.</div>
+        <div class="trivia-result-detail">${isCorrect ? '+10 points' : `The answer was ${correctAnswer.toUpperCase()}.`}</div>
+        <button class="trivia-next-btn" onclick="renderTriviaQuestion()">Next Question</button>
+      </div>
+    `;
+  }
+  window.answerTrivia = answerTrivia;
+  window.renderTriviaQuestion = renderTriviaQuestion;
+
+  fetch('players.json')
+    .then(res => {
+      if(!res.ok) throw new Error('players.json not found');
+      return res.json();
+    })
+    .then(data => {
+      triviaPlayers = data.players || [];
+      renderTriviaQuestion();
+    })
+    .catch(() => {
+      document.getElementById('triviaCard').innerHTML =
+        '<p class="loading-note">Could not load players.json — make sure it sits next to index.html in the repo.</p>';
+    });
 </script>
 
 </body>
