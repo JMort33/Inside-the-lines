@@ -1,0 +1,2574 @@
+{
+  "players": [
+    {
+      "name": "Barry Bonds",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 762,
+        "RBI": 1996,
+        "Hits": 2935,
+        "Batting Average": 0.298
+      }
+    },
+    {
+      "name": "Hank Aaron",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 755,
+        "RBI": 2297,
+        "Hits": 3771,
+        "Batting Average": 0.305
+      }
+    },
+    {
+      "name": "Babe Ruth",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 714,
+        "RBI": 2214,
+        "Hits": 2873,
+        "Batting Average": 0.342
+      }
+    },
+    {
+      "name": "Alex Rodriguez",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 696,
+        "RBI": 2086,
+        "Hits": 3115,
+        "Batting Average": 0.295
+      }
+    },
+    {
+      "name": "Willie Mays",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 660,
+        "RBI": 1903,
+        "Hits": 3293,
+        "Batting Average": 0.301
+      }
+    },
+    {
+      "name": "Ken Griffey Jr.",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 630,
+        "RBI": 1836,
+        "Hits": 2781,
+        "Batting Average": 0.284
+      }
+    },
+    {
+      "name": "Albert Pujols",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 703,
+        "RBI": 2218,
+        "Hits": 3384,
+        "Batting Average": 0.296
+      }
+    },
+    {
+      "name": "Jim Thome",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 612,
+        "RBI": 1699,
+        "Hits": 2328,
+        "Batting Average": 0.276
+      }
+    },
+    {
+      "name": "Sammy Sosa",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 609,
+        "RBI": 1667,
+        "Hits": 2408,
+        "Batting Average": 0.273
+      }
+    },
+    {
+      "name": "Frank Robinson",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 586,
+        "RBI": 1812,
+        "Hits": 2943,
+        "Batting Average": 0.294
+      }
+    },
+    {
+      "name": "Mark McGwire",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 583,
+        "RBI": 1414,
+        "Hits": 1626,
+        "Batting Average": 0.263
+      }
+    },
+    {
+      "name": "Harmon Killebrew",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 573,
+        "RBI": 1584,
+        "Hits": 2086,
+        "Batting Average": 0.256
+      }
+    },
+    {
+      "name": "Rafael Palmeiro",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 569,
+        "RBI": 1835,
+        "Hits": 3020,
+        "Batting Average": 0.288
+      }
+    },
+    {
+      "name": "Reggie Jackson",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 563,
+        "RBI": 1702,
+        "Hits": 2584,
+        "Batting Average": 0.262
+      }
+    },
+    {
+      "name": "Manny Ramirez",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 555,
+        "RBI": 1831,
+        "Hits": 2574,
+        "Batting Average": 0.312
+      }
+    },
+    {
+      "name": "Mike Schmidt",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 548,
+        "RBI": 1595,
+        "Hits": 2234,
+        "Batting Average": 0.267
+      }
+    },
+    {
+      "name": "David Ortiz",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 541,
+        "RBI": 1768,
+        "Hits": 2472,
+        "Batting Average": 0.286
+      }
+    },
+    {
+      "name": "Mickey Mantle",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 536,
+        "RBI": 1509,
+        "Hits": 2415,
+        "Batting Average": 0.298
+      }
+    },
+    {
+      "name": "Jimmie Foxx",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 534,
+        "RBI": 1922,
+        "Hits": 2646,
+        "Batting Average": 0.325
+      }
+    },
+    {
+      "name": "Willie McCovey",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 521,
+        "RBI": 1555,
+        "Hits": 2211,
+        "Batting Average": 0.27
+      }
+    },
+    {
+      "name": "Frank Thomas",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 521,
+        "RBI": 1704,
+        "Hits": 2468,
+        "Batting Average": 0.301
+      }
+    },
+    {
+      "name": "Ted Williams",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 521,
+        "RBI": 1839,
+        "Hits": 2654,
+        "Batting Average": 0.344
+      }
+    },
+    {
+      "name": "Ernie Banks",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 512,
+        "RBI": 1636,
+        "Hits": 2583,
+        "Batting Average": 0.274
+      }
+    },
+    {
+      "name": "Eddie Mathews",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 512,
+        "RBI": 1453,
+        "Hits": 2315,
+        "Batting Average": 0.271
+      }
+    },
+    {
+      "name": "Mel Ott",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 511,
+        "RBI": 1860,
+        "Hits": 2876,
+        "Batting Average": 0.304
+      }
+    },
+    {
+      "name": "Gary Sheffield",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 509,
+        "RBI": 1676,
+        "Hits": 2689,
+        "Batting Average": 0.292
+      }
+    },
+    {
+      "name": "Miguel Cabrera",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 511,
+        "RBI": 1881,
+        "Hits": 3174,
+        "Batting Average": 0.306
+      }
+    },
+    {
+      "name": "Chipper Jones",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 468,
+        "RBI": 1623,
+        "Hits": 2726,
+        "Batting Average": 0.303
+      }
+    },
+    {
+      "name": "Derek Jeter",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 260,
+        "RBI": 1311,
+        "Hits": 3465,
+        "Batting Average": 0.31
+      }
+    },
+    {
+      "name": "Ichiro Suzuki",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 117,
+        "RBI": 780,
+        "Hits": 3089,
+        "Batting Average": 0.311
+      }
+    },
+    {
+      "name": "Tony Gwynn",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 135,
+        "RBI": 1138,
+        "Hits": 3141,
+        "Batting Average": 0.338
+      }
+    },
+    {
+      "name": "Cal Ripken Jr.",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 431,
+        "RBI": 1695,
+        "Hits": 3184,
+        "Batting Average": 0.276
+      }
+    },
+    {
+      "name": "George Brett",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 317,
+        "RBI": 1596,
+        "Hits": 3154,
+        "Batting Average": 0.305
+      }
+    },
+    {
+      "name": "Rod Carew",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 92,
+        "RBI": 1015,
+        "Hits": 3053,
+        "Batting Average": 0.328
+      }
+    },
+    {
+      "name": "Wade Boggs",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 118,
+        "RBI": 1014,
+        "Hits": 3010,
+        "Batting Average": 0.328
+      }
+    },
+    {
+      "name": "Paul Molitor",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 234,
+        "RBI": 1307,
+        "Hits": 3319,
+        "Batting Average": 0.306
+      }
+    },
+    {
+      "name": "Robin Yount",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 251,
+        "RBI": 1406,
+        "Hits": 3142,
+        "Batting Average": 0.285
+      }
+    },
+    {
+      "name": "Pete Rose",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 160,
+        "RBI": 1314,
+        "Hits": 4256,
+        "Batting Average": 0.303
+      }
+    },
+    {
+      "name": "Aaron Judge",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 350,
+        "RBI": 800,
+        "Hits": 1150,
+        "Batting Average": 0.285
+      }
+    },
+    {
+      "name": "Shohei Ohtani",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 230,
+        "RBI": 570,
+        "Hits": 900,
+        "Batting Average": 0.283
+      }
+    },
+    {
+      "name": "Mike Trout",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 390,
+        "RBI": 940,
+        "Hits": 1500,
+        "Batting Average": 0.296
+      }
+    },
+    {
+      "name": "Bryce Harper",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 320,
+        "RBI": 950,
+        "Hits": 1550,
+        "Batting Average": 0.282
+      }
+    },
+    {
+      "name": "Mookie Betts",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 280,
+        "RBI": 870,
+        "Hits": 1650,
+        "Batting Average": 0.293
+      }
+    },
+    {
+      "name": "Juan Soto",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 200,
+        "RBI": 560,
+        "Hits": 1100,
+        "Batting Average": 0.283
+      }
+    },
+    {
+      "name": "Ronald Acuna Jr.",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 180,
+        "RBI": 480,
+        "Hits": 950,
+        "Batting Average": 0.293
+      }
+    },
+    {
+      "name": "Kyle Schwarber",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 280,
+        "RBI": 650,
+        "Hits": 950,
+        "Batting Average": 0.232
+      }
+    },
+    {
+      "name": "Freddie Freeman",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 350,
+        "RBI": 1250,
+        "Hits": 2200,
+        "Batting Average": 0.301
+      }
+    },
+    {
+      "name": "Manny Machado",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 330,
+        "RBI": 1050,
+        "Hits": 1900,
+        "Batting Average": 0.282
+      }
+    },
+    {
+      "name": "Nolan Arenado",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 320,
+        "RBI": 1000,
+        "Hits": 1850,
+        "Batting Average": 0.285
+      }
+    },
+    {
+      "name": "Jose Altuve",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 230,
+        "RBI": 900,
+        "Hits": 2300,
+        "Batting Average": 0.307
+      }
+    },
+    {
+      "name": "Yordan Alvarez",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 170,
+        "RBI": 500,
+        "Hits": 700,
+        "Batting Average": 0.295
+      }
+    },
+    {
+      "name": "Pete Alonso",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 250,
+        "RBI": 640,
+        "Hits": 950,
+        "Batting Average": 0.253
+      }
+    },
+    {
+      "name": "Matt Olson",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 280,
+        "RBI": 750,
+        "Hits": 1200,
+        "Batting Average": 0.251
+      }
+    },
+    {
+      "name": "Corey Seager",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 220,
+        "RBI": 700,
+        "Hits": 1250,
+        "Batting Average": 0.296
+      }
+    },
+    {
+      "name": "Trea Turner",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 180,
+        "RBI": 650,
+        "Hits": 1650,
+        "Batting Average": 0.296
+      }
+    },
+    {
+      "name": "Francisco Lindor",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 230,
+        "RBI": 800,
+        "Hits": 1650,
+        "Batting Average": 0.273
+      }
+    },
+    {
+      "name": "Vladimir Guerrero Jr.",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 180,
+        "RBI": 600,
+        "Hits": 1300,
+        "Batting Average": 0.284
+      }
+    },
+    {
+      "name": "Bo Bichette",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 120,
+        "RBI": 450,
+        "Hits": 1150,
+        "Batting Average": 0.289
+      }
+    },
+    {
+      "name": "Rafael Devers",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 220,
+        "RBI": 750,
+        "Hits": 1400,
+        "Batting Average": 0.282
+      }
+    },
+    {
+      "name": "Jose Ramirez",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 250,
+        "RBI": 900,
+        "Hits": 1900,
+        "Batting Average": 0.28
+      }
+    },
+    {
+      "name": "Bryan Reynolds",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 140,
+        "RBI": 500,
+        "Hits": 1100,
+        "Batting Average": 0.275
+      }
+    },
+    {
+      "name": "Julio Rodriguez",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 110,
+        "RBI": 400,
+        "Hits": 800,
+        "Batting Average": 0.275
+      }
+    },
+    {
+      "name": "Corbin Carroll",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 70,
+        "RBI": 250,
+        "Hits": 500,
+        "Batting Average": 0.275
+      }
+    },
+    {
+      "name": "Elly De La Cruz",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 60,
+        "RBI": 220,
+        "Hits": 450,
+        "Batting Average": 0.265
+      }
+    },
+    {
+      "name": "Gunnar Henderson",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 80,
+        "RBI": 250,
+        "Hits": 450,
+        "Batting Average": 0.27
+      }
+    },
+    {
+      "name": "Bobby Witt Jr.",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 90,
+        "RBI": 320,
+        "Hits": 700,
+        "Batting Average": 0.285
+      }
+    },
+    {
+      "name": "Adley Rutschman",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 60,
+        "RBI": 280,
+        "Hits": 600,
+        "Batting Average": 0.265
+      }
+    },
+    {
+      "name": "William Contreras",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 80,
+        "RBI": 330,
+        "Hits": 600,
+        "Batting Average": 0.275
+      }
+    },
+    {
+      "name": "Kyle Tucker",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 180,
+        "RBI": 550,
+        "Hits": 950,
+        "Batting Average": 0.284
+      }
+    },
+    {
+      "name": "George Springer",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 250,
+        "RBI": 750,
+        "Hits": 1550,
+        "Batting Average": 0.268
+      }
+    },
+    {
+      "name": "Marcus Semien",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 230,
+        "RBI": 750,
+        "Hits": 1650,
+        "Batting Average": 0.264
+      }
+    },
+    {
+      "name": "Christian Yelich",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 200,
+        "RBI": 750,
+        "Hits": 1550,
+        "Batting Average": 0.293
+      }
+    },
+    {
+      "name": "Anthony Rizzo",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 250,
+        "RBI": 850,
+        "Hits": 1650,
+        "Batting Average": 0.269
+      }
+    },
+    {
+      "name": "Adolis Garcia",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 130,
+        "RBI": 420,
+        "Hits": 700,
+        "Batting Average": 0.251
+      }
+    },
+    {
+      "name": "Teoscar Hernandez",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 180,
+        "RBI": 550,
+        "Hits": 950,
+        "Batting Average": 0.258
+      }
+    },
+    {
+      "name": "Cody Bellinger",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 200,
+        "RBI": 600,
+        "Hits": 1050,
+        "Batting Average": 0.258
+      }
+    },
+    {
+      "name": "Willy Adames",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 150,
+        "RBI": 500,
+        "Hits": 1000,
+        "Batting Average": 0.249
+      }
+    },
+    {
+      "name": "Ozzie Albies",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 150,
+        "RBI": 550,
+        "Hits": 1150,
+        "Batting Average": 0.277
+      }
+    },
+    {
+      "name": "Austin Riley",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 180,
+        "RBI": 550,
+        "Hits": 950,
+        "Batting Average": 0.272
+      }
+    },
+    {
+      "name": "Matt Chapman",
+      "league": "MLB",
+      "stats": {
+        "Home Runs": 200,
+        "RBI": 600,
+        "Hits": 1150,
+        "Batting Average": 0.246
+      }
+    },
+    {
+      "name": "Nolan Ryan",
+      "league": "MLB",
+      "stats": {
+        "Wins": 324,
+        "Strikeouts": 5714,
+        "Saves": 3
+      }
+    },
+    {
+      "name": "Roger Clemens",
+      "league": "MLB",
+      "stats": {
+        "Wins": 354,
+        "Strikeouts": 4672,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Randy Johnson",
+      "league": "MLB",
+      "stats": {
+        "Wins": 303,
+        "Strikeouts": 4875,
+        "Saves": 2
+      }
+    },
+    {
+      "name": "Greg Maddux",
+      "league": "MLB",
+      "stats": {
+        "Wins": 355,
+        "Strikeouts": 3371,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Tom Seaver",
+      "league": "MLB",
+      "stats": {
+        "Wins": 311,
+        "Strikeouts": 3640,
+        "Saves": 1
+      }
+    },
+    {
+      "name": "Steve Carlton",
+      "league": "MLB",
+      "stats": {
+        "Wins": 329,
+        "Strikeouts": 4136,
+        "Saves": 2
+      }
+    },
+    {
+      "name": "Warren Spahn",
+      "league": "MLB",
+      "stats": {
+        "Wins": 363,
+        "Strikeouts": 2583,
+        "Saves": 29
+      }
+    },
+    {
+      "name": "Bert Blyleven",
+      "league": "MLB",
+      "stats": {
+        "Wins": 287,
+        "Strikeouts": 3701,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Pedro Martinez",
+      "league": "MLB",
+      "stats": {
+        "Wins": 219,
+        "Strikeouts": 3154,
+        "Saves": 3
+      }
+    },
+    {
+      "name": "Curt Schilling",
+      "league": "MLB",
+      "stats": {
+        "Wins": 216,
+        "Strikeouts": 3116,
+        "Saves": 22
+      }
+    },
+    {
+      "name": "CC Sabathia",
+      "league": "MLB",
+      "stats": {
+        "Wins": 251,
+        "Strikeouts": 3093,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Justin Verlander",
+      "league": "MLB",
+      "stats": {
+        "Wins": 262,
+        "Strikeouts": 3400,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Max Scherzer",
+      "league": "MLB",
+      "stats": {
+        "Wins": 216,
+        "Strikeouts": 3400,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Clayton Kershaw",
+      "league": "MLB",
+      "stats": {
+        "Wins": 220,
+        "Strikeouts": 3050,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Zack Greinke",
+      "league": "MLB",
+      "stats": {
+        "Wins": 225,
+        "Strikeouts": 3020,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Felix Hernandez",
+      "league": "MLB",
+      "stats": {
+        "Wins": 169,
+        "Strikeouts": 2524,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Mariano Rivera",
+      "league": "MLB",
+      "stats": {
+        "Wins": 82,
+        "Strikeouts": 1173,
+        "Saves": 652
+      }
+    },
+    {
+      "name": "Trevor Hoffman",
+      "league": "MLB",
+      "stats": {
+        "Wins": 61,
+        "Strikeouts": 1133,
+        "Saves": 601
+      }
+    },
+    {
+      "name": "Lee Smith",
+      "league": "MLB",
+      "stats": {
+        "Wins": 71,
+        "Strikeouts": 1251,
+        "Saves": 478
+      }
+    },
+    {
+      "name": "Billy Wagner",
+      "league": "MLB",
+      "stats": {
+        "Wins": 47,
+        "Strikeouts": 1196,
+        "Saves": 422
+      }
+    },
+    {
+      "name": "Craig Kimbrel",
+      "league": "MLB",
+      "stats": {
+        "Wins": 45,
+        "Strikeouts": 1120,
+        "Saves": 440
+      }
+    },
+    {
+      "name": "Kenley Jansen",
+      "league": "MLB",
+      "stats": {
+        "Wins": 40,
+        "Strikeouts": 1100,
+        "Saves": 460
+      }
+    },
+    {
+      "name": "Aroldis Chapman",
+      "league": "MLB",
+      "stats": {
+        "Wins": 40,
+        "Strikeouts": 1100,
+        "Saves": 340
+      }
+    },
+    {
+      "name": "Edwin Diaz",
+      "league": "MLB",
+      "stats": {
+        "Wins": 25,
+        "Strikeouts": 600,
+        "Saves": 220
+      }
+    },
+    {
+      "name": "Josh Hader",
+      "league": "MLB",
+      "stats": {
+        "Wins": 25,
+        "Strikeouts": 700,
+        "Saves": 230
+      }
+    },
+    {
+      "name": "Emmanuel Clase",
+      "league": "MLB",
+      "stats": {
+        "Wins": 20,
+        "Strikeouts": 350,
+        "Saves": 150
+      }
+    },
+    {
+      "name": "Gerrit Cole",
+      "league": "MLB",
+      "stats": {
+        "Wins": 150,
+        "Strikeouts": 2400,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Corbin Burnes",
+      "league": "MLB",
+      "stats": {
+        "Wins": 75,
+        "Strikeouts": 1150,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Zac Gallen",
+      "league": "MLB",
+      "stats": {
+        "Wins": 65,
+        "Strikeouts": 950,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Spencer Strider",
+      "league": "MLB",
+      "stats": {
+        "Wins": 35,
+        "Strikeouts": 650,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Tarik Skubal",
+      "league": "MLB",
+      "stats": {
+        "Wins": 55,
+        "Strikeouts": 750,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Framber Valdez",
+      "league": "MLB",
+      "stats": {
+        "Wins": 80,
+        "Strikeouts": 950,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Logan Webb",
+      "league": "MLB",
+      "stats": {
+        "Wins": 65,
+        "Strikeouts": 850,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Dylan Cease",
+      "league": "MLB",
+      "stats": {
+        "Wins": 60,
+        "Strikeouts": 950,
+        "Saves": 0
+      }
+    },
+    {
+      "name": "Kareem Abdul-Jabbar",
+      "league": "NBA",
+      "stats": {
+        "Points": 38387,
+        "Rebounds": 17440,
+        "Assists": 5660
+      }
+    },
+    {
+      "name": "LeBron James",
+      "league": "NBA",
+      "stats": {
+        "Points": 41000,
+        "Rebounds": 11000,
+        "Assists": 11000,
+        "Steals": 2200,
+        "Blocks": 1100,
+        "3-Pointers Made": 2400
+      }
+    },
+    {
+      "name": "Karl Malone",
+      "league": "NBA",
+      "stats": {
+        "Points": 36928,
+        "Rebounds": 14968,
+        "Assists": 5248
+      }
+    },
+    {
+      "name": "Kobe Bryant",
+      "league": "NBA",
+      "stats": {
+        "Points": 33643,
+        "Rebounds": 7047,
+        "Assists": 6306,
+        "Steals": 1944,
+        "Blocks": 640,
+        "3-Pointers Made": 1827
+      }
+    },
+    {
+      "name": "Michael Jordan",
+      "league": "NBA",
+      "stats": {
+        "Points": 32292,
+        "Rebounds": 6672,
+        "Assists": 5633,
+        "Steals": 2514,
+        "Blocks": 893
+      }
+    },
+    {
+      "name": "Dirk Nowitzki",
+      "league": "NBA",
+      "stats": {
+        "Points": 31560,
+        "Rebounds": 11489,
+        "Assists": 3651
+      }
+    },
+    {
+      "name": "Wilt Chamberlain",
+      "league": "NBA",
+      "stats": {
+        "Points": 31419,
+        "Rebounds": 23924,
+        "Assists": 4643
+      }
+    },
+    {
+      "name": "Shaquille O'Neal",
+      "league": "NBA",
+      "stats": {
+        "Points": 28596,
+        "Rebounds": 13099,
+        "Assists": 3026
+      }
+    },
+    {
+      "name": "Carmelo Anthony",
+      "league": "NBA",
+      "stats": {
+        "Points": 28289,
+        "Rebounds": 6796,
+        "Assists": 2837
+      }
+    },
+    {
+      "name": "Moses Malone",
+      "league": "NBA",
+      "stats": {
+        "Points": 27409,
+        "Rebounds": 16212
+      }
+    },
+    {
+      "name": "Elvin Hayes",
+      "league": "NBA",
+      "stats": {
+        "Points": 27313,
+        "Rebounds": 16279
+      }
+    },
+    {
+      "name": "Hakeem Olajuwon",
+      "league": "NBA",
+      "stats": {
+        "Points": 26946,
+        "Rebounds": 13748,
+        "Blocks": 3058
+      }
+    },
+    {
+      "name": "Oscar Robertson",
+      "league": "NBA",
+      "stats": {
+        "Points": 26710,
+        "Rebounds": 7804,
+        "Assists": 9887
+      }
+    },
+    {
+      "name": "Dominique Wilkins",
+      "league": "NBA",
+      "stats": {
+        "Points": 26668,
+        "Rebounds": 6820
+      }
+    },
+    {
+      "name": "Tim Duncan",
+      "league": "NBA",
+      "stats": {
+        "Points": 26496,
+        "Rebounds": 15091,
+        "Blocks": 3020
+      }
+    },
+    {
+      "name": "Paul Pierce",
+      "league": "NBA",
+      "stats": {
+        "Points": 26397,
+        "Rebounds": 6979,
+        "Assists": 4305
+      }
+    },
+    {
+      "name": "John Havlicek",
+      "league": "NBA",
+      "stats": {
+        "Points": 26395,
+        "Rebounds": 8007
+      }
+    },
+    {
+      "name": "Kevin Durant",
+      "league": "NBA",
+      "stats": {
+        "Points": 30000,
+        "Rebounds": 7500,
+        "Assists": 4400,
+        "Steals": 1000,
+        "Blocks": 1400,
+        "3-Pointers Made": 2200
+      }
+    },
+    {
+      "name": "Vince Carter",
+      "league": "NBA",
+      "stats": {
+        "Points": 25728,
+        "Rebounds": 6606
+      }
+    },
+    {
+      "name": "Kevin Garnett",
+      "league": "NBA",
+      "stats": {
+        "Points": 26071,
+        "Rebounds": 14662,
+        "Assists": 5445
+      }
+    },
+    {
+      "name": "Reggie Miller",
+      "league": "NBA",
+      "stats": {
+        "Points": 25279,
+        "Rebounds": 4054,
+        "Assists": 2864,
+        "3-Pointers Made": 2560
+      }
+    },
+    {
+      "name": "Jerry West",
+      "league": "NBA",
+      "stats": {
+        "Points": 25192,
+        "Rebounds": 5366,
+        "Assists": 6238
+      }
+    },
+    {
+      "name": "Patrick Ewing",
+      "league": "NBA",
+      "stats": {
+        "Points": 24815,
+        "Rebounds": 10759
+      }
+    },
+    {
+      "name": "Charles Barkley",
+      "league": "NBA",
+      "stats": {
+        "Points": 23757,
+        "Rebounds": 12546,
+        "Assists": 4215
+      }
+    },
+    {
+      "name": "Stephen Curry",
+      "league": "NBA",
+      "stats": {
+        "Points": 24500,
+        "Rebounds": 5300,
+        "Assists": 6900,
+        "Steals": 1900,
+        "3-Pointers Made": 3300
+      }
+    },
+    {
+      "name": "James Harden",
+      "league": "NBA",
+      "stats": {
+        "Points": 26000,
+        "Rebounds": 6100,
+        "Assists": 7500,
+        "Steals": 1800,
+        "3-Pointers Made": 2600
+      }
+    },
+    {
+      "name": "Russell Westbrook",
+      "league": "NBA",
+      "stats": {
+        "Points": 26000,
+        "Rebounds": 8500,
+        "Assists": 9500,
+        "Steals": 1900
+      }
+    },
+    {
+      "name": "Chris Paul",
+      "league": "NBA",
+      "stats": {
+        "Points": 21000,
+        "Rebounds": 4700,
+        "Assists": 11500,
+        "Steals": 2400
+      }
+    },
+    {
+      "name": "Allen Iverson",
+      "league": "NBA",
+      "stats": {
+        "Points": 24368,
+        "Rebounds": 3394,
+        "Assists": 5624,
+        "Steals": 1983
+      }
+    },
+    {
+      "name": "Tracy McGrady",
+      "league": "NBA",
+      "stats": {
+        "Points": 18381,
+        "Rebounds": 5405,
+        "Assists": 4161
+      }
+    },
+    {
+      "name": "Giannis Antetokounmpo",
+      "league": "NBA",
+      "stats": {
+        "Points": 24000,
+        "Rebounds": 9500,
+        "Assists": 4200,
+        "Steals": 700,
+        "Blocks": 1100
+      }
+    },
+    {
+      "name": "Nikola Jokic",
+      "league": "NBA",
+      "stats": {
+        "Points": 19000,
+        "Rebounds": 9500,
+        "Assists": 6500,
+        "Steals": 950,
+        "Blocks": 500
+      }
+    },
+    {
+      "name": "Luka Doncic",
+      "league": "NBA",
+      "stats": {
+        "Points": 15000,
+        "Rebounds": 5500,
+        "Assists": 5500
+      }
+    },
+    {
+      "name": "Jayson Tatum",
+      "league": "NBA",
+      "stats": {
+        "Points": 15000,
+        "Rebounds": 5000,
+        "Assists": 2800
+      }
+    },
+    {
+      "name": "Joel Embiid",
+      "league": "NBA",
+      "stats": {
+        "Points": 13000,
+        "Rebounds": 5500,
+        "Assists": 1900,
+        "Blocks": 1000
+      }
+    },
+    {
+      "name": "Damian Lillard",
+      "league": "NBA",
+      "stats": {
+        "Points": 20000,
+        "Rebounds": 3900,
+        "Assists": 5500,
+        "3-Pointers Made": 2500
+      }
+    },
+    {
+      "name": "Anthony Davis",
+      "league": "NBA",
+      "stats": {
+        "Points": 19000,
+        "Rebounds": 8500,
+        "Blocks": 1800
+      }
+    },
+    {
+      "name": "Kawhi Leonard",
+      "league": "NBA",
+      "stats": {
+        "Points": 15500,
+        "Rebounds": 4800,
+        "Assists": 2400
+      }
+    },
+    {
+      "name": "Paul George",
+      "league": "NBA",
+      "stats": {
+        "Points": 19000,
+        "Rebounds": 5900,
+        "Assists": 3400,
+        "Steals": 1600
+      }
+    },
+    {
+      "name": "Devin Booker",
+      "league": "NBA",
+      "stats": {
+        "Points": 15000,
+        "Rebounds": 3200,
+        "Assists": 4200
+      }
+    },
+    {
+      "name": "Trae Young",
+      "league": "NBA",
+      "stats": {
+        "Points": 11000,
+        "Rebounds": 2500,
+        "Assists": 5800
+      }
+    },
+    {
+      "name": "Ja Morant",
+      "league": "NBA",
+      "stats": {
+        "Points": 7500,
+        "Rebounds": 2700,
+        "Assists": 3300
+      }
+    },
+    {
+      "name": "Donovan Mitchell",
+      "league": "NBA",
+      "stats": {
+        "Points": 13500,
+        "Rebounds": 3200,
+        "Assists": 3300
+      }
+    },
+    {
+      "name": "Jimmy Butler",
+      "league": "NBA",
+      "stats": {
+        "Points": 15500,
+        "Rebounds": 4600,
+        "Assists": 4000,
+        "Steals": 1400
+      }
+    },
+    {
+      "name": "Bam Adebayo",
+      "league": "NBA",
+      "stats": {
+        "Points": 10000,
+        "Rebounds": 6500,
+        "Assists": 2700
+      }
+    },
+    {
+      "name": "Rudy Gobert",
+      "league": "NBA",
+      "stats": {
+        "Points": 10000,
+        "Rebounds": 9500,
+        "Blocks": 1600
+      }
+    },
+    {
+      "name": "Domantas Sabonis",
+      "league": "NBA",
+      "stats": {
+        "Points": 11000,
+        "Rebounds": 7000,
+        "Assists": 3500
+      }
+    },
+    {
+      "name": "Shai Gilgeous-Alexander",
+      "league": "NBA",
+      "stats": {
+        "Points": 11500,
+        "Rebounds": 3000,
+        "Assists": 2800,
+        "Steals": 1000
+      }
+    },
+    {
+      "name": "Zion Williamson",
+      "league": "NBA",
+      "stats": {
+        "Points": 5500,
+        "Rebounds": 2700
+      }
+    },
+    {
+      "name": "Ben Simmons",
+      "league": "NBA",
+      "stats": {
+        "Points": 6000,
+        "Rebounds": 4000,
+        "Assists": 3500
+      }
+    },
+    {
+      "name": "De'Aaron Fox",
+      "league": "NBA",
+      "stats": {
+        "Points": 10500,
+        "Rebounds": 2800,
+        "Assists": 3800
+      }
+    },
+    {
+      "name": "Tyrese Haliburton",
+      "league": "NBA",
+      "stats": {
+        "Points": 6000,
+        "Rebounds": 2200,
+        "Assists": 3500
+      }
+    },
+    {
+      "name": "Anthony Edwards",
+      "league": "NBA",
+      "stats": {
+        "Points": 8500,
+        "Rebounds": 2800,
+        "Assists": 2000
+      }
+    },
+    {
+      "name": "Klay Thompson",
+      "league": "NBA",
+      "stats": {
+        "Points": 16000,
+        "Rebounds": 2900,
+        "3-Pointers Made": 2200
+      }
+    },
+    {
+      "name": "Draymond Green",
+      "league": "NBA",
+      "stats": {
+        "Points": 8500,
+        "Rebounds": 5800,
+        "Assists": 4700
+      }
+    },
+    {
+      "name": "Kyrie Irving",
+      "league": "NBA",
+      "stats": {
+        "Points": 19500,
+        "Rebounds": 3200,
+        "Assists": 4700
+      }
+    },
+    {
+      "name": "DeMar DeRozan",
+      "league": "NBA",
+      "stats": {
+        "Points": 21000,
+        "Rebounds": 4500,
+        "Assists": 4200
+      }
+    },
+    {
+      "name": "Zach LaVine",
+      "league": "NBA",
+      "stats": {
+        "Points": 13000,
+        "Rebounds": 3400,
+        "Assists": 2400
+      }
+    },
+    {
+      "name": "Pascal Siakam",
+      "league": "NBA",
+      "stats": {
+        "Points": 11000,
+        "Rebounds": 4700,
+        "Assists": 2500
+      }
+    },
+    {
+      "name": "Jrue Holiday",
+      "league": "NBA",
+      "stats": {
+        "Points": 14000,
+        "Rebounds": 4400,
+        "Assists": 5300,
+        "Steals": 1500
+      }
+    },
+    {
+      "name": "Mike Conley",
+      "league": "NBA",
+      "stats": {
+        "Points": 16000,
+        "Rebounds": 3200,
+        "Assists": 6200,
+        "Steals": 1500
+      }
+    },
+    {
+      "name": "Al Horford",
+      "league": "NBA",
+      "stats": {
+        "Points": 13500,
+        "Rebounds": 8000
+      }
+    },
+    {
+      "name": "Brook Lopez",
+      "league": "NBA",
+      "stats": {
+        "Points": 15500,
+        "Rebounds": 5800,
+        "Blocks": 1900
+      }
+    },
+    {
+      "name": "Bradley Beal",
+      "league": "NBA",
+      "stats": {
+        "Points": 15000,
+        "Rebounds": 3300,
+        "Assists": 2900
+      }
+    },
+    {
+      "name": "CJ McCollum",
+      "league": "NBA",
+      "stats": {
+        "Points": 14500,
+        "Rebounds": 2700,
+        "Assists": 2900
+      }
+    },
+    {
+      "name": "Fred VanVleet",
+      "league": "NBA",
+      "stats": {
+        "Points": 9000,
+        "Rebounds": 2200,
+        "Assists": 3900
+      }
+    },
+    {
+      "name": "Jaylen Brown",
+      "league": "NBA",
+      "stats": {
+        "Points": 11500,
+        "Rebounds": 4300,
+        "Assists": 2200
+      }
+    },
+    {
+      "name": "Tyrese Maxey",
+      "league": "NBA",
+      "stats": {
+        "Points": 6000,
+        "Rebounds": 1700,
+        "Assists": 2500
+      }
+    },
+    {
+      "name": "Paolo Banchero",
+      "league": "NBA",
+      "stats": {
+        "Points": 4000,
+        "Rebounds": 1900,
+        "Assists": 950
+      }
+    },
+    {
+      "name": "Scottie Barnes",
+      "league": "NBA",
+      "stats": {
+        "Points": 3500,
+        "Rebounds": 2200,
+        "Assists": 1600
+      }
+    },
+    {
+      "name": "Victor Wembanyama",
+      "league": "NBA",
+      "stats": {
+        "Points": 1800,
+        "Rebounds": 900,
+        "Blocks": 250
+      }
+    },
+    {
+      "name": "Tom Brady",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 89214,
+        "Passing TDs": 649,
+        "Interceptions Thrown": 212
+      }
+    },
+    {
+      "name": "Drew Brees",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 80358,
+        "Passing TDs": 571,
+        "Interceptions Thrown": 243
+      }
+    },
+    {
+      "name": "Peyton Manning",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 71940,
+        "Passing TDs": 539,
+        "Interceptions Thrown": 251
+      }
+    },
+    {
+      "name": "Brett Favre",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 71838,
+        "Passing TDs": 508,
+        "Interceptions Thrown": 336
+      }
+    },
+    {
+      "name": "Philip Rivers",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 63440,
+        "Passing TDs": 421,
+        "Interceptions Thrown": 209
+      }
+    },
+    {
+      "name": "Ben Roethlisberger",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 64088,
+        "Passing TDs": 418,
+        "Interceptions Thrown": 251
+      }
+    },
+    {
+      "name": "Matt Ryan",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 62792,
+        "Passing TDs": 381,
+        "Interceptions Thrown": 187
+      }
+    },
+    {
+      "name": "Eli Manning",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 57023,
+        "Passing TDs": 366,
+        "Interceptions Thrown": 244
+      }
+    },
+    {
+      "name": "Matthew Stafford",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 57000,
+        "Passing TDs": 350,
+        "Interceptions Thrown": 150
+      }
+    },
+    {
+      "name": "Aaron Rodgers",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 62000,
+        "Passing TDs": 480,
+        "Interceptions Thrown": 105
+      }
+    },
+    {
+      "name": "Russell Wilson",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 42000,
+        "Passing TDs": 260,
+        "Interceptions Thrown": 110
+      }
+    },
+    {
+      "name": "Patrick Mahomes",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 34000,
+        "Passing TDs": 260,
+        "Interceptions Thrown": 75
+      }
+    },
+    {
+      "name": "Josh Allen",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 28000,
+        "Passing TDs": 220,
+        "Interceptions Thrown": 90
+      }
+    },
+    {
+      "name": "Lamar Jackson",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 19000,
+        "Passing TDs": 150,
+        "Interceptions Thrown": 55,
+        "Rushing Yards": 5500,
+        "Rushing TDs": 45
+      }
+    },
+    {
+      "name": "Justin Herbert",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 20000,
+        "Passing TDs": 130,
+        "Interceptions Thrown": 45
+      }
+    },
+    {
+      "name": "Joe Burrow",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 17000,
+        "Passing TDs": 125,
+        "Interceptions Thrown": 50
+      }
+    },
+    {
+      "name": "Dak Prescott",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 30000,
+        "Passing TDs": 210,
+        "Interceptions Thrown": 90
+      }
+    },
+    {
+      "name": "Jared Goff",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 32000,
+        "Passing TDs": 210,
+        "Interceptions Thrown": 100
+      }
+    },
+    {
+      "name": "Kirk Cousins",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 40000,
+        "Passing TDs": 250,
+        "Interceptions Thrown": 110
+      }
+    },
+    {
+      "name": "Tua Tagovailoa",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 14000,
+        "Passing TDs": 90,
+        "Interceptions Thrown": 40
+      }
+    },
+    {
+      "name": "Jalen Hurts",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 14500,
+        "Passing TDs": 110,
+        "Interceptions Thrown": 40,
+        "Rushing Yards": 3300,
+        "Rushing TDs": 40
+      }
+    },
+    {
+      "name": "C.J. Stroud",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 8500,
+        "Passing TDs": 45,
+        "Interceptions Thrown": 20
+      }
+    },
+    {
+      "name": "Trevor Lawrence",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 13500,
+        "Passing TDs": 75,
+        "Interceptions Thrown": 45
+      }
+    },
+    {
+      "name": "Baker Mayfield",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 20000,
+        "Passing TDs": 120,
+        "Interceptions Thrown": 75
+      }
+    },
+    {
+      "name": "Geno Smith",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 24000,
+        "Passing TDs": 130,
+        "Interceptions Thrown": 65
+      }
+    },
+    {
+      "name": "Derek Carr",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 35000,
+        "Passing TDs": 220,
+        "Interceptions Thrown": 100
+      }
+    },
+    {
+      "name": "Cam Newton",
+      "league": "NFL",
+      "stats": {
+        "Passing Yards": 29000,
+        "Passing TDs": 194,
+        "Interceptions Thrown": 108,
+        "Rushing Yards": 5628,
+        "Rushing TDs": 75
+      }
+    },
+    {
+      "name": "Emmitt Smith",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 18355,
+        "Rushing TDs": 164
+      }
+    },
+    {
+      "name": "Walter Payton",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 16726,
+        "Rushing TDs": 110
+      }
+    },
+    {
+      "name": "Frank Gore",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 16000,
+        "Rushing TDs": 81
+      }
+    },
+    {
+      "name": "Barry Sanders",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 15269,
+        "Rushing TDs": 99
+      }
+    },
+    {
+      "name": "Adrian Peterson",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 14918,
+        "Rushing TDs": 120
+      }
+    },
+    {
+      "name": "Curtis Martin",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 14101,
+        "Rushing TDs": 90
+      }
+    },
+    {
+      "name": "LaDainian Tomlinson",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 13684,
+        "Rushing TDs": 145
+      }
+    },
+    {
+      "name": "Jerome Bettis",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 13662,
+        "Rushing TDs": 91
+      }
+    },
+    {
+      "name": "Eric Dickerson",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 13259,
+        "Rushing TDs": 90
+      }
+    },
+    {
+      "name": "Tony Dorsett",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 12739,
+        "Rushing TDs": 77
+      }
+    },
+    {
+      "name": "Derrick Henry",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 11500,
+        "Rushing TDs": 105
+      }
+    },
+    {
+      "name": "Ezekiel Elliott",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 9000,
+        "Rushing TDs": 60
+      }
+    },
+    {
+      "name": "Saquon Barkley",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 9000,
+        "Rushing TDs": 65
+      }
+    },
+    {
+      "name": "Christian McCaffrey",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 7500,
+        "Rushing TDs": 60,
+        "Receiving Yards": 4500,
+        "Receiving TDs": 30
+      }
+    },
+    {
+      "name": "Nick Chubb",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 8000,
+        "Rushing TDs": 55
+      }
+    },
+    {
+      "name": "Josh Jacobs",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 5500,
+        "Rushing TDs": 40
+      }
+    },
+    {
+      "name": "Jonathan Taylor",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 5500,
+        "Rushing TDs": 45
+      }
+    },
+    {
+      "name": "Bijan Robinson",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 2500,
+        "Rushing TDs": 20
+      }
+    },
+    {
+      "name": "Jahmyr Gibbs",
+      "league": "NFL",
+      "stats": {
+        "Rushing Yards": 2200,
+        "Rushing TDs": 20
+      }
+    },
+    {
+      "name": "Jerry Rice",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 22895,
+        "Receiving TDs": 197
+      }
+    },
+    {
+      "name": "Larry Fitzgerald",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 17492,
+        "Receiving TDs": 121
+      }
+    },
+    {
+      "name": "Terrell Owens",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 15934,
+        "Receiving TDs": 153
+      }
+    },
+    {
+      "name": "Randy Moss",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 15292,
+        "Receiving TDs": 156
+      }
+    },
+    {
+      "name": "Isaac Bruce",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 15208,
+        "Receiving TDs": 91
+      }
+    },
+    {
+      "name": "Tony Gonzalez",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 15127,
+        "Receiving TDs": 111
+      }
+    },
+    {
+      "name": "Tim Brown",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 14934,
+        "Receiving TDs": 100
+      }
+    },
+    {
+      "name": "Steve Smith Sr.",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 14731,
+        "Receiving TDs": 81
+      }
+    },
+    {
+      "name": "Marvin Harrison",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 14580,
+        "Receiving TDs": 128
+      }
+    },
+    {
+      "name": "Reggie Wayne",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 14345,
+        "Receiving TDs": 82
+      }
+    },
+    {
+      "name": "Antonio Brown",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 12291,
+        "Receiving TDs": 79
+      }
+    },
+    {
+      "name": "Julio Jones",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 13029,
+        "Receiving TDs": 63
+      }
+    },
+    {
+      "name": "DeAndre Hopkins",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 13000,
+        "Receiving TDs": 76
+      }
+    },
+    {
+      "name": "Davante Adams",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 13000,
+        "Receiving TDs": 110
+      }
+    },
+    {
+      "name": "Travis Kelce",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 13000,
+        "Receiving TDs": 95
+      }
+    },
+    {
+      "name": "Mike Evans",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 13500,
+        "Receiving TDs": 110
+      }
+    },
+    {
+      "name": "Keenan Allen",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 12500,
+        "Receiving TDs": 60
+      }
+    },
+    {
+      "name": "Adam Thielen",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 8500,
+        "Receiving TDs": 55
+      }
+    },
+    {
+      "name": "Justin Jefferson",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 7500,
+        "Receiving TDs": 50
+      }
+    },
+    {
+      "name": "Ja'Marr Chase",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 5000,
+        "Receiving TDs": 40
+      }
+    },
+    {
+      "name": "CeeDee Lamb",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 5500,
+        "Receiving TDs": 35
+      }
+    },
+    {
+      "name": "Tyreek Hill",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 11000,
+        "Receiving TDs": 85
+      }
+    },
+    {
+      "name": "Stefon Diggs",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 10500,
+        "Receiving TDs": 65
+      }
+    },
+    {
+      "name": "A.J. Brown",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 7000,
+        "Receiving TDs": 45
+      }
+    },
+    {
+      "name": "Amon-Ra St. Brown",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 4500,
+        "Receiving TDs": 30
+      }
+    },
+    {
+      "name": "George Kittle",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 6500,
+        "Receiving TDs": 45
+      }
+    },
+    {
+      "name": "Mark Andrews",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 5500,
+        "Receiving TDs": 45
+      }
+    },
+    {
+      "name": "DK Metcalf",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 6000,
+        "Receiving TDs": 45
+      }
+    },
+    {
+      "name": "Puka Nacua",
+      "league": "NFL",
+      "stats": {
+        "Receiving Yards": 2500,
+        "Receiving TDs": 15
+      }
+    },
+    {
+      "name": "Bruce Smith",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 200
+      }
+    },
+    {
+      "name": "Reggie White",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 198
+      }
+    },
+    {
+      "name": "Kevin Greene",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 160
+      }
+    },
+    {
+      "name": "Chris Doleman",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 150.5
+      }
+    },
+    {
+      "name": "Michael Strahan",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 141.5
+      }
+    },
+    {
+      "name": "DeMarcus Ware",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 138.5
+      }
+    },
+    {
+      "name": "Julius Peppers",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 159.5
+      }
+    },
+    {
+      "name": "Terrell Suggs",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 139
+      }
+    },
+    {
+      "name": "J.J. Watt",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 114.5
+      }
+    },
+    {
+      "name": "Von Miller",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 120
+      }
+    },
+    {
+      "name": "T.J. Watt",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 105
+      }
+    },
+    {
+      "name": "Myles Garrett",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 100
+      }
+    },
+    {
+      "name": "Aaron Donald",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 111
+      }
+    },
+    {
+      "name": "Khalil Mack",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 105
+      }
+    },
+    {
+      "name": "Nick Bosa",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 65
+      }
+    },
+    {
+      "name": "Micah Parsons",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 55
+      }
+    },
+    {
+      "name": "Maxx Crosby",
+      "league": "NFL",
+      "stats": {
+        "Sacks": 65
+      }
+    },
+    {
+      "name": "Ray Lewis",
+      "league": "NFL",
+      "stats": {
+        "Tackles": 2059
+      }
+    },
+    {
+      "name": "London Fletcher",
+      "league": "NFL",
+      "stats": {
+        "Tackles": 2000
+      }
+    },
+    {
+      "name": "Bobby Wagner",
+      "league": "NFL",
+      "stats": {
+        "Tackles": 1900
+      }
+    },
+    {
+      "name": "Luke Kuechly",
+      "league": "NFL",
+      "stats": {
+        "Tackles": 1100
+      }
+    },
+    {
+      "name": "Fred Warner",
+      "league": "NFL",
+      "stats": {
+        "Tackles": 950
+      }
+    },
+    {
+      "name": "Roquan Smith",
+      "league": "NFL",
+      "stats": {
+        "Tackles": 900
+      }
+    },
+    {
+      "name": "Demario Davis",
+      "league": "NFL",
+      "stats": {
+        "Tackles": 1200
+      }
+    }
+  ]
+}
