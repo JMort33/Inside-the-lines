@@ -718,16 +718,22 @@
     track.innerHTML = items.concat(items).join('');
   }
 
+  function isAllCapsLabel(line){
+    // Ignore parenthetical asides (which may contain lowercase) when checking
+    const stripped = (line || '').replace(/\([^)]*\)/g, '').trim();
+    return stripped.length > 0 && /^[A-Z0-9%  ]+$/.test(stripped);
+  }
+
   function formatBody(body, section){
     if(!body) return '';
     const blocks = body.split(/\n\s*\n/);
 
     if(section === 'Homa Corner'){
-      const looksLikePick = blocks.length > 1 && /^[A-Z0-9%() ]+$/.test(blocks[0].split('\n')[0].trim());
+      const looksLikePick = blocks.length > 1 && isAllCapsLabel(blocks[0].split('\n')[0].trim());
       if(looksLikePick){
         return blocks.map(block => {
           const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
-          const isLabelBlock = /^[A-Z0-9%() ]+$/.test(lines[0] || '');
+          const isLabelBlock = isAllCapsLabel(lines[0] || '');
           if(!isLabelBlock){
             return `<p class="pick-analysis">${lines.join(' ')}</p>`;
           }
