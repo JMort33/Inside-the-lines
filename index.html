@@ -245,13 +245,14 @@
   }
 
   /* ===== MARKET TABLE ===== */
-  .market-table{
+  .scoreboard-table{
     width:100%;
     border-collapse:collapse;
     font-family:var(--font-mono);
     font-size:0.85rem;
+    margin-bottom:8px;
   }
-  .market-table th{
+  .scoreboard-table th{
     text-align:left;
     color:var(--chalk-dim);
     text-transform:uppercase;
@@ -260,24 +261,15 @@
     padding:10px 12px;
     border-bottom:1px solid var(--line);
   }
-  .market-table td{
-    padding:14px 12px;
+  .scoreboard-table td{
+    padding:12px;
     border-bottom:1px solid var(--line);
   }
-  .market-table tr:hover td{ background:rgba(242,169,0,0.05); }
-  .pub-bar{
-    display:inline-block;
-    height:6px;
-    background:var(--turf-bright);
-    vertical-align:middle;
-    margin-right:8px;
-  }
-  .market-note{
-    margin-top:16px;
-    font-size:0.8rem;
-    color:var(--chalk-dim);
-    font-family:var(--font-mono);
-  }
+  .scoreboard-table tr:hover td{ background:rgba(242,169,0,0.05); }
+  .scoreboard-table td.status-cell{ font-size:0.72rem; color:var(--turf-bright); text-transform:uppercase; }
+  .scoreboard-table td.status-cell.final{ color:var(--chalk-dim); }
+  .scoreboard-table td.score-cell{ font-weight:600; color:var(--amber); text-align:center; }
+  .scoreboard-table td.odds-cell{ font-size:0.78rem; color:var(--chalk-dim); }
 
   /* ===== TWO COL (Baseball / Soccer) ===== */
   .split{
@@ -475,6 +467,7 @@
       <a href="#today-in-sports">Today in Sports</a>
       <a href="#baseball">Baseball</a>
       <a href="#soccer">Soccer</a>
+      <a href="#golf">Golf</a>
       <a href="#opinions">Opinions</a>
       <span class="soon">Football — Coming Soon</span>
     </nav>
@@ -558,14 +551,6 @@
     <p class="desc">Daily MLB breakdowns, pitching matchups, and the Homa Corner's home run leans.</p>
   </div>
 
-  <div class="nameplate">
-    <div class="num">01</div>
-    <div class="info">
-      <h3>The Homa Corner with Numba</h3>
-      <span>Home Run Predictions — by Lucas</span>
-    </div>
-  </div>
-
   <div class="block-head" style="margin-top:8px; margin-bottom:20px;">
     <div>
       <div class="eyebrow">Live</div>
@@ -573,21 +558,37 @@
     </div>
     <p class="desc" id="scoreboardUpdated">Refreshes automatically every 30 seconds.</p>
   </div>
-  <div class="scoreboard-grid" id="mlbScoreboard">
-    <p class="loading-note">Loading live scores…</p>
+  <table class="scoreboard-table">
+    <thead>
+      <tr><th>Status</th><th>Away</th><th></th><th>Home</th><th></th><th>Line</th></tr>
+    </thead>
+    <tbody id="mlbScoreboard">
+      <tr><td colspan="6" class="loading-note">Loading live scores…</td></tr>
+    </tbody>
+  </table>
+
+  <div id="baseballOtherList" style="margin-top:20px;">
+    <p class="loading-note">Loading pitching matchups & insights…</p>
   </div>
 
-  <div class="split">
-    <div id="baseballList">
-      <p class="loading-note">Loading baseball posts…</p>
+  <div class="nameplate" style="margin-top:32px;">
+    <div class="num">01</div>
+    <div class="info">
+      <h3>The Homa Corner with Numba</h3>
+      <span>Home Run Predictions — by Lucas</span>
     </div>
-    <div class="side-panel">
-      <h4>Park Factors — Quick Ref</h4>
-      <div class="row"><span>Coors Field</span><span>HR +34%</span></div>
-      <div class="row"><span>Oracle Park</span><span>HR -18%</span></div>
-      <div class="row"><span>Yankee Stadium</span><span>HR +12%</span></div>
-      <div class="row"><span>Petco Park</span><span>HR -9%</span></div>
-    </div>
+  </div>
+
+  <div id="baseballHomaList">
+    <p class="loading-note">Loading today's board…</p>
+  </div>
+
+  <div class="side-panel" style="margin-top:32px;">
+    <h4>Park Factors — Quick Ref</h4>
+    <div class="row"><span>Coors Field</span><span>HR +34%</span></div>
+    <div class="row"><span>Oracle Park</span><span>HR -18%</span></div>
+    <div class="row"><span>Yankee Stadium</span><span>HR +12%</span></div>
+    <div class="row"><span>Petco Park</span><span>HR -9%</span></div>
   </div>
 </section>
 
@@ -619,6 +620,21 @@
       <div class="row"><span>La Liga</span><span>Active</span></div>
       <div class="row"><span>Champions League</span><span>Active</span></div>
     </div>
+  </div>
+</section>
+
+<!-- ================= GOLF ================= -->
+<section class="block" id="golf">
+  <div class="block-head">
+    <div>
+      <div class="eyebrow">On The Course</div>
+      <h2>Golf</h2>
+    </div>
+    <p class="desc">Weekend tournament previews, players to watch, and betting angles heading into the first tee.</p>
+  </div>
+
+  <div id="golfList">
+    <p class="loading-note">Loading golf coverage…</p>
   </div>
 </section>
 
@@ -753,6 +769,21 @@
     `).join('');
   }
 
+  function renderGolf(items){
+    const el = document.getElementById('golfList');
+    if(!items || !items.length){
+      el.innerHTML = '<p class="loading-note">No golf coverage yet. Add entries to content.json under "golf".</p>';
+      return;
+    }
+    el.innerHTML = items.slice().sort(byNewest).map(item => `
+      <div class="opinion-post">
+        <div class="tagline">${item.type || ''}${item.author ? ' — ' + item.author : ''}</div>
+        <h4>${item.title || ''}</h4>
+        ${formatBody(item.body)}
+      </div>
+    `).join('');
+  }
+
   function renderTodayInSports(items){
     const el = document.getElementById('todayInSportsFeed');
     if(!items || !items.length){
@@ -793,28 +824,26 @@
   }
 
   function renderScoreboard(events){
-    const grid = document.getElementById('mlbScoreboard');
+    const body = document.getElementById('mlbScoreboard');
     if(!events || !events.length){
-      grid.innerHTML = '<p class="loading-note">No games found right now.</p>';
+      body.innerHTML = '<tr><td colspan="6" class="loading-note">No games found right now.</td></tr>';
       return;
     }
-    grid.innerHTML = events.map(ev => {
+    body.innerHTML = events.map(ev => {
       const isFinal = ev.status.toLowerCase().includes('final');
       const odds = findOdds(ev.awayName, ev.homeName);
-      const oddsRow = odds
-        ? `<div class="odds-row">
-             ${odds.moneyline ? `<span>${odds.moneyline}</span>` : ''}
-             ${odds.total ? `<span>${odds.total}</span>` : ''}
-             ${odds.publicPct != null ? `<span>${odds.publicPct}% ${odds.publicSide || ''}</span>` : ''}
-           </div>`
-        : '';
+      const oddsText = odds
+        ? [odds.moneyline, odds.total].filter(Boolean).join(' · ')
+        : '—';
       return `
-      <div class="score-card">
-        <div class="status ${isFinal ? 'final' : ''}">${ev.status}</div>
-        <div class="team-row"><span class="team">${ev.away}</span><span class="score">${ev.awayScore}</span></div>
-        <div class="team-row"><span class="team">${ev.home}</span><span class="score">${ev.homeScore}</span></div>
-        ${oddsRow}
-      </div>
+      <tr>
+        <td class="status-cell ${isFinal ? 'final' : ''}">${ev.status}</td>
+        <td>${ev.away}</td>
+        <td class="score-cell">${ev.awayScore}</td>
+        <td>${ev.home}</td>
+        <td class="score-cell">${ev.homeScore}</td>
+        <td class="odds-cell">${oddsText}</td>
+      </tr>
     `;
     }).join('');
   }
@@ -860,8 +889,10 @@
       .then(data => {
         renderAnalysisHub(data.analysisHub);
         latestMarket = data.market || [];
-        renderPostList('baseballList', data.baseball);
+        renderPostList('baseballHomaList', (data.baseball || []).filter(p => p.section === 'Homa Corner'));
+        renderPostList('baseballOtherList', (data.baseball || []).filter(p => p.section !== 'Homa Corner'));
         renderPostList('soccerList', data.soccer);
+        renderGolf(data.golf);
         renderOpinions(data.opinions);
         renderTodayInSports(data.todayInSports);
       })
