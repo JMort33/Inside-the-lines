@@ -435,6 +435,39 @@
     color:var(--turf-bright);
   }
 
+  .archive-box{
+    margin-bottom:20px;
+    border:1px solid var(--line);
+    background:var(--panel);
+  }
+  .archive-box summary{
+    cursor:pointer;
+    padding:12px 16px;
+    font-family:var(--font-mono);
+    font-size:0.78rem;
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    color:var(--amber);
+  }
+  .archive-box summary:hover{ color:#ffb92e; }
+  .archive-day{
+    padding:10px 16px;
+    border-top:1px solid var(--line);
+  }
+  .archive-day .archive-date{
+    font-family:var(--font-mono);
+    font-size:0.7rem;
+    color:var(--chalk-dim);
+    text-transform:uppercase;
+    letter-spacing:0.06em;
+    margin-bottom:6px;
+  }
+  .archive-day .archive-game{
+    font-family:var(--font-mono);
+    font-size:0.82rem;
+    padding:3px 0;
+  }
+
   @media (max-width:860px){
     nav.main-nav{
       position:absolute; top:100%; left:0; right:0;
@@ -591,6 +624,13 @@
       <tr><td colspan="6" class="loading-note">Loading live scores…</td></tr>
     </tbody>
   </table>
+
+  <details class="archive-box">
+    <summary>View past scores (archive)</summary>
+    <div id="scoreArchiveList">
+      <p class="loading-note">Loading archive…</p>
+    </div>
+  </details>
 
   <div id="baseballOtherList" style="margin-top:20px;">
     <p class="loading-note">Loading pitching matchups & insights…</p>
@@ -781,13 +821,34 @@
     return blocks.map(b => `<p>${b.replace(/\n/g, ' ')}</p>`).join('');
   }
 
-  function renderPostList(containerId, items){
+  const RECENT_LIMIT = 5;
+
+  function renderFeed(containerId, items, itemToHtml){
     const el = document.getElementById(containerId);
     if(!items || !items.length){
       el.innerHTML = '<p class="loading-note">No posts yet. Add entries to content.json.</p>';
       return;
     }
-    el.innerHTML = items.slice().sort(byNewest).map(item => `
+    const sorted = items.slice().sort(byNewest);
+    const recent = sorted.slice(0, RECENT_LIMIT);
+    const older = sorted.slice(RECENT_LIMIT);
+
+    let html = recent.map(itemToHtml).join('');
+    if(older.length){
+      html += `
+        <details class="archive-box">
+          <summary>View archive (${older.length} older ${older.length === 1 ? 'post' : 'posts'})</summary>
+          <div style="padding:4px 16px 12px;">
+            ${older.map(itemToHtml).join('')}
+          </div>
+        </details>
+      `;
+    }
+    el.innerHTML = html;
+  }
+
+  function renderPostList(containerId, items){
+    renderFeed(containerId, items, item => `
       <div class="list-item">
         <div>
           <h4>${item.title || ''}</h4>
@@ -796,52 +857,37 @@
         </div>
         <div class="meta">${fmtDate(item.date)}</div>
       </div>
-    `).join('');
+    `);
   }
 
   function renderGolf(items){
-    const el = document.getElementById('golfList');
-    if(!items || !items.length){
-      el.innerHTML = '<p class="loading-note">No golf coverage yet. Add entries to content.json under "golf".</p>';
-      return;
-    }
-    el.innerHTML = items.slice().sort(byNewest).map(item => `
+    renderFeed('golfList', items, item => `
       <div class="opinion-post">
         <div class="tagline">${item.type || ''}${item.author ? ' — ' + item.author : ''}</div>
         <h4>${item.title || ''}</h4>
         ${formatBody(item.body)}
       </div>
-    `).join('');
+    `);
   }
 
   function renderTodayInSports(items){
-    const el = document.getElementById('todayInSportsFeed');
-    if(!items || !items.length){
-      el.innerHTML = '<p class="loading-note">No entries yet. Add entries to content.json under "todayInSports".</p>';
-      return;
-    }
-    el.innerHTML = items.slice().sort(byNewest).map(item => `
+    renderFeed('todayInSportsFeed', items, item => `
       <div class="opinion-post">
         <div class="tagline">${fmtDate(item.date)}${item.author ? ' — ' + item.author : ''}</div>
         <h4>${item.title || ''}</h4>
         <p>${item.body || ''}</p>
       </div>
-    `).join('');
+    `);
   }
 
   function renderOpinions(items){
-    const el = document.getElementById('opinionsFeed');
-    if(!items || !items.length){
-      el.innerHTML = '<p class="loading-note">No takes posted yet. Add entries to content.json under "opinions".</p>';
-      return;
-    }
-    el.innerHTML = items.slice().sort(byNewest).map(item => `
+    renderFeed('opinionsFeed', items, item => `
       <div class="opinion-post">
         <div class="tagline">${item.type || ''}${item.author ? ' — ' + item.author : ''}</div>
         <h4>${item.title || ''}</h4>
         <p>${item.body || ''}</p>
       </div>
-    `).join('');
+    `);
   }
 
   let latestMarket = [];
@@ -963,6 +1009,22 @@
   fetchLiveScoreboard();
   setInterval(fetchLiveScoreboard, 30000);
 
+  function renderScoreArchive(archive){
+    const el = document.getElementById('scoreArchiveList');
+    const dates = Object.keys(archive || {}).sort().reverse();
+    if(!dates.length){
+      el.innerHTML = '<p class="loading-note">No archived scores yet — check back after tonight\'s games finish.</p>';
+      return;
+    }
+    el.innerHTML = dates.map(date => {
+      const games = archive[date] || [];
+      const gameLines = games.map(g =>
+        `<div class="archive-game">${g.league} — ${g.away} ${g.awayScore} @ ${g.home} ${g.homeScore} (${g.status})</div>`
+      ).join('');
+      return `<div class="archive-day"><div class="archive-date">${fmtDate(date)}</div>${gameLines}</div>`;
+    }).join('');
+  }
+
   function loadContent(){
     fetch('content.json?t=' + Date.now())
       .then(res => {
@@ -978,6 +1040,7 @@
         renderGolf(data.golf);
         renderOpinions(data.opinions);
         renderTodayInSports(data.todayInSports);
+        renderScoreArchive(data.scoreArchive);
       })
       .catch(() => {
         document.querySelectorAll('.loading-note').forEach(el => {
