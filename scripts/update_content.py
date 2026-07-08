@@ -51,13 +51,31 @@ def fetch_odds(sport_key):
         return []
 
 
-def build_market_rows():
+def build_market_rows(existing_market):
+    # Once we've captured a line for a matchup, we freeze it — this fetches
+    # fresh odds only for matchups we haven't seen yet (i.e. the opening
+    # pregame line), and reuses whatever was already saved for anything
+    # already in the file, so the number doesn't drift once a game starts.
+    existing_by_matchup = {row.get("matchup"): row for row in (existing_market or [])}
+
     rows = []
     for sport_key, label in ODDS_SPORTS:
         games = fetch_odds(sport_key)
         for game in games[:5]:
             home = game.get("home_team", "")
             away = game.get("away_team", "")
+            matchup = f"{away} @ {home}"
+
+            if matchup in existing_by_matchup:
+                # Already have a line locked in for this game — keep it as-is.
+                prior = existing_by_matchup[matchup]
+                rows.append({
+                    "matchup": matchup,
+                    "moneyline": prior.get("moneyline", ""),
+                    "total": prior.get("total", ""),
+                })
+                continue
+
             bookmakers = game.get("bookmakers", [])
             if not bookmakers:
                 continue
@@ -75,12 +93,11 @@ def build_market_rows():
                     point = outcomes[0].get("point") if outcomes else None
                     if point is not None:
                         total = f"O/U {point}"
+
             rows.append({
-                "matchup": f"{away} @ {home}",
+                "matchup": matchup,
                 "moneyline": moneyline,
                 "total": total,
-                "publicPct": None,
-                "publicSide": "",
             })
     return rows
 
@@ -123,7 +140,7 @@ def main():
     with open(CONTENT_PATH, "r") as f:
         content = json.load(f)
 
-    content["market"] = build_market_rows() or content.get("market", [])
+    content["market"] = build_market_rows(content.get("market", [])) or content.get("market", [])
     content["liveScores"] = build_live_scores()
     content["lastUpdated"] = datetime.now(timezone.utc).isoformat()
 
