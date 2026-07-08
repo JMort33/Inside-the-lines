@@ -43,7 +43,7 @@
   /* ===== HEADER ===== */
   header{
     position:sticky; top:0; z-index:100;
-    background:rgba(11,18,32,0.92);
+    background:rgba(245,247,250,0.92);
     backdrop-filter:blur(6px);
     border-bottom:1px solid var(--line);
   }
@@ -95,17 +95,17 @@
 
   /* ===== TICKER ===== */
   .ticker-strip{
-    background:var(--turf);
+    background:#E8F5EE;
     border-bottom:1px solid #0F3A28;
     overflow:hidden;
     white-space:nowrap;
   }
   .ticker-track{
     display:inline-flex;
-    animation:scroll-ticker 70s linear infinite;
+    animation:scroll-ticker 85s linear infinite;
     font-family:var(--font-mono);
     font-size:0.78rem;
-    color:#EAF6EE;
+    color:#1F5C3F;
   }
   .ticker-track span{
     padding:8px 28px;
@@ -199,6 +199,7 @@
   .card{
     background:var(--panel);
     border:1px solid var(--line);
+    box-shadow:0 4px 12px rgba(15,23,42,0.06);
     padding:24px;
     display:flex; flex-direction:column; gap:10px;
   }
