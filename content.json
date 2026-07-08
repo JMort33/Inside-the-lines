@@ -80,13 +80,13 @@
     }
   ],
   "baseball": [
-  {
-  "section": "Homa Corner",
-  "author": "Lucas",
-  "title": "July 8th Homas",
-  "body": "LEAVING THX\nZach Neto (LAA) vs. TEX (LHP MacKenzie Gore)\nOdds: +420 to Homer\nNeto's quietly had himself a season with 19 home runs already, and he's got the platoon advantage batting right-handed against the lefty Gore tonight. Gore has been shaky this season with a 5-7 record and a 4.31 ERA, while the Rangers are just 4-5 in his starts. Good spot, good history, good vibes.\n\nMORTGAGE THE HOUSE\nJake Bauers (MIL) vs. STL (RHP Michael McGreevy)\nOdds: +350 to Homer\nBauers is 2-for-2 with a homer lifetime against McGreevy and is slashing .400/.500/.667 against Cardinals pitching this year. McGreevy's 3.12 ERA is hiding some regression signs with a 5.70 xERA and a 40.6% hard-hit rate allowed. Every signal points the same direction.\n\n100% VIBES\nCJ Abrams (WSH) vs. HOU (RHP Spencer Arrighetti)\nOdds: +340 to Homer\nNo breakdown needed. Abrams is an All-Star starter having a monster year. Pure gut call.\n\nRETIREMENT LAY\nCJ Abrams (+340) + Jake Bauers (+350) + Junior Caminero (+280)\nOdds: Combined Odds: +7,424\nThree different flavors of nasty stacked into one ticket. Abrams is an All-Star doing what he does, Bauers has personal history with tonight's arm and every regression signal pointing his way, and Caminero brings legitimate MVP-caliber numbers with 26 homers, a .547 slugging percentage, and one of the best all-around seasons in baseball this year. Hit all three and it's not a parlay, it's a highlight reel. Montana's calling.",
-  "date": "2026-07-08"
-},
+    {
+      "section": "Homa Corner",
+      "author": "Lucas",
+      "title": "July 8th Homas",
+      "body": "LEAVING THX\nZach Neto (LAA) vs. TEX (LHP MacKenzie Gore)\nOdds: +420 to Homer\nNeto's quietly had himself a season with 19 home runs already, and he's got the platoon advantage batting right-handed against the lefty Gore tonight. Gore has been shaky this season with a 5-7 record and a 4.31 ERA, while the Rangers are just 4-5 in his starts. Good spot, good history, good vibes.\n\nMORTGAGE THE HOUSE\nJake Bauers (MIL) vs. STL (RHP Michael McGreevy)\nOdds: +350 to Homer\nBauers is 2-for-2 with a homer lifetime against McGreevy and is slashing .400/.500/.667 against Cardinals pitching this year. McGreevy's 3.12 ERA is hiding some regression signs with a 5.70 xERA and a 40.6% hard-hit rate allowed. Every signal points the same direction.\n\n100% VIBES\nCJ Abrams (WSH) vs. HOU (RHP Spencer Arrighetti)\nOdds: +340 to Homer\nNo breakdown needed. Abrams is an All-Star starter having a monster year. Pure gut call.\n\nRETIREMENT LAY\nCJ Abrams (+340) + Jake Bauers (+350) + Junior Caminero (+280)\nOdds: Combined Odds: +7,424\nThree different flavors of nasty stacked into one ticket. Abrams is an All-Star doing what he does, Bauers has personal history with tonight's arm and every regression signal pointing his way, and Caminero brings legitimate MVP-caliber numbers with 26 homers, a .547 slugging percentage, and one of the best all-around seasons in baseball this year. Hit all three and it's not a parlay, it's a highlight reel. Montana's calling.",
+      "date": "2026-07-08"
+    },
     {
       "section": "Pitching Matchups",
       "author": "",
@@ -151,67 +151,67 @@
   "liveScores": [
     {
       "league": "MLB",
-      "away": "MIL",
-      "home": "STL",
-      "awayScore": "4",
-      "homeScore": "3",
-      "status": "Final"
+      "away": "TOR",
+      "home": "SF",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/8 - 3:45 PM EDT"
     },
     {
       "league": "MLB",
       "away": "CHC",
       "home": "BAL",
-      "awayScore": "5",
-      "homeScore": "2",
-      "status": "Final"
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/8 - 6:35 PM EDT"
     },
     {
       "league": "MLB",
       "away": "ATH",
       "home": "DET",
-      "awayScore": "2",
-      "homeScore": "6",
-      "status": "Final"
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/8 - 6:40 PM EDT"
     },
     {
       "league": "MLB",
       "away": "ATL",
       "home": "PIT",
-      "awayScore": "4",
-      "homeScore": "12",
-      "status": "Final"
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/8 - 6:40 PM EDT"
     },
     {
       "league": "MLB",
       "away": "NYY",
       "home": "TB",
-      "awayScore": "4",
-      "homeScore": "6",
-      "status": "Final"
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/8 - 6:40 PM EDT"
     },
     {
       "league": "MLB",
       "away": "SEA",
       "home": "MIA",
-      "awayScore": "5",
-      "homeScore": "6",
-      "status": "Final/10"
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/8 - 6:40 PM EDT"
     },
     {
       "league": "MLB",
       "away": "HOU",
       "home": "WSH",
-      "awayScore": "6",
-      "homeScore": "3",
-      "status": "Final"
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/8 - 6:45 PM EDT"
     },
     {
       "league": "MLB",
-      "away": "KC",
-      "home": "NYM",
-      "awayScore": "16",
-      "homeScore": "12",
-      "status": "Final"
+      "away": "PHI",
+      "home": "CIN",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/8 - 7:00 PM EDT"
     },
     {
       "league": "EPL",
@@ -223,7 +223,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-08T09:17:08.055845+00:00",
+  "lastUpdated": "2026-07-08T17:13:14.249809+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
