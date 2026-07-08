@@ -13,7 +13,8 @@ build_market_rows() below.
 
 import json
 import os
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
+from zoneinfo import ZoneInfo
 
 import requests
 
@@ -29,6 +30,16 @@ SCORE_ENDPOINTS = {
     "MLB": "https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard",
     "EPL": "https://site.api.espn.com/apis/site/v2/sports/soccer/eng.1/scoreboard",
 }
+
+
+def get_mlb_target_date():
+    # Mirrors the client-side logic: the MLB slate doesn't flip at midnight,
+    # it flips at 9:30am Eastern, since most games are still being played
+    # right after midnight.
+    now_et = datetime.now(ZoneInfo("America/New_York"))
+    before_cutover = (now_et.hour < 9) or (now_et.hour == 9 and now_et.minute < 30)
+    target = now_et - timedelta(days=1) if before_cutover else now_et
+    return target.strftime("%Y%m%d"), target.strftime("%Y-%m-%d")
 
 
 def fetch_odds(sport_key):
@@ -114,7 +125,10 @@ def fetch_scores(url):
 
 def build_live_scores():
     scores = []
+    mlb_date_compact, _ = get_mlb_target_date()
     for league, url in SCORE_ENDPOINTS.items():
+        if league == "MLB":
+            url = f"{url}?dates={mlb_date_compact}"
         data = fetch_scores(url)
         for event in data.get("events", [])[:8]:
             try:
@@ -136,12 +150,38 @@ def build_live_scores():
     return scores
 
 
+def archive_final_scores(content, live_scores):
+    # ESPN's scoreboard only ever shows the current slate — once it flips to
+    # the next day, finished games vanish from that feed for good. This keeps
+    # a permanent record so nothing gets lost, just moved into history.
+    archive = content.setdefault("scoreArchive", {})
+    _, mlb_date_iso = get_mlb_target_date()
+    day_bucket = archive.setdefault(mlb_date_iso, [])
+    already_recorded = {(g.get("league"), g.get("away"), g.get("home")) for g in day_bucket}
+
+    for game in live_scores:
+        if "final" not in game.get("status", "").lower():
+            continue
+        key = (game.get("league"), game.get("away"), game.get("home"))
+        if key in already_recorded:
+            continue
+        day_bucket.append(game)
+        already_recorded.add(key)
+
+    # Keep the last 30 days on hand; older than that just isn't shown anymore.
+    cutoff_keys = sorted(archive.keys())
+    if len(cutoff_keys) > 30:
+        for old_key in cutoff_keys[:-30]:
+            del archive[old_key]
+
+
 def main():
     with open(CONTENT_PATH, "r") as f:
         content = json.load(f)
 
     content["market"] = build_market_rows(content.get("market", [])) or content.get("market", [])
     content["liveScores"] = build_live_scores()
+    archive_final_scores(content, content["liveScores"])
     content["lastUpdated"] = datetime.now(timezone.utc).isoformat()
 
     with open(CONTENT_PATH, "w") as f:
