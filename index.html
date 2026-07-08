@@ -609,11 +609,10 @@
   </div>
 
   <div class="side-panel" style="margin-top:32px;">
-    <h4>Park Factors — Quick Ref</h4>
-    <div class="row"><span>Coors Field</span><span>HR +34%</span></div>
-    <div class="row"><span>Oracle Park</span><span>HR -18%</span></div>
-    <div class="row"><span>Yankee Stadium</span><span>HR +12%</span></div>
-    <div class="row"><span>Petco Park</span><span>HR -9%</span></div>
+    <h4>Park Factors — Tonight's Parks</h4>
+    <div id="parkFactorsList">
+      <p class="loading-note">Loading tonight's parks…</p>
+    </div>
   </div>
 </section>
 
@@ -879,6 +878,58 @@
     }).join('');
   }
 
+  // HR park factors are seasonal (they don't shift day to day), so this is a
+  // fixed reference table — what updates automatically each day is WHICH
+  // parks show up here, based on who's actually playing tonight.
+  const PARK_FACTORS = {
+    ARI: { park: "Chase Field", hr: "-4%" },
+    ATL: { park: "Truist Park", hr: "+8%" },
+    BAL: { park: "Camden Yards", hr: "-6%" },
+    BOS: { park: "Fenway Park", hr: "-2%" },
+    CHC: { park: "Wrigley Field", hr: "+3%" },
+    CWS: { park: "Rate Field", hr: "+9%" },
+    CIN: { park: "Great American Ball Park", hr: "+18%" },
+    CLE: { park: "Progressive Field", hr: "-11%" },
+    COL: { park: "Coors Field", hr: "+34%" },
+    DET: { park: "Comerica Park", hr: "-14%" },
+    HOU: { park: "Daikin Park", hr: "+2%" },
+    KC: { park: "Kauffman Stadium", hr: "-16%" },
+    LAA: { park: "Angel Stadium", hr: "+1%" },
+    LAD: { park: "Dodger Stadium", hr: "+5%" },
+    MIA: { park: "loanDepot park", hr: "-15%" },
+    MIL: { park: "American Family Field", hr: "+10%" },
+    MIN: { park: "Target Field", hr: "-7%" },
+    NYM: { park: "Citi Field", hr: "-8%" },
+    NYY: { park: "Yankee Stadium", hr: "+12%" },
+    ATH: { park: "Sutter Health Park", hr: "-5%" },
+    PHI: { park: "Citizens Bank Park", hr: "+15%" },
+    PIT: { park: "PNC Park", hr: "-13%" },
+    SD: { park: "Petco Park", hr: "-9%" },
+    SF: { park: "Oracle Park", hr: "-18%" },
+    SEA: { park: "T-Mobile Park", hr: "-10%" },
+    STL: { park: "Busch Stadium", hr: "-6%" },
+    TB: { park: "Steinbrenner Field", hr: "0%" },
+    TEX: { park: "Globe Life Field", hr: "-3%" },
+    TOR: { park: "Rogers Centre", hr: "+4%" },
+    WSH: { park: "Nationals Park", hr: "-1%" }
+  };
+
+  function renderTonightsParks(events){
+    const el = document.getElementById('parkFactorsList');
+    const seen = new Set();
+    const rows = [];
+    (events || []).forEach(ev => {
+      if(seen.has(ev.home)) return;
+      const info = PARK_FACTORS[ev.home];
+      if(!info) return;
+      seen.add(ev.home);
+      rows.push(`<div class="row"><span>${info.park}</span><span>HR ${info.hr}</span></div>`);
+    });
+    el.innerHTML = rows.length
+      ? rows.join('')
+      : '<p class="loading-note">No games tonight to pull parks from.</p>';
+  }
+
   function fetchLiveScoreboard(){
     fetch('https://site.api.espn.com/apis/site/v2/sports/baseball/mlb/scoreboard')
       .then(res => res.json())
@@ -899,6 +950,7 @@
         });
         renderScoreboard(events);
         renderTicker(events);
+        renderTonightsParks(events);
         document.getElementById('scoreboardUpdated').textContent =
           'Last checked ' + new Date().toLocaleTimeString('en-US', { hour:'numeric', minute:'2-digit' });
       })
