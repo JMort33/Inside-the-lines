@@ -928,52 +928,89 @@
   // fixed reference table — what updates automatically each day is WHICH
   // parks show up here, based on who's actually playing tonight.
   const PARK_FACTORS = {
-    ARI: { park: "Chase Field", hr: "-4%" },
-    ATL: { park: "Truist Park", hr: "+8%" },
-    BAL: { park: "Camden Yards", hr: "-6%" },
-    BOS: { park: "Fenway Park", hr: "-2%" },
-    CHC: { park: "Wrigley Field", hr: "+3%" },
-    CWS: { park: "Rate Field", hr: "+9%" },
-    CIN: { park: "Great American Ball Park", hr: "+18%" },
-    CLE: { park: "Progressive Field", hr: "-11%" },
-    COL: { park: "Coors Field", hr: "+34%" },
-    DET: { park: "Comerica Park", hr: "-14%" },
-    HOU: { park: "Daikin Park", hr: "+2%" },
-    KC: { park: "Kauffman Stadium", hr: "-16%" },
-    LAA: { park: "Angel Stadium", hr: "+1%" },
-    LAD: { park: "Dodger Stadium", hr: "+5%" },
-    MIA: { park: "loanDepot park", hr: "-15%" },
-    MIL: { park: "American Family Field", hr: "+10%" },
-    MIN: { park: "Target Field", hr: "-7%" },
-    NYM: { park: "Citi Field", hr: "-8%" },
-    NYY: { park: "Yankee Stadium", hr: "+12%" },
-    ATH: { park: "Sutter Health Park", hr: "-5%" },
-    PHI: { park: "Citizens Bank Park", hr: "+15%" },
-    PIT: { park: "PNC Park", hr: "-13%" },
-    SD: { park: "Petco Park", hr: "-9%" },
-    SF: { park: "Oracle Park", hr: "-18%" },
-    SEA: { park: "T-Mobile Park", hr: "-10%" },
-    STL: { park: "Busch Stadium", hr: "-6%" },
-    TB: { park: "Steinbrenner Field", hr: "0%" },
-    TEX: { park: "Globe Life Field", hr: "-3%" },
-    TOR: { park: "Rogers Centre", hr: "+4%" },
-    WSH: { park: "Nationals Park", hr: "-1%" }
+    ARI: { park: "Chase Field", hr: "-4%", lat: 33.4453, lon: -112.0667, dome: true },
+    ATL: { park: "Truist Park", hr: "+8%", lat: 33.8908, lon: -84.4678 },
+    BAL: { park: "Camden Yards", hr: "-6%", lat: 39.2839, lon: -76.6218 },
+    BOS: { park: "Fenway Park", hr: "-2%", lat: 42.3467, lon: -71.0972 },
+    CHC: { park: "Wrigley Field", hr: "+3%", lat: 41.9484, lon: -87.6553 },
+    CWS: { park: "Rate Field", hr: "+9%", lat: 41.8299, lon: -87.6338 },
+    CIN: { park: "Great American Ball Park", hr: "+18%", lat: 39.0975, lon: -84.5061 },
+    CLE: { park: "Progressive Field", hr: "-11%", lat: 41.4962, lon: -81.6852 },
+    COL: { park: "Coors Field", hr: "+34%", lat: 39.7559, lon: -104.9942 },
+    DET: { park: "Comerica Park", hr: "-14%", lat: 42.3390, lon: -83.0485 },
+    HOU: { park: "Daikin Park", hr: "+2%", lat: 29.7573, lon: -95.3555, dome: true },
+    KC: { park: "Kauffman Stadium", hr: "-16%", lat: 39.0517, lon: -94.4803 },
+    LAA: { park: "Angel Stadium", hr: "+1%", lat: 33.8003, lon: -117.8827 },
+    LAD: { park: "Dodger Stadium", hr: "+5%", lat: 34.0739, lon: -118.2400 },
+    MIA: { park: "loanDepot park", hr: "-15%", lat: 25.7781, lon: -80.2196, dome: true },
+    MIL: { park: "American Family Field", hr: "+10%", lat: 43.0280, lon: -87.9712, dome: true },
+    MIN: { park: "Target Field", hr: "-7%", lat: 44.9817, lon: -93.2776 },
+    NYM: { park: "Citi Field", hr: "-8%", lat: 40.7571, lon: -73.8458 },
+    NYY: { park: "Yankee Stadium", hr: "+12%", lat: 40.8296, lon: -73.9262 },
+    ATH: { park: "Sutter Health Park", hr: "-5%", lat: 38.5802, lon: -121.5133 },
+    PHI: { park: "Citizens Bank Park", hr: "+15%", lat: 39.9057, lon: -75.1665 },
+    PIT: { park: "PNC Park", hr: "-13%", lat: 40.4469, lon: -80.0057 },
+    SD: { park: "Petco Park", hr: "-9%", lat: 32.7073, lon: -117.1566 },
+    SF: { park: "Oracle Park", hr: "-18%", lat: 37.7786, lon: -122.3893 },
+    SEA: { park: "T-Mobile Park", hr: "-10%", lat: 47.5914, lon: -122.3325, dome: true },
+    STL: { park: "Busch Stadium", hr: "-6%", lat: 38.6226, lon: -90.1928 },
+    TB: { park: "Steinbrenner Field", hr: "0%", lat: 27.9803, lon: -82.5065 },
+    TEX: { park: "Globe Life Field", hr: "-3%", lat: 32.7473, lon: -97.0842, dome: true },
+    TOR: { park: "Rogers Centre", hr: "+4%", lat: 43.6414, lon: -79.3894, dome: true },
+    WSH: { park: "Nationals Park", hr: "-1%", lat: 38.8730, lon: -77.0074 }
   };
+
+  const WIND_COMPASS = ["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW"];
+  function degToCompass(deg){
+    return WIND_COMPASS[Math.round(deg / 22.5) % 16];
+  }
+
+  function fetchWind(lat, lon){
+    const url = `https://api.open-meteo.com/v1/forecast?latitude=${lat}&longitude=${lon}&current=wind_speed_10m,wind_direction_10m&wind_speed_unit=mph`;
+    return fetch(url)
+      .then(res => res.json())
+      .then(data => {
+        const c = data.current;
+        if(!c) return null;
+        return { speed: Math.round(c.wind_speed_10m), dir: degToCompass(c.wind_direction_10m) };
+      })
+      .catch(() => null);
+  }
 
   function renderTonightsParks(events){
     const el = document.getElementById('parkFactorsList');
     const seen = new Set();
-    const rows = [];
+    const parks = [];
     (events || []).forEach(ev => {
       if(seen.has(ev.home)) return;
       const info = PARK_FACTORS[ev.home];
       if(!info) return;
       seen.add(ev.home);
-      rows.push(`<div class="row"><span>${info.park}</span><span>HR ${info.hr}</span></div>`);
+      parks.push(info);
     });
-    el.innerHTML = rows.length
-      ? rows.join('')
-      : '<p class="loading-note">No games tonight to pull parks from.</p>';
+
+    if(!parks.length){
+      el.innerHTML = '<p class="loading-note">No games tonight to pull parks from.</p>';
+      return;
+    }
+
+    el.innerHTML = parks.map(p => `<div class="row"><span>${p.park}</span><span>HR ${p.hr}</span></div>`).join('');
+
+    // Fetch live wind for outdoor parks only — domes don't need it.
+    const outdoorParks = parks.filter(p => !p.dome);
+    Promise.all(outdoorParks.map(p => fetchWind(p.lat, p.lon))).then(results => {
+      const windByPark = {};
+      outdoorParks.forEach((p, i) => { windByPark[p.park] = results[i]; });
+
+      el.innerHTML = parks.map(p => {
+        let windText = 'Dome — no wind';
+        if(!p.dome){
+          const w = windByPark[p.park];
+          windText = w ? `${w.speed} mph ${w.dir}` : '—';
+        }
+        return `<div class="row"><span>${p.park}</span><span>HR ${p.hr} · ${windText}</span></div>`;
+      }).join('');
+    });
   }
 
   function fetchLiveScoreboard(){
