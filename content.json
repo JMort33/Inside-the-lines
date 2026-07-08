@@ -153,9 +153,9 @@
       "league": "MLB",
       "away": "TOR",
       "home": "SF",
-      "awayScore": "0",
+      "awayScore": "7",
       "homeScore": "0",
-      "status": "7/8 - 3:45 PM EDT"
+      "status": "Mid 8th"
     },
     {
       "league": "MLB",
@@ -223,7 +223,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-08T17:13:14.249809+00:00",
+  "lastUpdated": "2026-07-08T21:52:10.176555+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -253,5 +253,8 @@
       "body": "Outright picks, matchups, and prop leans for the week.",
       "date": "2026-07-07"
     }
-  ]
+  ],
+  "scoreArchive": {
+    "2026-07-08": []
+  }
 }
