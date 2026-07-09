@@ -23,7 +23,7 @@
     {
       "title": "Today in Sports, July 9th",
       "author": "Jake",
-      "body": "July 9 marks two unforgettable moments in sports history. \nIn 1948, legendary pitcher Satchel Paige made his Major League Baseball debut with the Cleveland Indians at 42 years old, making him the oldest rookie in MLB history. After years of dominating the Negro Leagues, Paige finally got his chance in the majors and helped lead Cleveland to a World Series championship that same season. His debut remains one of baseball’s most meaningful milestones. \nOn July 9, 2006, Italy captured its fourth FIFA World Cup title by defeating France in a dramatic penalty shootout. The match is remembered for Zinedine Zidane’s infamous headbutt on Marco Materazzi in extra time before Italy held its composure to win the shootout 5-3. It remains one of the most iconic World Cup finals ever played. \nFrom breaking barriers on the baseball diamond to lifting soccer’s biggest trophy, July 9 has delivered some unforgettable moments in sports history.",
+      "body": "July 9 marks two unforgettable moments in sports history. \nIn 1948, legendary pitcher Satchel Paige made his Major League Baseball debut with the Cleveland Indians at 42 years old, making him the oldest rookie in MLB history. After years of dominating the Negro Leagues, Paige finally got his chance in the majors and helped lead Cleveland to a World Series championship that same season. His debut remains one of baseball\u2019s most meaningful milestones. \nOn July 9, 2006, Italy captured its fourth FIFA World Cup title by defeating France in a dramatic penalty shootout. The match is remembered for Zinedine Zidane\u2019s infamous headbutt on Marco Materazzi in extra time before Italy held its composure to win the shootout 5-3. It remains one of the most iconic World Cup finals ever played. \nFrom breaking barriers on the baseball diamond to lifting soccer\u2019s biggest trophy, July 9 has delivered some unforgettable moments in sports history.",
       "date": "2026-07-09"
     }
   ],
@@ -158,67 +158,67 @@
   "liveScores": [
     {
       "league": "MLB",
-      "away": "TOR",
-      "home": "SF",
-      "awayScore": "10",
-      "homeScore": "0",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "CHC",
-      "home": "BAL",
-      "awayScore": "9",
-      "homeScore": "7",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "ATH",
-      "home": "DET",
-      "awayScore": "1",
-      "homeScore": "6",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
       "away": "ATL",
       "home": "PIT",
-      "awayScore": "3",
-      "homeScore": "0",
-      "status": "Final"
+      "awayScore": "6",
+      "homeScore": "4",
+      "status": "End 5th"
+    },
+    {
+      "league": "MLB",
+      "away": "KC",
+      "home": "NYM",
+      "awayScore": "2",
+      "homeScore": "2",
+      "status": "Bot 5th"
     },
     {
       "league": "MLB",
       "away": "NYY",
       "home": "TB",
-      "awayScore": "0",
+      "awayScore": "7",
       "homeScore": "3",
-      "status": "Final"
+      "status": "Top 4th"
+    },
+    {
+      "league": "MLB",
+      "away": "CHC",
+      "home": "BAL",
+      "awayScore": "0",
+      "homeScore": "1",
+      "status": "Top 4th"
+    },
+    {
+      "league": "MLB",
+      "away": "CLE",
+      "home": "MIN",
+      "awayScore": "1",
+      "homeScore": "0",
+      "status": "Mid 4th"
+    },
+    {
+      "league": "MLB",
+      "away": "BOS",
+      "home": "CHW",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Top 2nd"
+    },
+    {
+      "league": "MLB",
+      "away": "ATH",
+      "home": "DET",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/9 - 6:40 PM EDT"
     },
     {
       "league": "MLB",
       "away": "SEA",
       "home": "MIA",
       "awayScore": "0",
-      "homeScore": "2",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "HOU",
-      "home": "WSH",
-      "awayScore": "2",
-      "homeScore": "8",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "PHI",
-      "home": "CIN",
-      "awayScore": "5",
-      "homeScore": "11",
-      "status": "Final"
+      "homeScore": "0",
+      "status": "7/9 - 6:40 PM EDT"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-09T11:26:55.921584+00:00",
+  "lastUpdated": "2026-07-09T18:30:05.104000+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -327,7 +327,8 @@
         "homeScore": "11",
         "status": "Final"
       }
-    ]
+    ],
+    "2026-07-09": []
   },
   "transferBuzz": [
     {
