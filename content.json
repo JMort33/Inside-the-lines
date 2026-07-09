@@ -1,11 +1,11 @@
 {
   "analysisHub": [
     {
-  "category": "Today's Breakdown",
-  "title": "Slate Preview",
-  "body": "A loaded slate tonight with 13 games on the board. A few worth circling: \nYankees @ Rays (1:10 PM ET) - New York looks to avoid a series sweep after dropping the first two in Tampa Bay by a combined 9-0.\nRed Sox @ White Sox (2:10 PM ET) - Boston has run through Chicago this series, outscoring the Sox 13-1 across the first two games.\nPhillies @ Reds (7:10 PM ET) - Cincinnati's offense has come alive lately, and Philadelphia will need a bounce-back start to avoid dropping another series.\nBrewers @ Cardinals (7:45 PM ET) - A rubber match in St. Louis after Milwaukee took Game 1 and the Cardinals answered right back.\nAngels @ Rangers (8:05 PM ET) - Los Angeles enters off a blowout win and will look to carry that momentum into Arlington. \nFull slate kicks off at 12:35 PM ET with Pirates @ Braves.\nThe World Cup quarterfinals kick off today with France taking on Morocco at Gillette Stadium (4 PM ET). It's a rematch of the 2022 semifinal, where France won 2-0 to end Morocco's historic run - and Morocco will be out for revenge.\nMorocco will be without star forward Ismael Saibari, who's listed as doubtful, which could force a more conservative, counter-attacking approach. France enters red hot, winners of six straight and 9 of their last 11, with Kylian Mbappe leading the line.\nKickoff is 4 PM ET, streaming on Peacock.",
-  "date": "2026-07-09"
-},
+      "category": "Today's Breakdown",
+      "title": "Slate Preview",
+      "body": "A loaded slate tonight with 13 games on the board. A few worth circling: \nYankees @ Rays (1:10 PM ET) - New York looks to avoid a series sweep after dropping the first two in Tampa Bay by a combined 9-0.\nRed Sox @ White Sox (2:10 PM ET) - Boston has run through Chicago this series, outscoring the Sox 13-1 across the first two games.\nPhillies @ Reds (7:10 PM ET) - Cincinnati's offense has come alive lately, and Philadelphia will need a bounce-back start to avoid dropping another series.\nBrewers @ Cardinals (7:45 PM ET) - A rubber match in St. Louis after Milwaukee took Game 1 and the Cardinals answered right back.\nAngels @ Rangers (8:05 PM ET) - Los Angeles enters off a blowout win and will look to carry that momentum into Arlington. \nFull slate kicks off at 12:35 PM ET with Pirates @ Braves.\nThe World Cup quarterfinals kick off today with France taking on Morocco at Gillette Stadium (4 PM ET). It's a rematch of the 2022 semifinal, where France won 2-0 to end Morocco's historic run - and Morocco will be out for revenge.\nMorocco will be without star forward Ismael Saibari, who's listed as doubtful, which could force a more conservative, counter-attacking approach. France enters red hot, winners of six straight and 9 of their last 11, with Kylian Mbappe leading the line.\nKickoff is 4 PM ET, streaming on Peacock.",
+      "date": "2026-07-09"
+    },
     {
       "category": "News",
       "title": "What's Moving",
@@ -29,9 +29,19 @@
   ],
   "market": [
     {
-      "matchup": "Milwaukee Brewers @ St. Louis Cardinals",
-      "moneyline": "ST. +1700",
+      "matchup": "Atlanta Braves @ Pittsburgh Pirates",
+      "moneyline": "PIT -152",
+      "total": "O/U 8.5"
+    },
+    {
+      "matchup": "New York Yankees @ Tampa Bay Rays",
+      "moneyline": "TAM -156",
       "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Kansas City Royals @ New York Mets",
+      "moneyline": "NEW -152",
+      "total": "O/U 9.0"
     },
     {
       "matchup": "Chicago Cubs @ Baltimore Orioles",
@@ -39,19 +49,9 @@
       "total": "O/U 9.5"
     },
     {
-      "matchup": "Athletics @ Detroit Tigers",
-      "moneyline": "DET -225",
+      "matchup": "Cleveland Guardians @ Minnesota Twins",
+      "moneyline": "MIN +110",
       "total": "O/U 8.5"
-    },
-    {
-      "matchup": "Atlanta Braves @ Pittsburgh Pirates",
-      "moneyline": "PIT -152",
-      "total": "O/U 8.5"
-    },
-    {
-      "matchup": "Seattle Mariners @ Miami Marlins",
-      "moneyline": "MIA -122",
-      "total": "O/U 8.0"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -104,19 +104,19 @@
   ],
   "soccer": [
     {
-  "section": "Match Previews",
-  "author": "Liam",
-  "title": "France vs. Morocco",
-  "body": "AND WE ARE UNDERWAY! The Quarterfinals are here and my goodness we have a juicy one for the first game of the round. Like I stated in my piece yesterday Morocco are out for revenge they want this bad after the loss 4 years ago, but in my opinion this French team is too strong and will overwhelm Morocco like they did in 2022. Morocco will be looking to break on the counter swinging it wide to Hakimi and trying to get the ball in the box. Saibari the main goal scorer up front is hurt for Morocco currently listed as doubtful so we shall see how they attack this, but I see a very defensive strategy and counter attacks the only way. For France just play your game you have an abundance of talent use it whether it be Olise or dembele and of course Mbappe they will score 1 2 maybe 3 goals this game. This will be a slow start but once they get 1 I see them controlling the game and making Morocco play further up the field when they don’t want to. \n\n Keys to success - \n\n MOROCCO - 10 men behind the ball and be dangerous on the counter, MUST capitalize on set pieces, When in possession have your creative players do something special, No mistakes on and off the ball. \n\n FRANCE - Must be patient at the beginning, lethal finishing, don’t get lazy on defense Morocco are looking to capitalize on that, creativity out on the wings have your star players create and have Mbappe and midfielders create space and score goals. Score prediction 2-0 France a repeat of 4 years ago.",
-  "date": "2026-07-09"
-},
+      "section": "Match Previews",
+      "author": "Liam",
+      "title": "France vs. Morocco",
+      "body": "AND WE ARE UNDERWAY! The Quarterfinals are here and my goodness we have a juicy one for the first game of the round. Like I stated in my piece yesterday Morocco are out for revenge they want this bad after the loss 4 years ago, but in my opinion this French team is too strong and will overwhelm Morocco like they did in 2022. Morocco will be looking to break on the counter swinging it wide to Hakimi and trying to get the ball in the box. Saibari the main goal scorer up front is hurt for Morocco currently listed as doubtful so we shall see how they attack this, but I see a very defensive strategy and counter attacks the only way. For France just play your game you have an abundance of talent use it whether it be Olise or dembele and of course Mbappe they will score 1 2 maybe 3 goals this game. This will be a slow start but once they get 1 I see them controlling the game and making Morocco play further up the field when they don\u2019t want to. \n\n Keys to success - \n\n MOROCCO - 10 men behind the ball and be dangerous on the counter, MUST capitalize on set pieces, When in possession have your creative players do something special, No mistakes on and off the ball. \n\n FRANCE - Must be patient at the beginning, lethal finishing, don\u2019t get lazy on defense Morocco are looking to capitalize on that, creativity out on the wings have your star players create and have Mbappe and midfielders create space and score goals. Score prediction 2-0 France a repeat of 4 years ago.",
+      "date": "2026-07-09"
+    },
     {
-  "section": "Mung Mortals",
-  "author": "Liam",
-  "title": "France vs. Morocco bets",
-  "body": "Safe bets - France to advance under 3.5 goals. \nRisky bets - France to win both halves Dembele anytime goal scorer.\nParlay- Mbappe 2 shots on target France 90 min over 1.5 goals.\nPlayer props - Mbappe anytime goal scorer, Olise to score or assist, Bounou 4+ saves.",
-  "date": "2026-07-09"
-},
+      "section": "Mung Mortals",
+      "author": "Liam",
+      "title": "France vs. Morocco bets",
+      "body": "Safe bets - France to advance under 3.5 goals. \nRisky bets - France to win both halves Dembele anytime goal scorer.\nParlay- Mbappe 2 shots on target France 90 min over 1.5 goals.\nPlayer props - Mbappe anytime goal scorer, Olise to score or assist, Bounou 4+ saves.",
+      "date": "2026-07-09"
+    },
     {
       "section": "Mung Mortals",
       "author": "Liam",
@@ -144,7 +144,7 @@
       "type": "Recap",
       "author": "Cade",
       "title": "Post pending",
-      "body": "Weekly recap slot â reserved.",
+      "body": "Weekly recap slot \u00e2\u0080\u0094 reserved.",
       "date": "2026-07-05"
     },
     {
@@ -158,67 +158,67 @@
   "liveScores": [
     {
       "league": "MLB",
-      "away": "MIL",
-      "home": "STL",
-      "awayScore": "4",
-      "homeScore": "3",
+      "away": "TOR",
+      "home": "SF",
+      "awayScore": "10",
+      "homeScore": "0",
       "status": "Final"
     },
     {
       "league": "MLB",
       "away": "CHC",
       "home": "BAL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "7/7 - 6:35 PM EDT"
+      "awayScore": "9",
+      "homeScore": "7",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "ATH",
       "home": "DET",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "7/7 - 6:40 PM EDT"
+      "awayScore": "1",
+      "homeScore": "6",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "ATL",
       "home": "PIT",
-      "awayScore": "0",
+      "awayScore": "3",
       "homeScore": "0",
-      "status": "7/7 - 6:40 PM EDT"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "NYY",
       "home": "TB",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "7/7 - 6:40 PM EDT"
+      "homeScore": "3",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "SEA",
       "home": "MIA",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "7/7 - 6:40 PM EDT"
+      "homeScore": "2",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "HOU",
       "home": "WSH",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "7/7 - 6:45 PM EDT"
+      "awayScore": "2",
+      "homeScore": "8",
+      "status": "Final"
     },
     {
       "league": "MLB",
-      "away": "KC",
-      "home": "NYM",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "7/7 - 7:10 PM EDT"
+      "away": "PHI",
+      "home": "CIN",
+      "awayScore": "5",
+      "homeScore": "11",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-07T21:06:21.617334+00:00",
+  "lastUpdated": "2026-07-09T11:26:55.921584+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -261,6 +261,79 @@
       "date": "2026-07-07"
     }
   ],
-  "scoreArchive": {},
-  "transferBuzz": []
+  "scoreArchive": {
+    "2026-07-08": [
+      {
+        "league": "MLB",
+        "away": "TOR",
+        "home": "SF",
+        "awayScore": "10",
+        "homeScore": "0",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "CHC",
+        "home": "BAL",
+        "awayScore": "9",
+        "homeScore": "7",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "ATH",
+        "home": "DET",
+        "awayScore": "1",
+        "homeScore": "6",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "ATL",
+        "home": "PIT",
+        "awayScore": "3",
+        "homeScore": "0",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "NYY",
+        "home": "TB",
+        "awayScore": "0",
+        "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "SEA",
+        "home": "MIA",
+        "awayScore": "0",
+        "homeScore": "2",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "HOU",
+        "home": "WSH",
+        "awayScore": "2",
+        "homeScore": "8",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "PHI",
+        "home": "CIN",
+        "awayScore": "5",
+        "homeScore": "11",
+        "status": "Final"
+      }
+    ]
+  },
+  "transferBuzz": [
+    {
+      "title": "All done deals in July 2026",
+      "link": "https://www.bbc.co.uk/sport/football/articles/c3vy76rvk06o?at_medium=RSS&at_campaign=rss",
+      "confirmed": false
+    }
+  ]
 }
