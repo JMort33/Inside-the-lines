@@ -7,25 +7,21 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
- :root{
-    --navy: #F5F7FA;          /* Main background */
-    --navy-2: #E9EEF5;        /* Footer / secondary background */
-    --panel: #FFFFFF;         /* Cards and panels */
-    --line: #D7DEE8;           /* Borders and dividers */
-
-    --turf: #2E7D5B;           /* Green accent */
-    --turf-bright: #3FAF7A;    /* Bright green */
-
-    --amber: #E58A00;          /* Orange accent */
-    --clay: #B85C00;           /* Opinion accent */
-
-    --chalk: #1A2433;          /* Main text */
-    --chalk-dim: #64748B;      /* Secondary text */
-
+  :root{
+    --navy: #F6F7F9;
+    --navy-2: #EDEFF2;
+    --panel: #FFFFFF;
+    --line: #DDE1E6;
+    --turf: #1F5C3F;
+    --turf-bright: #1E8A56;
+    --amber: #B8790A;
+    --clay: #A85A22;
+    --chalk: #1B2530;
+    --chalk-dim: #5C6570;
     --font-display: 'Bebas Neue', sans-serif;
     --font-body: 'Inter', sans-serif;
     --font-mono: 'IBM Plex Mono', monospace;
-}
+  }
 
   *{ margin:0; padding:0; box-sizing:border-box; }
 
@@ -43,7 +39,7 @@
   /* ===== HEADER ===== */
   header{
     position:sticky; top:0; z-index:100;
-    background:rgba(245,247,250,0.92);
+    background:rgba(246,247,249,0.92);
     backdrop-filter:blur(6px);
     border-bottom:1px solid var(--line);
   }
@@ -95,17 +91,17 @@
 
   /* ===== TICKER ===== */
   .ticker-strip{
-    background:#E8F5EE;
+    background:var(--turf);
     border-bottom:1px solid #0F3A28;
     overflow:hidden;
     white-space:nowrap;
   }
   .ticker-track{
     display:inline-flex;
-    animation:scroll-ticker 85s linear infinite;
+    animation:scroll-ticker 70s linear infinite;
     font-family:var(--font-mono);
     font-size:0.78rem;
-    color:#1F5C3F;
+    color:#EAF6EE;
   }
   .ticker-track span{
     padding:8px 28px;
@@ -199,7 +195,6 @@
   .card{
     background:var(--panel);
     border:1px solid var(--line);
-    box-shadow:0 4px 12px rgba(15,23,42,0.06);
     padding:24px;
     display:flex; flex-direction:column; gap:10px;
   }
@@ -329,7 +324,6 @@
   .side-panel{
     background:var(--panel);
     border:1px solid var(--line);
-    box-shadow:0 4px 12px rgba(15,23,42,0.06);
     padding:20px;
   }
   .side-panel h4{
@@ -372,6 +366,22 @@
   .wind-chip.dome-chip{ color:var(--chalk-dim); background:rgba(154,163,176,0.08); font-size:0.75rem; font-weight:500; text-transform:uppercase; }
   .wind-compass{ font-family:var(--font-mono); font-size:0.68rem; color:var(--chalk-dim); }
   .est-tag{ color:var(--amber); cursor:help; }
+
+  .transfer-item{
+    padding:12px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .transfer-item:last-child{ border-bottom:none; }
+  .transfer-tag{
+    font-family:var(--font-mono); font-size:0.65rem; text-transform:uppercase; letter-spacing:0.05em;
+    color:var(--turf-bright); margin-bottom:4px;
+  }
+  .transfer-tag.rumor{ color:var(--clay); }
+  .transfer-item h5{ font-size:0.85rem; font-weight:600; line-height:1.35; margin:0 0 4px; }
+  .transfer-item a{
+    font-family:var(--font-mono); font-size:0.68rem; color:var(--amber); text-decoration:none;
+  }
+  .transfer-item a:hover{ text-decoration:underline; }
 
   /* ===== STAT CHECK GAME ===== */
   .trivia-wrap{ max-width:560px; margin:0 auto; }
@@ -465,7 +475,6 @@
   .opinion-post{
     background:var(--panel);
     border:1px solid var(--line);
-    box-shadow:0 4px 12px rgba(15,23,42,0.06);
     border-left:3px solid var(--clay);
     padding:20px 24px;
   }
@@ -542,7 +551,6 @@
   .score-card{
     background:var(--panel);
     border:1px solid var(--line);
-    box-shadow:0 4px 12px rgba(15,23,42,0.06);
     padding:16px 18px;
   }
   .score-card .status{
@@ -664,37 +672,37 @@
   <div class="field-diagram">
     <svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg">
       <!-- connecting lines radiating from the wordmark -->
-      <line x1="150" y1="150" x2="82" y2="248" stroke="#2F8F5F" stroke-width="1.5" stroke-dasharray="4 6"/>
-      <line x1="150" y1="150" x2="222" y2="248" stroke="#2F8F5F" stroke-width="1.5" stroke-dasharray="4 6"/>
-      <line x1="150" y1="150" x2="150" y2="50" stroke="#2F8F5F" stroke-width="1.5" stroke-dasharray="4 6"/>
+      <line x1="150" y1="150" x2="82" y2="248" stroke="#1E8A56" stroke-width="1.5" stroke-dasharray="4 6"/>
+      <line x1="150" y1="150" x2="222" y2="248" stroke="#1E8A56" stroke-width="1.5" stroke-dasharray="4 6"/>
+      <line x1="150" y1="150" x2="150" y2="50" stroke="#1E8A56" stroke-width="1.5" stroke-dasharray="4 6"/>
 
       <!-- Golf: flag on a small green, top -->
-      <ellipse cx="150" cy="55" rx="30" ry="9" fill="#173D2B" stroke="#2F8F5F" stroke-width="1.5"/>
-      <line x1="150" y1="55" x2="150" y2="12" stroke="#E7E3D8" stroke-width="2"/>
-      <path d="M150 12 L150 26 L173 19 Z" fill="#D97706"/>
-      <circle cx="166" cy="58" r="3.5" fill="#E7E3D8"/>
+      <ellipse cx="150" cy="55" rx="30" ry="9" fill="#173D2B" stroke="#1E8A56" stroke-width="1.5"/>
+      <line x1="150" y1="55" x2="150" y2="12" stroke="#1B2530" stroke-width="2"/>
+      <path d="M150 12 L150 26 L173 19 Z" fill="#B8790A"/>
+      <circle cx="166" cy="58" r="3.5" fill="#1B2530"/>
 
       <!-- Baseball: simplified diamond, bottom-left -->
-      <path d="M82 278 L54 250 A40 40 0 0 1 110 250 Z" fill="#173D2B" stroke="#2F8F5F" stroke-width="1.5"/>
-      <rect x="72" y="262" width="20" height="20" fill="#2A3A2E" stroke="#2F8F5F" stroke-width="1" transform="rotate(45 82 272)"/>
-      <circle cx="64" cy="256" r="2.5" fill="#E7E3D8"/>
-      <circle cx="100" cy="256" r="2.5" fill="#E7E3D8"/>
-      <circle cx="82" cy="236" r="2.5" fill="#E7E3D8"/>
+      <path d="M82 278 L54 250 A40 40 0 0 1 110 250 Z" fill="#173D2B" stroke="#1E8A56" stroke-width="1.5"/>
+      <rect x="72" y="262" width="20" height="20" fill="#2A3A2E" stroke="#1E8A56" stroke-width="1" transform="rotate(45 82 272)"/>
+      <circle cx="64" cy="256" r="2.5" fill="#1B2530"/>
+      <circle cx="100" cy="256" r="2.5" fill="#1B2530"/>
+      <circle cx="82" cy="236" r="2.5" fill="#1B2530"/>
 
       <!-- Soccer ball, bottom-right -->
-      <circle cx="222" cy="260" r="24" fill="#173D2B" stroke="#2F8F5F" stroke-width="1.5"/>
-      <polygon points="222,245 232,253 228,265 216,265 212,253" fill="#E7E3D8"/>
-      <line x1="222" y1="245" x2="222" y2="236" stroke="#E7E3D8" stroke-width="1.5"/>
-      <line x1="232" y1="253" x2="242" y2="248" stroke="#E7E3D8" stroke-width="1.5"/>
-      <line x1="212" y1="253" x2="202" y2="248" stroke="#E7E3D8" stroke-width="1.5"/>
-      <line x1="228" y1="265" x2="231" y2="275" stroke="#E7E3D8" stroke-width="1.5"/>
-      <line x1="216" y1="265" x2="213" y2="275" stroke="#E7E3D8" stroke-width="1.5"/>
+      <circle cx="222" cy="260" r="24" fill="#173D2B" stroke="#1E8A56" stroke-width="1.5"/>
+      <polygon points="222,245 232,253 228,265 216,265 212,253" fill="#EDEAE1"/>
+      <line x1="222" y1="245" x2="222" y2="236" stroke="#EDEAE1" stroke-width="1.5"/>
+      <line x1="232" y1="253" x2="242" y2="248" stroke="#EDEAE1" stroke-width="1.5"/>
+      <line x1="212" y1="253" x2="202" y2="248" stroke="#EDEAE1" stroke-width="1.5"/>
+      <line x1="228" y1="265" x2="231" y2="275" stroke="#EDEAE1" stroke-width="1.5"/>
+      <line x1="216" y1="265" x2="213" y2="275" stroke="#EDEAE1" stroke-width="1.5"/>
 
       <!-- Wordmark at center, the hub the lines connect to -->
-      <circle cx="150" cy="150" r="58" fill="#101B2D" stroke="#24344C" stroke-width="1.5"/>
-      <text x="150" y="138" text-anchor="middle" font-family="'Bebas Neue', sans-serif" font-size="22" letter-spacing="1" fill="#E7E3D8">INSIDE</text>
+      <circle cx="150" cy="150" r="58" fill="#1B2836" stroke="#35424E" stroke-width="1.5"/>
+      <text x="150" y="138" text-anchor="middle" font-family="'Bebas Neue', sans-serif" font-size="22" letter-spacing="1" fill="#EDEAE1">INSIDE</text>
       <text x="150" y="160" text-anchor="middle" font-family="'Bebas Neue', sans-serif" font-size="22" letter-spacing="1" fill="#F2A900">THE LINES</text>
-      <circle cx="150" cy="150" r="58" fill="none" stroke="#2F8F5F" stroke-width="1" stroke-dasharray="2 4"/>
+      <circle cx="150" cy="150" r="58" fill="none" stroke="#1E8A56" stroke-width="1" stroke-dasharray="2 4"/>
     </svg>
   </div>
 </div>
@@ -724,7 +732,7 @@
   </div>
 
   <div class="nameplate">
-    <div class="num">04</div>
+    <div class="num">01</div>
     <div class="info">
       <h3>History Bulletin</h3>
       <span>Today in Sports — by Gary</span>
@@ -774,7 +782,7 @@
   </div>
 
   <div class="nameplate" style="margin-top:32px;">
-    <div class="num">01</div>
+    <div class="num">02</div>
     <div class="info">
       <h3>The Homa Corner with Numba</h3>
       <span>Home Run Predictions — by Lucas</span>
@@ -804,7 +812,7 @@
   </div>
 
   <div class="nameplate">
-    <div class="num">02</div>
+    <div class="num">03</div>
     <div class="info">
       <h3>Mung Mortals</h3>
       <span>Soccer Predictions & News — by Liam</span>
@@ -816,10 +824,10 @@
       <p class="loading-note">Loading soccer posts…</p>
     </div>
     <div class="side-panel">
-      <h4>League Watch</h4>
-      <div class="row"><span>Premier League</span><span>Active</span></div>
-      <div class="row"><span>La Liga</span><span>Active</span></div>
-      <div class="row"><span>Champions League</span><span>Active</span></div>
+      <h4>Transfer Buzz</h4>
+      <div id="transferBuzzList">
+        <p class="loading-note">Loading transfer news…</p>
+      </div>
     </div>
   </div>
 </section>
@@ -850,7 +858,7 @@
   </div>
 
   <div class="nameplate">
-    <div class="num">03</div>
+    <div class="num">04</div>
     <div class="info">
       <h3>Rocking Chair Central</h3>
       <span>Hot Takes & Reactions — by Cade</span>
@@ -1067,6 +1075,21 @@
         ${expandable(item, formatBody(item.body))}
       </div>
     `);
+  }
+
+  function renderTransferBuzz(items){
+    const el = document.getElementById('transferBuzzList');
+    if(!items || !items.length){
+      el.innerHTML = '<p class="loading-note">No transfer news yet.</p>';
+      return;
+    }
+    el.innerHTML = items.slice(0, 8).map(item => `
+      <div class="transfer-item">
+        <div class="transfer-tag ${item.confirmed ? '' : 'rumor'}">${item.confirmed ? '✓ Confirmed' : '◐ Rumor'}</div>
+        <h5>${item.title || ''}</h5>
+        ${item.link ? `<a href="${item.link}" target="_blank" rel="noopener">Read full story →</a>` : ''}
+      </div>
+    `).join('');
   }
 
   function renderTodayInSports(items){
@@ -1341,6 +1364,7 @@
         renderGolf(data.golf);
         renderOpinions(data.opinions);
         renderTodayInSports(data.todayInSports);
+        renderTransferBuzz(data.transferBuzz);
         renderScoreArchive(data.scoreArchive);
       })
       .catch(() => {
