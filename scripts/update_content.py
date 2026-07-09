@@ -175,6 +175,39 @@ def archive_final_scores(content, live_scores):
             del archive[old_key]
 
 
+TRANSFER_FEED_URL = "https://feeds.bbci.co.uk/sport/football/transfers/rss.xml"
+
+# Rough keyword heuristic to flag a headline as a confirmed move vs a rumor —
+# not perfect, but a reasonable first pass. BBC's own wording is the source
+# of truth; this just adds a quick visual tag.
+CONFIRMED_WORDS = ["signs", "signed", "completes", "completed", "official", "joins", "confirmed", "seals", "agrees deal"]
+RUMOR_WORDS = ["linked", "interested", "target", "reportedly", "could", "eyeing", "monitoring", "keen on", "want"]
+
+
+def fetch_transfer_buzz():
+    try:
+        r = requests.get(TRANSFER_FEED_URL, timeout=15)
+        r.raise_for_status()
+    except Exception as e:
+        print(f"Transfer feed fetch failed: {e}")
+        return None
+
+    try:
+        import xml.etree.ElementTree as ET
+        root = ET.fromstring(r.content)
+        items = []
+        for item in root.findall(".//item")[:10]:
+            title = (item.findtext("title") or "").strip()
+            link = (item.findtext("link") or "").strip()
+            lower = title.lower()
+            confirmed = any(w in lower for w in CONFIRMED_WORDS) and not any(w in lower for w in RUMOR_WORDS)
+            items.append({"title": title, "link": link, "confirmed": confirmed})
+        return items
+    except Exception as e:
+        print(f"Transfer feed parse failed: {e}")
+        return None
+
+
 def main():
     with open(CONTENT_PATH, "r") as f:
         content = json.load(f)
@@ -182,12 +215,18 @@ def main():
     content["market"] = build_market_rows(content.get("market", [])) or content.get("market", [])
     content["liveScores"] = build_live_scores()
     archive_final_scores(content, content["liveScores"])
+
+    transfer_buzz = fetch_transfer_buzz()
+    if transfer_buzz is not None:
+        content["transferBuzz"] = transfer_buzz
+
     content["lastUpdated"] = datetime.now(timezone.utc).isoformat()
 
     with open(CONTENT_PATH, "w") as f:
         json.dump(content, f, indent=2)
 
-    print(f"Updated {len(content['market'])} market rows and {len(content['liveScores'])} live scores.")
+    print(f"Updated {len(content['market'])} market rows, {len(content['liveScores'])} live scores, "
+          f"{len(content.get('transferBuzz', []))} transfer items.")
 
 
 if __name__ == "__main__":
