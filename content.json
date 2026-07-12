@@ -160,65 +160,65 @@
       "league": "MLB",
       "away": "MIL",
       "home": "PIT",
-      "awayScore": "6",
-      "homeScore": "7",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "LAA",
-      "home": "MIN",
-      "awayScore": "3",
-      "homeScore": "5",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "ATH",
-      "home": "CHW",
       "awayScore": "0",
-      "homeScore": "1",
-      "status": "Final"
+      "homeScore": "0",
+      "status": "7/12 - 12:15 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "KC",
+      "home": "BAL",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/12 - 1:35 PM EDT"
     },
     {
       "league": "MLB",
       "away": "NYY",
       "home": "WSH",
-      "awayScore": "4",
-      "homeScore": "2",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "COL",
-      "home": "SF",
-      "awayScore": "2",
-      "homeScore": "4",
-      "status": "Final"
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/12 - 1:35 PM EDT"
     },
     {
       "league": "MLB",
       "away": "BOS",
       "home": "NYM",
-      "awayScore": "4",
+      "awayScore": "0",
       "homeScore": "0",
-      "status": "Final"
+      "status": "7/12 - 1:40 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "CHC",
+      "home": "CIN",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/12 - 1:40 PM EDT"
     },
     {
       "league": "MLB",
       "away": "CLE",
       "home": "MIA",
-      "awayScore": "4",
-      "homeScore": "1",
-      "status": "Final"
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/12 - 1:40 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "PHI",
+      "home": "DET",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/12 - 1:40 PM EDT"
     },
     {
       "league": "MLB",
       "away": "SEA",
       "home": "TB",
-      "awayScore": "1",
-      "homeScore": "6",
-      "status": "Final"
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/12 - 1:40 PM EDT"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-12T09:33:28.735818+00:00",
+  "lastUpdated": "2026-07-12T15:39:50.128378+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -517,7 +517,8 @@
         "homeScore": "6",
         "status": "Final"
       }
-    ]
+    ],
+    "2026-07-12": []
   },
   "transferBuzz": [
     {
