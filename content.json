@@ -29,31 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Kansas City Royals @ Baltimore Orioles",
-      "moneyline": "BAL -5000",
-      "total": "O/U 8.5"
-    },
-    {
-      "matchup": "New York Yankees @ Washington Nationals",
-      "moneyline": "WAS -104",
-      "total": "O/U 9.0"
-    },
-    {
-      "matchup": "Cleveland Guardians @ Miami Marlins",
-      "moneyline": "",
-      "total": "O/U 6.5"
-    },
-    {
-      "matchup": "Philadelphia Phillies @ Detroit Tigers",
-      "moneyline": "",
-      "total": "O/U 5.5"
-    },
-    {
-      "matchup": "Chicago Cubs @ Cincinnati Reds",
-      "moneyline": "CIN -410",
-      "total": "O/U 7.5"
-    },
-    {
       "matchup": "Coventry City @ Arsenal",
       "moneyline": "ARS -650",
       "total": ""
@@ -170,7 +145,7 @@
       "home": "BAL",
       "awayScore": "2",
       "homeScore": "8",
-      "status": "Top 9th"
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -194,15 +169,15 @@
       "home": "CIN",
       "awayScore": "8",
       "homeScore": "4",
-      "status": "Bot 9th"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "CLE",
       "home": "MIA",
       "awayScore": "5",
-      "homeScore": "1",
-      "status": "Mid 9th"
+      "homeScore": "2",
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -230,7 +205,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-12T20:33:45.671366+00:00",
+  "lastUpdated": "2026-07-13T00:14:20.294690+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -556,6 +531,30 @@
         "away": "SEA",
         "home": "TB",
         "awayScore": "8",
+        "homeScore": "2",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "KC",
+        "home": "BAL",
+        "awayScore": "2",
+        "homeScore": "8",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "CHC",
+        "home": "CIN",
+        "awayScore": "8",
+        "homeScore": "4",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "CLE",
+        "home": "MIA",
+        "awayScore": "5",
         "homeScore": "2",
         "status": "Final"
       }
