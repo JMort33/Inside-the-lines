@@ -137,6 +137,14 @@
   ],
   "liveScores": [
     {
+      "league": "MLB",
+      "away": "AL",
+      "home": "NL",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "7/14 - 8:00 PM EDT"
+    },
+    {
       "league": "EPL",
       "away": "COV",
       "home": "ARS",
@@ -146,7 +154,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-14T09:30:48.278065+00:00",
+  "lastUpdated": "2026-07-14T16:44:44.238907+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -500,7 +508,8 @@
         "status": "Final"
       }
     ],
-    "2026-07-13": []
+    "2026-07-13": [],
+    "2026-07-14": []
   },
   "transferBuzz": [
     {
