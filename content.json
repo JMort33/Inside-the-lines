@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "American League @ National League",
-      "moneyline": "NAT -142",
-      "total": "O/U 7.5"
-    },
-    {
       "matchup": "Coventry City @ Arsenal",
       "moneyline": "ARS -650",
       "total": ""
@@ -140,9 +135,9 @@
       "league": "MLB",
       "away": "AL",
       "home": "NL",
-      "awayScore": "0",
+      "awayScore": "4",
       "homeScore": "0",
-      "status": "7/14 - 8:00 PM EDT"
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -154,7 +149,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-14T21:33:05.083368+00:00",
+  "lastUpdated": "2026-07-15T07:31:08.830892+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -509,7 +504,16 @@
       }
     ],
     "2026-07-13": [],
-    "2026-07-14": []
+    "2026-07-14": [
+      {
+        "league": "MLB",
+        "away": "AL",
+        "home": "NL",
+        "awayScore": "4",
+        "homeScore": "0",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
