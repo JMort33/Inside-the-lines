@@ -29,6 +29,11 @@
   ],
   "market": [
     {
+      "matchup": "New York Mets @ Philadelphia Phillies",
+      "moneyline": "PHI -132",
+      "total": "O/U 10.0"
+    },
+    {
       "matchup": "Coventry City @ Arsenal",
       "moneyline": "ARS -650",
       "total": ""
@@ -132,14 +137,6 @@
   ],
   "liveScores": [
     {
-      "league": "MLB",
-      "away": "AL",
-      "home": "NL",
-      "awayScore": "4",
-      "homeScore": "0",
-      "status": "Final"
-    },
-    {
       "league": "EPL",
       "away": "COV",
       "home": "ARS",
@@ -149,7 +146,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-15T07:31:08.830892+00:00",
+  "lastUpdated": "2026-07-15T15:09:01.867091+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -513,7 +510,8 @@
         "homeScore": "0",
         "status": "Final"
       }
-    ]
+    ],
+    "2026-07-15": []
   },
   "transferBuzz": [
     {
