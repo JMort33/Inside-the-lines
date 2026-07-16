@@ -34,8 +34,23 @@
       "total": "O/U 10.0"
     },
     {
+      "matchup": "Los Angeles Dodgers @ New York Yankees",
+      "moneyline": "NEW -108",
+      "total": ""
+    },
+    {
+      "matchup": "Pittsburgh Pirates @ Cleveland Guardians",
+      "moneyline": "CLE -124",
+      "total": ""
+    },
+    {
       "matchup": "Chicago White Sox @ Toronto Blue Jays",
       "moneyline": "TOR -132",
+      "total": ""
+    },
+    {
+      "matchup": "San Diego Padres @ Kansas City Royals",
+      "moneyline": "KAN -120",
       "total": ""
     },
     {
@@ -151,7 +166,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-15T21:32:34.309826+00:00",
+  "lastUpdated": "2026-07-16T07:38:10.342634+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
