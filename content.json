@@ -39,6 +39,11 @@
       "total": ""
     },
     {
+      "matchup": "Tampa Bay Rays @ Boston Red Sox",
+      "moneyline": "BOS -116",
+      "total": "O/U 8.5"
+    },
+    {
       "matchup": "Pittsburgh Pirates @ Cleveland Guardians",
       "moneyline": "CLE -124",
       "total": ""
@@ -46,11 +51,6 @@
     {
       "matchup": "Texas Rangers @ Atlanta Braves",
       "moneyline": "ATL -215",
-      "total": "O/U 8.5"
-    },
-    {
-      "matchup": "Chicago White Sox @ Toronto Blue Jays",
-      "moneyline": "TOR -134",
       "total": "O/U 8.5"
     },
     {
@@ -174,7 +174,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-17T07:35:10.384207+00:00",
+  "lastUpdated": "2026-07-17T12:48:58.195583+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
