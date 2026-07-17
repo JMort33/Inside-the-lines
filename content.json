@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "New York Mets @ Philadelphia Phillies",
-      "moneyline": "PHI -132",
-      "total": "O/U 10.0"
-    },
-    {
       "matchup": "Tampa Bay Rays @ Boston Red Sox",
       "moneyline": "BOS -116",
       "total": "O/U 8.5"
@@ -51,6 +46,11 @@
     {
       "matchup": "Texas Rangers @ Atlanta Braves",
       "moneyline": "ATL -215",
+      "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Chicago White Sox @ Toronto Blue Jays",
+      "moneyline": "TOR -134",
       "total": "O/U 8.5"
     },
     {
@@ -160,9 +160,9 @@
       "league": "MLB",
       "away": "NYM",
       "home": "PHI",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "7/16 - 6:00 PM EDT"
+      "awayScore": "4",
+      "homeScore": "1",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -174,7 +174,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-16T21:46:58.449355+00:00",
+  "lastUpdated": "2026-07-17T07:35:10.384207+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -540,7 +540,16 @@
       }
     ],
     "2026-07-15": [],
-    "2026-07-16": []
+    "2026-07-16": [
+      {
+        "league": "MLB",
+        "away": "NYM",
+        "home": "PHI",
+        "awayScore": "4",
+        "homeScore": "1",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
