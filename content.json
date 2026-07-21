@@ -39,11 +39,6 @@
       "total": "O/U 8.5"
     },
     {
-      "matchup": "Pittsburgh Pirates @ New York Yankees",
-      "moneyline": "NEW -120",
-      "total": "O/U 8.0"
-    },
-    {
       "matchup": "Tampa Bay Rays @ Toronto Blue Jays",
       "moneyline": "TOR -158",
       "total": "O/U 7.5"
@@ -52,6 +47,11 @@
       "matchup": "Baltimore Orioles @ Boston Red Sox",
       "moneyline": "BOS -142",
       "total": "O/U 8.5"
+    },
+    {
+      "matchup": "San Diego Padres @ Atlanta Braves",
+      "moneyline": "ATL -146",
+      "total": "O/U 9.0"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -178,7 +178,7 @@
       "home": "NYY",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "7/21 - 7:05 PM EDT"
+      "status": "Postponed"
     },
     {
       "league": "MLB",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-21T17:00:12.890362+00:00",
+  "lastUpdated": "2026-07-21T21:45:43.093122+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
