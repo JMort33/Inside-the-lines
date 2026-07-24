@@ -160,9 +160,9 @@
       "league": "MLB",
       "away": "COL",
       "home": "MIL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "7/24 - 4:10 PM EDT"
+      "awayScore": "4",
+      "homeScore": "1",
+      "status": "Bot 6th"
     },
     {
       "league": "MLB",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-24T17:16:22.121920+00:00",
+  "lastUpdated": "2026-07-24T21:45:21.956921+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
