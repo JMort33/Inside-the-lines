@@ -29,16 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Arizona Diamondbacks @ St. Louis Cardinals",
-      "moneyline": "ST. -126",
-      "total": "O/U 8.0"
-    },
-    {
-      "matchup": "Kansas City Royals @ Detroit Tigers",
-      "moneyline": "DET -210",
-      "total": "O/U 8.5"
-    },
-    {
       "matchup": "Colorado Rockies @ Milwaukee Brewers",
       "moneyline": "MIL -230",
       "total": "O/U 8.5"
@@ -52,6 +42,16 @@
       "matchup": "Kansas City Royals @ Detroit Tigers",
       "moneyline": "DET -210",
       "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Arizona Diamondbacks @ Washington Nationals",
+      "moneyline": "WAS +104",
+      "total": "O/U 9.5"
+    },
+    {
+      "matchup": "New York Yankees @ Philadelphia Phillies",
+      "moneyline": "PHI -122",
+      "total": "O/U 8.0"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -184,17 +184,17 @@
       "league": "MLB",
       "away": "ARI",
       "home": "STL",
-      "awayScore": "0",
-      "homeScore": "2",
-      "status": "Top 2nd"
+      "awayScore": "10",
+      "homeScore": "6",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "KC",
       "home": "DET",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "7/23 - 6:40 PM EDT"
+      "awayScore": "3",
+      "homeScore": "4",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -206,7 +206,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-23T21:39:54.541595+00:00",
+  "lastUpdated": "2026-07-24T09:11:51.838298+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -969,6 +969,22 @@
         "home": "TOR",
         "awayScore": "1",
         "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "ARI",
+        "home": "STL",
+        "awayScore": "10",
+        "homeScore": "6",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "KC",
+        "home": "DET",
+        "awayScore": "3",
+        "homeScore": "4",
         "status": "Final"
       }
     ]
