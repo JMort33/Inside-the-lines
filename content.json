@@ -29,29 +29,29 @@
   ],
   "market": [
     {
-      "matchup": "Milwaukee Brewers @ San Francisco Giants",
-      "moneyline": "SAN -205",
-      "total": "O/U 8.5"
-    },
-    {
-      "matchup": "Colorado Rockies @ San Diego Padres",
-      "moneyline": "SAN -720",
-      "total": "O/U 6.5"
-    },
-    {
       "matchup": "Texas Rangers @ Tampa Bay Rays",
       "moneyline": "TAM -144",
       "total": "O/U 7.5"
     },
     {
-      "matchup": "Atlanta Braves @ New York Mets",
-      "moneyline": "NEW -106",
+      "matchup": "Kansas City Royals @ Minnesota Twins",
+      "moneyline": "MIN -136",
+      "total": "O/U 9.5"
+    },
+    {
+      "matchup": "New York Yankees @ Chicago White Sox",
+      "moneyline": "CHI -112",
+      "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Chicago Cubs @ St. Louis Cardinals",
+      "moneyline": "ST. -120",
       "total": "O/U 8.5"
     },
     {
-      "matchup": "Cleveland Guardians @ Cincinnati Reds",
-      "moneyline": "CIN +114",
-      "total": "O/U 8.5"
+      "matchup": "Pittsburgh Pirates @ Cincinnati Reds",
+      "moneyline": "CIN -104",
+      "total": "O/U 9.5"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -200,25 +200,25 @@
       "league": "MLB",
       "away": "MIL",
       "home": "SF",
-      "awayScore": "2",
-      "homeScore": "3",
-      "status": "Bot 5th"
+      "awayScore": "3",
+      "homeScore": "16",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "COL",
       "home": "SD",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Bot 4th"
+      "awayScore": "1",
+      "homeScore": "3",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "TEX",
       "home": "TB",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "7/29 - 6:40 PM EDT"
+      "homeScore": "3",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-29T21:15:40.593022+00:00",
+  "lastUpdated": "2026-07-30T09:37:27.669224+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1358,6 +1358,30 @@
         "awayScore": "10",
         "homeScore": "9",
         "status": "Final/12"
+      },
+      {
+        "league": "MLB",
+        "away": "MIL",
+        "home": "SF",
+        "awayScore": "3",
+        "homeScore": "16",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "COL",
+        "home": "SD",
+        "awayScore": "1",
+        "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "TEX",
+        "home": "TB",
+        "awayScore": "0",
+        "homeScore": "3",
+        "status": "Final"
       }
     ]
   },
