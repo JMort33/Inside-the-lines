@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "New York Yankees @ Chicago Cubs",
-      "moneyline": "CHI -148",
-      "total": "O/U 9.0"
-    },
-    {
       "matchup": "Pittsburgh Pirates @ Cincinnati Reds",
       "moneyline": "CIN -104",
       "total": "O/U 9.5"
@@ -51,6 +46,11 @@
     {
       "matchup": "Arizona Diamondbacks @ Cleveland Guardians",
       "moneyline": "CLE -132",
+      "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Chicago White Sox @ Tampa Bay Rays",
+      "moneyline": "TAM -124",
       "total": "O/U 8.5"
     },
     {
@@ -160,9 +160,9 @@
       "league": "MLB",
       "away": "NYY",
       "home": "CHC",
-      "awayScore": "0",
+      "awayScore": "2",
       "homeScore": "0",
-      "status": "7/31 - 2:20 PM EDT"
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-07-31T17:12:17.872212+00:00",
+  "lastUpdated": "2026-07-31T21:47:35.942706+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1450,7 +1450,16 @@
         "status": "Final"
       }
     ],
-    "2026-07-31": []
+    "2026-07-31": [
+      {
+        "league": "MLB",
+        "away": "NYY",
+        "home": "CHC",
+        "awayScore": "2",
+        "homeScore": "0",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
