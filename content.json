@@ -29,28 +29,28 @@
   ],
   "market": [
     {
-      "matchup": "Washington Nationals @ Philadelphia Phillies",
-      "moneyline": "PHI -3000",
-      "total": "O/U 12.5"
+      "matchup": "New York Mets @ Pittsburgh Pirates",
+      "moneyline": "PIT -142",
+      "total": "O/U 8.5"
     },
     {
-      "matchup": "Chicago White Sox @ Boston Red Sox",
-      "moneyline": "BOS +185",
-      "total": "O/U 11.5"
+      "matchup": "Toronto Blue Jays @ Philadelphia Phillies",
+      "moneyline": "PHI -220",
+      "total": "O/U 8.5"
     },
     {
-      "matchup": "Miami Marlins @ Atlanta Braves",
-      "moneyline": "ATL -480",
-      "total": "O/U 7.5"
+      "matchup": "Atlanta Braves @ New York Yankees",
+      "moneyline": "NEW -156",
+      "total": "O/U 8.5"
     },
     {
-      "matchup": "Minnesota Twins @ Kansas City Royals",
-      "moneyline": "KAN -125",
-      "total": "O/U 6.5"
+      "matchup": "Athletics @ Boston Red Sox",
+      "moneyline": "BOS -255",
+      "total": "O/U 9.0"
     },
     {
-      "matchup": "San Diego Padres @ Arizona Diamondbacks",
-      "moneyline": "ARI -104",
+      "matchup": "Los Angeles Angels @ Miami Marlins",
+      "moneyline": "MIA -162",
       "total": "O/U 9.0"
     },
     {
@@ -209,16 +209,16 @@
       "away": "WSH",
       "home": "PHI",
       "awayScore": "3",
-      "homeScore": "6",
-      "status": "Bot 6th"
+      "homeScore": "7",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "CHW",
       "home": "BOS",
-      "awayScore": "4",
-      "homeScore": "2",
-      "status": "End 3rd"
+      "awayScore": "11",
+      "homeScore": "12",
+      "status": "Final/13"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-07T00:09:34.703058+00:00",
+  "lastUpdated": "2026-08-07T04:59:45.393715+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1894,6 +1894,22 @@
         "awayScore": "11",
         "homeScore": "0",
         "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "WSH",
+        "home": "PHI",
+        "awayScore": "3",
+        "homeScore": "7",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "CHW",
+        "home": "BOS",
+        "awayScore": "11",
+        "homeScore": "12",
+        "status": "Final/13"
       }
     ]
   },
