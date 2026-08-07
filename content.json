@@ -39,11 +39,6 @@
       "total": "O/U 8.5"
     },
     {
-      "matchup": "Cincinnati Reds @ Washington Nationals",
-      "moneyline": "WAS -116",
-      "total": "O/U 9.0"
-    },
-    {
       "matchup": "Atlanta Braves @ New York Yankees",
       "moneyline": "NEW -156",
       "total": "O/U 8.5"
@@ -52,6 +47,11 @@
       "matchup": "Athletics @ Boston Red Sox",
       "moneyline": "BOS -255",
       "total": "O/U 9.0"
+    },
+    {
+      "matchup": "Los Angeles Angels @ Miami Marlins",
+      "moneyline": "MIA -144",
+      "total": "O/U 8.5"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-07T19:06:40.387083+00:00",
+  "lastUpdated": "2026-08-07T21:47:43.388733+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
