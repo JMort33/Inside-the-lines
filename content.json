@@ -29,29 +29,29 @@
   ],
   "market": [
     {
-      "matchup": "New York Mets @ Pittsburgh Pirates",
-      "moneyline": "PIT -142",
-      "total": "O/U 8.5"
+      "matchup": "Toronto Blue Jays @ Philadelphia Phillies",
+      "moneyline": "PHI +230",
+      "total": "O/U 9.5"
     },
     {
-      "matchup": "Los Angeles Angels @ Miami Marlins",
-      "moneyline": "MIA -144",
-      "total": "O/U 8.5"
+      "matchup": "Atlanta Braves @ New York Yankees",
+      "moneyline": "NEW -1000",
+      "total": "O/U 5.5"
     },
     {
-      "matchup": "Cleveland Guardians @ Chicago White Sox",
+      "matchup": "Los Angeles Dodgers @ Arizona Diamondbacks",
+      "moneyline": "ARI +500",
+      "total": "O/U 5.5"
+    },
+    {
+      "matchup": "Houston Astros @ San Diego Padres",
+      "moneyline": "SAN +2600",
+      "total": "O/U 9.5"
+    },
+    {
+      "matchup": "Tampa Bay Rays @ Seattle Mariners",
       "moneyline": "",
-      "total": "O/U 10.5"
-    },
-    {
-      "matchup": "Minnesota Twins @ Milwaukee Brewers",
-      "moneyline": "MIL +550",
-      "total": "O/U 15.5"
-    },
-    {
-      "matchup": "Cincinnati Reds @ Washington Nationals",
-      "moneyline": "WAS -1450",
-      "total": "O/U 8.5"
+      "total": "O/U 2.5"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -161,16 +161,16 @@
       "away": "NYM",
       "home": "PIT",
       "awayScore": "6",
-      "homeScore": "2",
-      "status": "Bot 9th"
+      "homeScore": "4",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "TOR",
       "home": "PHI",
-      "awayScore": "3",
-      "homeScore": "2",
-      "status": "Top 5th"
+      "awayScore": "5",
+      "homeScore": "4",
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -178,15 +178,15 @@
       "home": "WSH",
       "awayScore": "3",
       "homeScore": "5",
-      "status": "Top 8th"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "ATL",
       "home": "NYY",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Bot 4th"
+      "awayScore": "2",
+      "homeScore": "2",
+      "status": "Bot 10th"
     },
     {
       "league": "MLB",
@@ -194,7 +194,7 @@
       "home": "MIA",
       "awayScore": "4",
       "homeScore": "3",
-      "status": "Bot 9th"
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -210,7 +210,7 @@
       "home": "CHW",
       "awayScore": "8",
       "homeScore": "2",
-      "status": "Bot 9th"
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -218,7 +218,7 @@
       "home": "MIL",
       "awayScore": "8",
       "homeScore": "6",
-      "status": "Top 8th"
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-08T02:06:13.204656+00:00",
+  "lastUpdated": "2026-08-08T04:15:38.315380+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1853,6 +1853,54 @@
         "home": "BOS",
         "awayScore": "1",
         "homeScore": "13",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "NYM",
+        "home": "PIT",
+        "awayScore": "6",
+        "homeScore": "4",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "TOR",
+        "home": "PHI",
+        "awayScore": "5",
+        "homeScore": "4",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "CIN",
+        "home": "WSH",
+        "awayScore": "3",
+        "homeScore": "5",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "LAA",
+        "home": "MIA",
+        "awayScore": "4",
+        "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "CLE",
+        "home": "CHW",
+        "awayScore": "8",
+        "homeScore": "2",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "MIN",
+        "home": "MIL",
+        "awayScore": "8",
+        "homeScore": "6",
         "status": "Final"
       }
     ]
