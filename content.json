@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Houston Astros @ San Diego Padres",
-      "moneyline": "",
-      "total": "O/U 7.5"
-    },
-    {
       "matchup": "Boston Red Sox @ Toronto Blue Jays",
       "moneyline": "TOR +139",
       "total": "O/U 8.5"
@@ -52,6 +47,11 @@
       "matchup": "Philadelphia Phillies @ St. Louis Cardinals",
       "moneyline": "ST. -106",
       "total": "O/U 9.5"
+    },
+    {
+      "matchup": "Texas Rangers @ Los Angeles Angels",
+      "moneyline": "LOS +100",
+      "total": "O/U 8.5"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-10T02:23:08.750114+00:00",
+  "lastUpdated": "2026-08-10T04:45:28.492004+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
