@@ -29,29 +29,29 @@
   ],
   "market": [
     {
-      "matchup": "Cleveland Guardians @ Chicago White Sox",
-      "moneyline": "CHI +164",
-      "total": "O/U 8.5"
-    },
-    {
-      "matchup": "Baltimore Orioles @ Texas Rangers",
+      "matchup": "Houston Astros @ San Diego Padres",
       "moneyline": "",
-      "total": "O/U 15.5"
+      "total": "O/U 7.5"
     },
     {
-      "matchup": "Detroit Tigers @ San Francisco Giants",
-      "moneyline": "SAN +175",
-      "total": "O/U 3.5"
-    },
-    {
-      "matchup": "Los Angeles Dodgers @ Arizona Diamondbacks",
-      "moneyline": "ARI -660",
+      "matchup": "Boston Red Sox @ Toronto Blue Jays",
+      "moneyline": "TOR +139",
       "total": "O/U 8.5"
     },
     {
-      "matchup": "Tampa Bay Rays @ Seattle Mariners",
-      "moneyline": "SEA +115",
-      "total": "O/U 6.5"
+      "matchup": "New York Mets @ Atlanta Braves",
+      "moneyline": "ATL -157",
+      "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Baltimore Orioles @ Minnesota Twins",
+      "moneyline": "MIN -108",
+      "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Philadelphia Phillies @ St. Louis Cardinals",
+      "moneyline": "ST. -106",
+      "total": "O/U 9.5"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -216,9 +216,9 @@
       "league": "MLB",
       "away": "CLE",
       "home": "CHW",
-      "awayScore": "2",
-      "homeScore": "1",
-      "status": "Bot 3rd"
+      "awayScore": "3",
+      "homeScore": "5",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-09T21:39:46.634609+00:00",
+  "lastUpdated": "2026-08-10T02:23:08.750114+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1909,6 +1909,14 @@
         "home": "KC",
         "awayScore": "10",
         "homeScore": "2",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "CLE",
+        "home": "CHW",
+        "awayScore": "3",
+        "homeScore": "5",
         "status": "Final"
       }
     ]
