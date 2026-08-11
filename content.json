@@ -29,29 +29,29 @@
   ],
   "market": [
     {
-      "matchup": "Texas Rangers @ Los Angeles Angels",
-      "moneyline": "LOS +100",
+      "matchup": "Cleveland Guardians @ Detroit Tigers",
+      "moneyline": "DET -122",
       "total": "O/U 8.5"
     },
     {
-      "matchup": "Colorado Rockies @ Arizona Diamondbacks",
-      "moneyline": "ARI -1880",
-      "total": "O/U 10.5"
+      "matchup": "Pittsburgh Pirates @ Miami Marlins",
+      "moneyline": "MIA +104",
+      "total": "O/U 7.0"
     },
     {
-      "matchup": "Tampa Bay Rays @ Athletics",
-      "moneyline": "",
-      "total": "O/U 16.5"
+      "matchup": "Chicago Cubs @ Washington Nationals",
+      "moneyline": "WAS +140",
+      "total": "O/U 9.0"
     },
     {
-      "matchup": "Houston Astros @ San Francisco Giants",
-      "moneyline": "SAN +1400",
-      "total": "O/U 9.5"
+      "matchup": "Seattle Mariners @ New York Yankees",
+      "moneyline": "NEW -130",
+      "total": "O/U 8.5"
     },
     {
-      "matchup": "Kansas City Royals @ Los Angeles Dodgers",
-      "moneyline": "LOS -640",
-      "total": "O/U 11.5"
+      "matchup": "Boston Red Sox @ Toronto Blue Jays",
+      "moneyline": "TOR -152",
+      "total": "O/U 7.5"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -192,9 +192,9 @@
       "league": "MLB",
       "away": "TEX",
       "home": "LAA",
-      "awayScore": "1",
+      "awayScore": "4",
       "homeScore": "1",
-      "status": "Top 9th"
+      "status": "Final/10"
     },
     {
       "league": "MLB",
@@ -218,7 +218,7 @@
       "home": "ATH",
       "awayScore": "10",
       "homeScore": "6",
-      "status": "End 8th"
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-11T04:25:49.136161+00:00",
+  "lastUpdated": "2026-08-11T07:18:50.257577+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1901,6 +1901,22 @@
         "home": "SD",
         "awayScore": "2",
         "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "TEX",
+        "home": "LAA",
+        "awayScore": "4",
+        "homeScore": "1",
+        "status": "Final/10"
+      },
+      {
+        "league": "MLB",
+        "away": "TB",
+        "home": "ATH",
+        "awayScore": "10",
+        "homeScore": "6",
         "status": "Final"
       }
     ]
