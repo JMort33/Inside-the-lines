@@ -161,32 +161,32 @@
       "away": "CLE",
       "home": "DET",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/13 - 1:10 PM EDT"
+      "homeScore": "2",
+      "status": "Mid 8th"
     },
     {
       "league": "MLB",
       "away": "PIT",
       "home": "MIA",
-      "awayScore": "0",
+      "awayScore": "8",
       "homeScore": "0",
-      "status": "8/13 - 1:10 PM EDT"
+      "status": "Top 8th"
     },
     {
       "league": "MLB",
       "away": "CIN",
       "home": "CHW",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/13 - 1:10 PM EDT"
+      "awayScore": "9",
+      "homeScore": "5",
+      "status": "Top 6th"
     },
     {
       "league": "MLB",
       "away": "SEA",
       "home": "NYY",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "8/13 - 1:35 PM EDT"
+      "status": "Top 6th"
     },
     {
       "league": "MLB",
@@ -194,7 +194,7 @@
       "home": "TOR",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "8/13 - 3:07 PM EDT"
+      "status": "Top 1st"
     },
     {
       "league": "MLB",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-13T16:03:21.920799+00:00",
+  "lastUpdated": "2026-08-13T19:12:07.166236+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
