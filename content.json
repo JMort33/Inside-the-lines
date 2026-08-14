@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Philadelphia Phillies @ Minnesota Twins",
-      "moneyline": "MIN -104",
-      "total": "O/U 8.5"
-    },
-    {
       "matchup": "Texas Rangers @ Los Angeles Angels",
       "moneyline": "LOS +138",
       "total": "O/U 7.5"
@@ -51,6 +46,11 @@
     {
       "matchup": "Miami Marlins @ Cincinnati Reds",
       "moneyline": "CIN -118",
+      "total": "O/U 8.0"
+    },
+    {
+      "matchup": "Boston Red Sox @ Pittsburgh Pirates",
+      "moneyline": "PIT +122",
       "total": "O/U 8.0"
     },
     {
@@ -217,8 +217,8 @@
       "away": "TEX",
       "home": "LAA",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "End 1st"
+      "homeScore": "7",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-14T02:31:08.722392+00:00",
+  "lastUpdated": "2026-08-14T04:54:44.674014+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2030,6 +2030,14 @@
         "home": "MIN",
         "awayScore": "7",
         "homeScore": "1",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "TEX",
+        "home": "LAA",
+        "awayScore": "0",
+        "homeScore": "7",
         "status": "Final"
       }
     ]
