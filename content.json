@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Chicago Cubs @ Washington Nationals",
-      "moneyline": "WAS -10000",
-      "total": "O/U 7.5"
-    },
-    {
       "matchup": "Philadelphia Phillies @ Minnesota Twins",
       "moneyline": "MIN -104",
       "total": "O/U 8.5"
@@ -52,6 +47,11 @@
       "matchup": "St. Louis Cardinals @ Chicago Cubs",
       "moneyline": "CHI -186",
       "total": ""
+    },
+    {
+      "matchup": "Miami Marlins @ Cincinnati Reds",
+      "moneyline": "CIN -118",
+      "total": "O/U 8.0"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -201,16 +201,16 @@
       "away": "CHC",
       "home": "WSH",
       "awayScore": "0",
-      "homeScore": "6",
-      "status": "Top 7th"
+      "homeScore": "7",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "PHI",
       "home": "MIN",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/13 - 7:30 PM EDT"
+      "awayScore": "7",
+      "homeScore": "1",
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -218,7 +218,7 @@
       "home": "LAA",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "8/13 - 10:07 PM EDT"
+      "status": "End 1st"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-13T21:54:09.913377+00:00",
+  "lastUpdated": "2026-08-14T02:31:08.722392+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2014,6 +2014,22 @@
         "home": "TOR",
         "awayScore": "7",
         "homeScore": "0",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "CHC",
+        "home": "WSH",
+        "awayScore": "0",
+        "homeScore": "7",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "PHI",
+        "home": "MIN",
+        "awayScore": "7",
+        "homeScore": "1",
         "status": "Final"
       }
     ]
