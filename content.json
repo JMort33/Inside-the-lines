@@ -29,16 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Chicago White Sox @ Detroit Tigers",
-      "moneyline": "DET -134",
-      "total": "O/U 8.0"
-    },
-    {
-      "matchup": "St. Louis Cardinals @ Chicago Cubs",
-      "moneyline": "CHI -174",
-      "total": "O/U 9.0"
-    },
-    {
       "matchup": "New York Yankees @ Toronto Blue Jays",
       "moneyline": "TOR +156",
       "total": "O/U 7.5"
@@ -52,6 +42,16 @@
       "matchup": "Washington Nationals @ New York Mets",
       "moneyline": "NEW -148",
       "total": "O/U 8.0"
+    },
+    {
+      "matchup": "Baltimore Orioles @ Tampa Bay Rays",
+      "moneyline": "TAM -142",
+      "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Miami Marlins @ Cincinnati Reds",
+      "moneyline": "CIN -106",
+      "total": "O/U 9.5"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -160,41 +160,41 @@
       "league": "MLB",
       "away": "CHW",
       "home": "DET",
-      "awayScore": "3",
-      "homeScore": "2",
-      "status": "Top 5th"
+      "awayScore": "4",
+      "homeScore": "3",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "STL",
       "home": "CHC",
-      "awayScore": "3",
-      "homeScore": "0",
-      "status": "End 1st"
+      "awayScore": "8",
+      "homeScore": "4",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "NYY",
       "home": "TOR",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/15 - 3:07 PM EDT"
+      "awayScore": "1",
+      "homeScore": "2",
+      "status": "Mid 8th"
     },
     {
       "league": "MLB",
       "away": "COL",
       "home": "SF",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/15 - 4:05 PM EDT"
+      "awayScore": "1",
+      "homeScore": "7",
+      "status": "Bot 4th"
     },
     {
       "league": "MLB",
       "away": "WSH",
       "home": "NYM",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/15 - 4:10 PM EDT"
+      "awayScore": "1",
+      "homeScore": "2",
+      "status": "End 4th"
     },
     {
       "league": "MLB",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-15T18:38:29.588336+00:00",
+  "lastUpdated": "2026-08-15T21:27:42.962275+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2096,7 +2096,24 @@
         "status": "Final"
       }
     ],
-    "2026-08-15": []
+    "2026-08-15": [
+      {
+        "league": "MLB",
+        "away": "CHW",
+        "home": "DET",
+        "awayScore": "4",
+        "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "STL",
+        "home": "CHC",
+        "awayScore": "8",
+        "homeScore": "4",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
