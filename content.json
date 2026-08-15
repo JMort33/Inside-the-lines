@@ -29,29 +29,29 @@
   ],
   "market": [
     {
-      "matchup": "Seattle Mariners @ Houston Astros",
-      "moneyline": "HOU +500",
-      "total": "O/U 13.5"
+      "matchup": "Chicago White Sox @ Detroit Tigers",
+      "moneyline": "DET -134",
+      "total": "O/U 8.0"
     },
     {
-      "matchup": "Kansas City Royals @ Los Angeles Angels",
-      "moneyline": "LOS +105",
-      "total": "O/U 15.5"
+      "matchup": "St. Louis Cardinals @ Chicago Cubs",
+      "moneyline": "CHI -174",
+      "total": "O/U 9.0"
     },
     {
-      "matchup": "Texas Rangers @ Athletics",
-      "moneyline": "ATH -180",
-      "total": "O/U 9.5"
-    },
-    {
-      "matchup": "Milwaukee Brewers @ Los Angeles Dodgers",
-      "moneyline": "LOS -430",
-      "total": "O/U 5.5"
+      "matchup": "New York Yankees @ Toronto Blue Jays",
+      "moneyline": "TOR +156",
+      "total": "O/U 7.5"
     },
     {
       "matchup": "Colorado Rockies @ San Francisco Giants",
       "moneyline": "SAN +480",
       "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Washington Nationals @ New York Mets",
+      "moneyline": "NEW -148",
+      "total": "O/U 8.0"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-15T03:46:04.192134+00:00",
+  "lastUpdated": "2026-08-15T06:49:59.222547+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
