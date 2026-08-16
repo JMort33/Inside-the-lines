@@ -29,16 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Kansas City Royals @ Los Angeles Angels",
-      "moneyline": "LOS -10000",
-      "total": "O/U 1.5"
-    },
-    {
-      "matchup": "Texas Rangers @ Athletics",
-      "moneyline": "ATH +276",
-      "total": "O/U 8.5"
-    },
-    {
       "matchup": "Baltimore Orioles @ Tampa Bay Rays",
       "moneyline": "TAM -144",
       "total": "O/U 7.5"
@@ -51,6 +41,16 @@
     {
       "matchup": "Boston Red Sox @ Pittsburgh Pirates",
       "moneyline": "PIT +100",
+      "total": "O/U 8.5"
+    },
+    {
+      "matchup": "New York Yankees @ Toronto Blue Jays",
+      "moneyline": "TOR -116",
+      "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Chicago White Sox @ Detroit Tigers",
+      "moneyline": "DET -104",
       "total": "O/U 8.5"
     },
     {
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-16T03:53:25.234954+00:00",
+  "lastUpdated": "2026-08-16T06:51:52.902872+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
