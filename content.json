@@ -160,9 +160,9 @@
       "league": "MLB",
       "away": "STL",
       "home": "CIN",
-      "awayScore": "0",
+      "awayScore": "2",
       "homeScore": "0",
-      "status": "8/17 - 1:40 PM EDT"
+      "status": "Top 4th"
     },
     {
       "league": "MLB",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-17T15:31:59.306070+00:00",
+  "lastUpdated": "2026-08-17T18:49:52.955692+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
