@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "St. Louis Cardinals @ Cincinnati Reds",
-      "moneyline": "CIN +114",
-      "total": "O/U 9.0"
-    },
-    {
       "matchup": "Baltimore Orioles @ Tampa Bay Rays",
       "moneyline": "TAM -163",
       "total": "O/U 8.0"
@@ -52,6 +47,11 @@
       "matchup": "Detroit Tigers @ Pittsburgh Pirates",
       "moneyline": "PIT +100",
       "total": "O/U 8.0"
+    },
+    {
+      "matchup": "Arizona Diamondbacks @ Boston Red Sox",
+      "moneyline": "BOS -130",
+      "total": "O/U 9.0"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -161,8 +161,8 @@
       "away": "STL",
       "home": "CIN",
       "awayScore": "2",
-      "homeScore": "0",
-      "status": "Top 4th"
+      "homeScore": "1",
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-17T18:49:52.955692+00:00",
+  "lastUpdated": "2026-08-17T21:32:08.346174+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2112,7 +2112,16 @@
         "status": "Final"
       }
     ],
-    "2026-08-17": []
+    "2026-08-17": [
+      {
+        "league": "MLB",
+        "away": "STL",
+        "home": "CIN",
+        "awayScore": "2",
+        "homeScore": "1",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
