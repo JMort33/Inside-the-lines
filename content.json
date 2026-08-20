@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Los Angeles Dodgers @ Colorado Rockies",
-      "moneyline": "COL +525",
-      "total": "O/U 10.5"
-    },
-    {
       "matchup": "St. Louis Cardinals @ Cincinnati Reds",
       "moneyline": "CIN -128",
       "total": "O/U 8.5"
@@ -51,6 +46,11 @@
     {
       "matchup": "Atlanta Braves @ Chicago White Sox",
       "moneyline": "CHI -107",
+      "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Athletics @ Kansas City Royals",
+      "moneyline": "KAN -134",
       "total": "O/U 8.5"
     },
     {
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-20T03:52:11.324588+00:00",
+  "lastUpdated": "2026-08-20T06:57:09.581976+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
