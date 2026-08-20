@@ -29,9 +29,9 @@
   ],
   "market": [
     {
-      "matchup": "New York Yankees @ Baltimore Orioles",
-      "moneyline": "BAL -102",
-      "total": "O/U 9.0"
+      "matchup": "Los Angeles Dodgers @ Colorado Rockies",
+      "moneyline": "COL +525",
+      "total": "O/U 10.5"
     },
     {
       "matchup": "St. Louis Cardinals @ Cincinnati Reds",
@@ -39,19 +39,19 @@
       "total": "O/U 8.5"
     },
     {
-      "matchup": "Seattle Mariners @ Milwaukee Brewers",
-      "moneyline": "MIL +583",
-      "total": "O/U 12.5"
+      "matchup": "San Francisco Giants @ Cleveland Guardians",
+      "moneyline": "CLE -196",
+      "total": "O/U 7.5"
     },
     {
-      "matchup": "Athletics @ Kansas City Royals",
-      "moneyline": "KAN +360",
-      "total": "O/U 9.5"
+      "matchup": "Toronto Blue Jays @ Tampa Bay Rays",
+      "moneyline": "TAM -172",
+      "total": "O/U 7.5"
     },
     {
-      "matchup": "Washington Nationals @ Texas Rangers",
-      "moneyline": "TEX +470",
-      "total": "O/U 6.5"
+      "matchup": "Atlanta Braves @ Chicago White Sox",
+      "moneyline": "CHI -107",
+      "total": "O/U 8.5"
     },
     {
       "matchup": "Coventry City @ Arsenal",
@@ -210,7 +210,7 @@
       "home": "BAL",
       "awayScore": "5",
       "homeScore": "3",
-      "status": "Bot 9th"
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-20T01:42:02.479714+00:00",
+  "lastUpdated": "2026-08-20T03:52:11.324588+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2159,6 +2159,14 @@
         "home": "CLE",
         "awayScore": "1",
         "homeScore": "0",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "NYY",
+        "home": "BAL",
+        "awayScore": "5",
+        "homeScore": "3",
         "status": "Final"
       }
     ]
