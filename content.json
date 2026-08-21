@@ -217,8 +217,8 @@
       "away": "WSH",
       "home": "TEX",
       "awayScore": "0",
-      "homeScore": "1",
-      "status": "Top 7th"
+      "homeScore": "2",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-21T01:47:28.633623+00:00",
+  "lastUpdated": "2026-08-21T03:54:50.735177+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2175,6 +2175,14 @@
         "home": "BAL",
         "awayScore": "6",
         "homeScore": "1",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "WSH",
+        "home": "TEX",
+        "awayScore": "0",
+        "homeScore": "2",
         "status": "Final"
       }
     ]
