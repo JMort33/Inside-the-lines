@@ -208,17 +208,17 @@
       "league": "MLB",
       "away": "NYY",
       "home": "BAL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/20 - 6:35 PM EDT"
+      "awayScore": "6",
+      "homeScore": "1",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "WSH",
       "home": "TEX",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/20 - 8:05 PM EDT"
+      "homeScore": "1",
+      "status": "Top 7th"
     },
     {
       "league": "EPL",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-20T21:34:12.840768+00:00",
+  "lastUpdated": "2026-08-21T01:47:28.633623+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2167,6 +2167,14 @@
         "home": "CHW",
         "awayScore": "2",
         "homeScore": "0",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "NYY",
+        "home": "BAL",
+        "awayScore": "6",
+        "homeScore": "1",
         "status": "Final"
       }
     ]
