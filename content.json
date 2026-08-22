@@ -225,8 +225,8 @@
       "away": "MAN",
       "home": "HUL",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "homeScore": "2",
+      "status": "65'"
     },
     {
       "league": "EPL",
@@ -262,7 +262,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-22T09:33:44.337055+00:00",
+  "lastUpdated": "2026-08-22T12:52:48.555045+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
