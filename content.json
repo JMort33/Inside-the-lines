@@ -160,17 +160,17 @@
       "league": "MLB",
       "away": "TOR",
       "home": "NYY",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "8/22 - 1:35 PM EDT"
+      "status": "Top 4th"
     },
     {
       "league": "MLB",
       "away": "ATL",
       "home": "MIL",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "8/22 - 2:10 PM EDT"
+      "status": "Top 2nd"
     },
     {
       "league": "MLB",
@@ -234,35 +234,35 @@
       "home": "EVE",
       "awayScore": "0",
       "homeScore": "2",
-      "status": "67'"
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "SUN",
       "home": "IPS",
       "awayScore": "1",
-      "homeScore": "1",
-      "status": "69'"
+      "homeScore": "2",
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "LEE",
       "home": "NFO",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "69'"
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "TOT",
       "home": "BRE",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "homeScore": "3",
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-22T15:28:00.531053+00:00",
+  "lastUpdated": "2026-08-22T18:39:36.188439+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
