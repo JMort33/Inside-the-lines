@@ -210,15 +210,15 @@
       "home": "HOU",
       "awayScore": "4",
       "homeScore": "3",
-      "status": "Top 9th"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "NYM",
       "home": "CHW",
-      "awayScore": "8",
+      "awayScore": "10",
       "homeScore": "5",
-      "status": "Top 7th"
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -262,7 +262,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-23T01:50:27.627771+00:00",
+  "lastUpdated": "2026-08-23T03:55:19.299788+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2223,6 +2223,22 @@
         "home": "TEX",
         "awayScore": "3",
         "homeScore": "0",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "ATH",
+        "home": "HOU",
+        "awayScore": "4",
+        "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "NYM",
+        "home": "CHW",
+        "awayScore": "10",
+        "homeScore": "5",
         "status": "Final"
       }
     ]
