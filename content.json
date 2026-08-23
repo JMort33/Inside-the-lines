@@ -160,9 +160,9 @@
       "league": "MLB",
       "away": "STL",
       "home": "PHI",
-      "awayScore": "0",
+      "awayScore": "2",
       "homeScore": "0",
-      "status": "8/23 - 1:35 PM EDT"
+      "status": "Bot 4th"
     },
     {
       "league": "MLB",
@@ -170,39 +170,39 @@
       "home": "BAL",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "8/23 - 1:35 PM EDT"
+      "status": "Bot 4th"
     },
     {
       "league": "MLB",
       "away": "TOR",
       "home": "NYY",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/23 - 1:35 PM EDT"
+      "awayScore": "1",
+      "homeScore": "2",
+      "status": "Top 4th"
     },
     {
       "league": "MLB",
       "away": "WSH",
       "home": "MIA",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/23 - 1:40 PM EDT"
+      "homeScore": "1",
+      "status": "Top 4th"
     },
     {
       "league": "MLB",
       "away": "ATH",
       "home": "HOU",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/23 - 2:10 PM EDT"
+      "homeScore": "3",
+      "status": "Top 2nd"
     },
     {
       "league": "MLB",
       "away": "DET",
       "home": "KC",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "8/23 - 2:10 PM EDT"
+      "status": "Bot 2nd"
     },
     {
       "league": "MLB",
@@ -210,7 +210,7 @@
       "home": "CHW",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "8/23 - 2:10 PM EDT"
+      "status": "End 2nd"
     },
     {
       "league": "MLB",
@@ -218,7 +218,7 @@
       "home": "TEX",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "8/23 - 2:35 PM EDT"
+      "status": "Top 1st"
     },
     {
       "league": "EPL",
@@ -240,13 +240,13 @@
       "league": "EPL",
       "away": "LIV",
       "home": "NEW",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "awayScore": "2",
+      "homeScore": "2",
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-23T15:29:17.365658+00:00",
+  "lastUpdated": "2026-08-23T18:38:51.921436+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
