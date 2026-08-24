@@ -194,7 +194,7 @@
       "home": "HOU",
       "awayScore": "7",
       "homeScore": "6",
-      "status": "End 9th"
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -246,7 +246,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-23T21:28:08.236362+00:00",
+  "lastUpdated": "2026-08-24T01:47:58.250116+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2215,6 +2215,14 @@
         "home": "TEX",
         "awayScore": "3",
         "homeScore": "5",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "ATH",
+        "home": "HOU",
+        "awayScore": "7",
+        "homeScore": "6",
         "status": "Final"
       }
     ]
