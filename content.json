@@ -160,49 +160,49 @@
       "league": "MLB",
       "away": "COL",
       "home": "WSH",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/27 - 1:05 PM EDT"
+      "awayScore": "1",
+      "homeScore": "7",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "BAL",
       "home": "STL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/27 - 2:15 PM EDT"
+      "awayScore": "5",
+      "homeScore": "7",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "HOU",
       "home": "NYY",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "8/27 - 7:05 PM EDT"
+      "status": "Top 5th"
     },
     {
       "league": "MLB",
       "away": "KC",
       "home": "TOR",
-      "awayScore": "0",
+      "awayScore": "4",
       "homeScore": "0",
-      "status": "8/27 - 7:07 PM EDT"
+      "status": "End 4th"
     },
     {
       "league": "MLB",
       "away": "MIL",
       "home": "NYM",
-      "awayScore": "0",
+      "awayScore": "4",
       "homeScore": "0",
-      "status": "8/27 - 7:10 PM EDT"
+      "status": "Top 5th"
     },
     {
       "league": "MLB",
       "away": "LAD",
       "home": "ATL",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/27 - 7:15 PM EDT"
+      "homeScore": "1",
+      "status": "Top 5th"
     },
     {
       "league": "MLB",
@@ -222,7 +222,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-27T14:02:53.538785+00:00",
+  "lastUpdated": "2026-08-28T00:20:31.356408+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2144,7 +2144,24 @@
         "status": "Final"
       }
     ],
-    "2026-08-27": []
+    "2026-08-27": [
+      {
+        "league": "MLB",
+        "away": "COL",
+        "home": "WSH",
+        "awayScore": "1",
+        "homeScore": "7",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "BAL",
+        "home": "STL",
+        "awayScore": "5",
+        "homeScore": "7",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
