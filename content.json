@@ -202,15 +202,15 @@
       "home": "DET",
       "awayScore": "6",
       "homeScore": "1",
-      "status": "Top 8th"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "SD",
       "home": "TB",
       "awayScore": "4",
-      "homeScore": "3",
-      "status": "Bot 11th"
+      "homeScore": "5",
+      "status": "Final/11"
     },
     {
       "league": "MLB",
@@ -254,7 +254,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-30T20:54:49.736703+00:00",
+  "lastUpdated": "2026-08-30T23:21:39.238517+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2176,6 +2176,22 @@
         "awayScore": "1",
         "homeScore": "5",
         "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "LAD",
+        "home": "DET",
+        "awayScore": "6",
+        "homeScore": "1",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "SD",
+        "home": "TB",
+        "awayScore": "4",
+        "homeScore": "5",
+        "status": "Final/11"
       }
     ]
   },
