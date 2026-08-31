@@ -222,39 +222,15 @@
     },
     {
       "league": "EPL",
-      "away": "BHA",
-      "home": "CHE",
-      "awayScore": "3",
-      "homeScore": "4",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "BRE",
-      "home": "LEE",
-      "awayScore": "1",
-      "homeScore": "1",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "FUL",
-      "home": "SUN",
+      "away": "ARS",
+      "home": "AVL",
       "awayScore": "0",
-      "homeScore": "1",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "IPS",
-      "home": "MAN",
-      "awayScore": "2",
-      "homeScore": "5",
-      "status": "FT"
+      "homeScore": "0",
+      "status": "Scheduled"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-31T05:12:35.931464+00:00",
+  "lastUpdated": "2026-08-31T13:25:57.354153+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
