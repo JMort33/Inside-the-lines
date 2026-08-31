@@ -158,79 +158,79 @@
   "liveScores": [
     {
       "league": "MLB",
-      "away": "MIA",
-      "home": "WSH",
-      "awayScore": "6",
-      "homeScore": "2",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "BOS",
-      "home": "NYY",
-      "awayScore": "1",
-      "homeScore": "16",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "COL",
+      "away": "SF",
       "home": "ATL",
-      "awayScore": "2",
-      "homeScore": "3",
-      "status": "Final/10"
-    },
-    {
-      "league": "MLB",
-      "away": "SEA",
-      "home": "TOR",
       "awayScore": "0",
-      "homeScore": "7",
-      "status": "Final"
+      "homeScore": "0",
+      "status": "8/31 - 6:05 PM EDT"
     },
     {
       "league": "MLB",
-      "away": "KC",
-      "home": "CLE",
-      "awayScore": "1",
-      "homeScore": "11",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "LAD",
-      "home": "DET",
-      "awayScore": "6",
-      "homeScore": "1",
-      "status": "Final"
+      "away": "NYM",
+      "home": "TB",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "8/31 - 6:40 PM EDT"
     },
     {
       "league": "MLB",
       "away": "SD",
-      "home": "TB",
-      "awayScore": "4",
-      "homeScore": "5",
-      "status": "Final/11"
+      "home": "CIN",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "8/31 - 6:40 PM EDT"
     },
     {
       "league": "MLB",
-      "away": "CHW",
+      "away": "MIA",
+      "home": "WSH",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "8/31 - 6:45 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "SEA",
+      "home": "BOS",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "8/31 - 6:45 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "DET",
       "home": "MIN",
-      "awayScore": "1",
-      "homeScore": "5",
-      "status": "Final"
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "8/31 - 7:40 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "MIL",
+      "home": "CHC",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "8/31 - 7:40 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "ATH",
+      "home": "TEX",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "8/31 - 8:05 PM EDT"
     },
     {
       "league": "EPL",
       "away": "ARS",
       "home": "AVL",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "Scheduled"
+      "status": "87'"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-31T13:25:57.354153+00:00",
+  "lastUpdated": "2026-08-31T20:44:48.632290+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -262,72 +262,6 @@
     }
   ],
   "scoreArchive": {
-    "2026-08-01": [
-      {
-        "league": "MLB",
-        "away": "STL",
-        "home": "TOR",
-        "awayScore": "1",
-        "homeScore": "5",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "CHW",
-        "home": "TB",
-        "awayScore": "0",
-        "homeScore": "1",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "MIA",
-        "home": "NYM",
-        "awayScore": "6",
-        "homeScore": "2",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "MIN",
-        "home": "SEA",
-        "awayScore": "3",
-        "homeScore": "4",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "PIT",
-        "home": "CIN",
-        "awayScore": "4",
-        "homeScore": "1",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "PHI",
-        "home": "BAL",
-        "awayScore": "5",
-        "homeScore": "0",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "TEX",
-        "home": "HOU",
-        "awayScore": "4",
-        "homeScore": "5",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "ARI",
-        "home": "CLE",
-        "awayScore": "12",
-        "homeScore": "8",
-        "status": "Final"
-      }
-    ],
     "2026-08-02": [
       {
         "league": "MLB",
@@ -2169,7 +2103,8 @@
         "homeScore": "5",
         "status": "Final/11"
       }
-    ]
+    ],
+    "2026-08-31": []
   },
   "transferBuzz": [
     {
