@@ -29,53 +29,53 @@
   ],
   "market": [
     {
-      "matchup": "St. Louis Cardinals @ Cincinnati Reds",
-      "moneyline": "CIN -128",
+      "matchup": "San Francisco Giants @ Atlanta Braves",
+      "moneyline": "",
+      "total": "O/U 10.5"
+    },
+    {
+      "matchup": "San Diego Padres @ Cincinnati Reds",
+      "moneyline": "CIN +1400",
+      "total": "O/U 6.5"
+    },
+    {
+      "matchup": "New York Mets @ Tampa Bay Rays",
+      "moneyline": "TAM +900",
+      "total": "O/U 4.5"
+    },
+    {
+      "matchup": "Seattle Mariners @ Boston Red Sox",
+      "moneyline": "BOS -135",
+      "total": "O/U 13.5"
+    },
+    {
+      "matchup": "Miami Marlins @ Washington Nationals",
+      "moneyline": "WAS +170",
       "total": "O/U 8.5"
     },
     {
-      "matchup": "San Francisco Giants @ Cleveland Guardians",
-      "moneyline": "CLE -196",
-      "total": "O/U 7.5"
-    },
-    {
-      "matchup": "Toronto Blue Jays @ Tampa Bay Rays",
-      "moneyline": "TAM -172",
-      "total": "O/U 7.5"
-    },
-    {
-      "matchup": "Atlanta Braves @ Chicago White Sox",
-      "moneyline": "CHI -107",
-      "total": "O/U 8.5"
-    },
-    {
-      "matchup": "Athletics @ Kansas City Royals",
-      "moneyline": "KAN -134",
-      "total": "O/U 8.5"
-    },
-    {
-      "matchup": "Coventry City @ Arsenal",
-      "moneyline": "ARS -650",
+      "matchup": "Liverpool @ Ipswich Town",
+      "moneyline": "IPS +440",
       "total": ""
     },
     {
-      "matchup": "Manchester United @ Hull City",
-      "moneyline": "HUL +600",
+      "matchup": "Bournemouth @ Newcastle United",
+      "moneyline": "NEW +125",
       "total": ""
     },
     {
-      "matchup": "Crystal Palace @ Everton",
-      "moneyline": "EVE +100",
-      "total": ""
+      "matchup": "Sunderland @ Brentford",
+      "moneyline": "BRE -181",
+      "total": "O/U 2.5"
     },
     {
-      "matchup": "Sunderland @ Ipswich Town",
-      "moneyline": "IPS +160",
-      "total": ""
+      "matchup": "Leeds United @ Brighton and Hove Albion",
+      "moneyline": "BRI -120",
+      "total": "O/U 2.5"
     },
     {
-      "matchup": "Leeds United @ Nottingham Forest",
-      "moneyline": "NOT +115",
+      "matchup": "Coventry City @ Manchester City",
+      "moneyline": "MAN -650",
       "total": ""
     }
   ],
@@ -160,57 +160,57 @@
       "league": "MLB",
       "away": "SF",
       "home": "ATL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/31 - 6:05 PM EDT"
+      "awayScore": "7",
+      "homeScore": "3",
+      "status": "Bot 9th"
     },
     {
       "league": "MLB",
       "away": "NYM",
       "home": "TB",
-      "awayScore": "0",
+      "awayScore": "3",
       "homeScore": "0",
-      "status": "8/31 - 6:40 PM EDT"
+      "status": "Bot 7th"
     },
     {
       "league": "MLB",
       "away": "SD",
       "home": "CIN",
-      "awayScore": "0",
+      "awayScore": "4",
       "homeScore": "0",
-      "status": "8/31 - 6:40 PM EDT"
+      "status": "Top 6th"
     },
     {
       "league": "MLB",
       "away": "MIA",
       "home": "WSH",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/31 - 6:45 PM EDT"
+      "awayScore": "3",
+      "homeScore": "2",
+      "status": "Top 6th"
     },
     {
       "league": "MLB",
       "away": "SEA",
       "home": "BOS",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/31 - 6:45 PM EDT"
+      "awayScore": "5",
+      "homeScore": "5",
+      "status": "Top 6th"
     },
     {
       "league": "MLB",
       "away": "DET",
       "home": "MIN",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/31 - 7:40 PM EDT"
+      "homeScore": "2",
+      "status": "Bot 4th"
     },
     {
       "league": "MLB",
       "away": "MIL",
       "home": "CHC",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "8/31 - 7:40 PM EDT"
+      "homeScore": "6",
+      "status": "Bot 3rd"
     },
     {
       "league": "MLB",
@@ -218,7 +218,7 @@
       "home": "TEX",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "8/31 - 8:05 PM EDT"
+      "status": "Bot 2nd"
     },
     {
       "league": "EPL",
@@ -226,11 +226,11 @@
       "home": "AVL",
       "awayScore": "1",
       "homeScore": "0",
-      "status": "87'"
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-08-31T20:44:48.632290+00:00",
+  "lastUpdated": "2026-09-01T00:30:51.936193+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
