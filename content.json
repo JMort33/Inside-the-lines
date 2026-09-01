@@ -160,25 +160,25 @@
       "league": "MLB",
       "away": "NYM",
       "home": "TB",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "9/1 - 6:40 PM EDT"
+      "awayScore": "1",
+      "homeScore": "1",
+      "status": "Mid 3rd"
     },
     {
       "league": "MLB",
       "away": "SD",
       "home": "CIN",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "9/1 - 6:40 PM EDT"
+      "awayScore": "1",
+      "homeScore": "1",
+      "status": "Bot 2nd"
     },
     {
       "league": "MLB",
       "away": "SF",
       "home": "PIT",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "9/1 - 6:40 PM EDT"
+      "awayScore": "2",
+      "homeScore": "2",
+      "status": "Top 2nd"
     },
     {
       "league": "MLB",
@@ -186,23 +186,23 @@
       "home": "CLE",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "9/1 - 6:40 PM EDT"
+      "status": "Bot 2nd"
     },
     {
       "league": "MLB",
       "away": "ATL",
       "home": "WSH",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "9/1 - 6:45 PM EDT"
+      "status": "Bot 2nd"
     },
     {
       "league": "MLB",
       "away": "SEA",
       "home": "BOS",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "9/1 - 6:45 PM EDT"
+      "awayScore": "6",
+      "homeScore": "1",
+      "status": "Top 2nd"
     },
     {
       "league": "MLB",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-01T18:19:58.453868+00:00",
+  "lastUpdated": "2026-09-01T23:13:13.087532+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
