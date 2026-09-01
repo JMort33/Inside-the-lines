@@ -29,14 +29,14 @@
   ],
   "market": [
     {
-      "matchup": "San Francisco Giants @ Atlanta Braves",
-      "moneyline": "",
-      "total": "O/U 10.5"
-    },
-    {
       "matchup": "San Diego Padres @ Cincinnati Reds",
       "moneyline": "CIN +1400",
       "total": "O/U 6.5"
+    },
+    {
+      "matchup": "Toronto Blue Jays @ Cleveland Guardians",
+      "moneyline": "CLE -180",
+      "total": "O/U 8.0"
     },
     {
       "matchup": "New York Mets @ Tampa Bay Rays",
@@ -44,14 +44,14 @@
       "total": "O/U 4.5"
     },
     {
-      "matchup": "Seattle Mariners @ Boston Red Sox",
-      "moneyline": "BOS -135",
-      "total": "O/U 13.5"
+      "matchup": "San Francisco Giants @ Pittsburgh Pirates",
+      "moneyline": "PIT -162",
+      "total": "O/U 7.5"
     },
     {
-      "matchup": "Miami Marlins @ Washington Nationals",
-      "moneyline": "WAS +170",
-      "total": "O/U 8.5"
+      "matchup": "Atlanta Braves @ Washington Nationals",
+      "moneyline": "WAS +138",
+      "total": "O/U 10.0"
     },
     {
       "matchup": "Liverpool @ Ipswich Town",
@@ -162,75 +162,75 @@
       "home": "ATL",
       "awayScore": "7",
       "homeScore": "3",
-      "status": "Bot 9th"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "NYM",
       "home": "TB",
       "awayScore": "3",
-      "homeScore": "0",
-      "status": "Bot 7th"
+      "homeScore": "2",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "SD",
       "home": "CIN",
-      "awayScore": "4",
+      "awayScore": "5",
       "homeScore": "0",
-      "status": "Top 6th"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "MIA",
       "home": "WSH",
       "awayScore": "3",
-      "homeScore": "2",
-      "status": "Top 6th"
+      "homeScore": "6",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "SEA",
       "home": "BOS",
-      "awayScore": "5",
-      "homeScore": "5",
-      "status": "Top 6th"
+      "awayScore": "8",
+      "homeScore": "9",
+      "status": "Final/10"
     },
     {
       "league": "MLB",
       "away": "DET",
       "home": "MIN",
-      "awayScore": "0",
-      "homeScore": "2",
-      "status": "Bot 4th"
+      "awayScore": "1",
+      "homeScore": "11",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "MIL",
       "home": "CHC",
-      "awayScore": "0",
-      "homeScore": "6",
-      "status": "Bot 3rd"
+      "awayScore": "3",
+      "homeScore": "17",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "ATH",
       "home": "TEX",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Bot 2nd"
+      "awayScore": "1",
+      "homeScore": "8",
+      "status": "Final"
     },
     {
       "league": "EPL",
-      "away": "ARS",
-      "home": "AVL",
-      "awayScore": "1",
+      "away": "LIV",
+      "home": "IPS",
+      "awayScore": "0",
       "homeScore": "0",
-      "status": "FT"
+      "status": "Scheduled"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-01T00:30:51.936193+00:00",
+  "lastUpdated": "2026-09-01T08:32:07.223397+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2104,12 +2104,77 @@
         "status": "Final/11"
       }
     ],
-    "2026-08-31": []
+    "2026-08-31": [
+      {
+        "league": "MLB",
+        "away": "SF",
+        "home": "ATL",
+        "awayScore": "7",
+        "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "NYM",
+        "home": "TB",
+        "awayScore": "3",
+        "homeScore": "2",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "SD",
+        "home": "CIN",
+        "awayScore": "5",
+        "homeScore": "0",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "MIA",
+        "home": "WSH",
+        "awayScore": "3",
+        "homeScore": "6",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "SEA",
+        "home": "BOS",
+        "awayScore": "8",
+        "homeScore": "9",
+        "status": "Final/10"
+      },
+      {
+        "league": "MLB",
+        "away": "DET",
+        "home": "MIN",
+        "awayScore": "1",
+        "homeScore": "11",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "MIL",
+        "home": "CHC",
+        "awayScore": "3",
+        "homeScore": "17",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "ATH",
+        "home": "TEX",
+        "awayScore": "1",
+        "homeScore": "8",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
-      "title": "All done deals in August 2026",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c9v4d2z2p7yo?at_medium=RSS&at_campaign=rss",
+      "title": "Every done deal on transfer deadline day",
+      "link": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
       "confirmed": false
     }
   ]
