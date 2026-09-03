@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Toronto Blue Jays @ Cleveland Guardians",
-      "moneyline": "CLE +1200",
-      "total": "O/U 12.5"
-    },
-    {
       "matchup": "Boston Red Sox @ Baltimore Orioles",
       "moneyline": "BAL +110",
       "total": "O/U 8.5"
@@ -51,6 +46,11 @@
     {
       "matchup": "Tampa Bay Rays @ Texas Rangers",
       "moneyline": "TEX +112",
+      "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Athletics @ Seattle Mariners",
+      "moneyline": "SEA -215",
       "total": "O/U 7.5"
     },
     {
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-03T20:53:45.188514+00:00",
+  "lastUpdated": "2026-09-03T23:11:20.510650+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
