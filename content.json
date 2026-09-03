@@ -29,21 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Detroit Tigers @ Minnesota Twins",
-      "moneyline": "",
-      "total": "O/U 17.5"
-    },
-    {
-      "matchup": "New York Yankees @ Los Angeles Angels",
-      "moneyline": "LOS -106",
-      "total": "O/U 3.5"
-    },
-    {
-      "matchup": "St. Louis Cardinals @ Los Angeles Dodgers",
-      "moneyline": "LOS -6000",
-      "total": "O/U 8.5"
-    },
-    {
       "matchup": "San Francisco Giants @ Pittsburgh Pirates",
       "moneyline": "PIT +100",
       "total": "O/U 7.5"
@@ -52,6 +37,21 @@
       "matchup": "Toronto Blue Jays @ Cleveland Guardians",
       "moneyline": "CLE +1200",
       "total": "O/U 12.5"
+    },
+    {
+      "matchup": "Chicago White Sox @ Houston Astros",
+      "moneyline": "HOU -162",
+      "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Boston Red Sox @ Baltimore Orioles",
+      "moneyline": "BAL +110",
+      "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Milwaukee Brewers @ Chicago Cubs",
+      "moneyline": "CHI -105",
+      "total": "O/U 8.5"
     },
     {
       "matchup": "Liverpool @ Ipswich Town",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-03T04:05:58.598061+00:00",
+  "lastUpdated": "2026-09-03T11:02:45.685180+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
