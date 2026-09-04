@@ -160,9 +160,9 @@
       "league": "MLB",
       "away": "DET",
       "home": "CLE",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "9/4 - 2:10 PM EDT"
+      "awayScore": "6",
+      "homeScore": "6",
+      "status": "Bot 4th"
     },
     {
       "league": "MLB",
@@ -224,13 +224,13 @@
       "league": "EPL",
       "away": "LIV",
       "home": "IPS",
-      "awayScore": "0",
+      "awayScore": "2",
       "homeScore": "0",
-      "status": "Scheduled"
+      "status": "82'"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-04T16:12:12.803616+00:00",
+  "lastUpdated": "2026-09-04T20:40:11.728166+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
