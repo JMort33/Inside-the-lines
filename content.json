@@ -29,21 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "New York Yankees @ San Diego Padres",
-      "moneyline": "SAN +126",
-      "total": "O/U 4.5"
-    },
-    {
-      "matchup": "Athletics @ Seattle Mariners",
-      "moneyline": "SEA +271",
-      "total": "O/U 14.5"
-    },
-    {
-      "matchup": "Washington Nationals @ Los Angeles Dodgers",
-      "moneyline": "",
-      "total": "O/U 6.5"
-    },
-    {
       "matchup": "Chicago Cubs @ Miami Marlins",
       "moneyline": "MIA +133",
       "total": "O/U 8.0"
@@ -52,6 +37,21 @@
       "matchup": "San Francisco Giants @ New York Mets",
       "moneyline": "NEW -180",
       "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Atlanta Braves @ Philadelphia Phillies",
+      "moneyline": "PHI -156",
+      "total": "O/U 8.0"
+    },
+    {
+      "matchup": "Detroit Tigers @ Cleveland Guardians",
+      "moneyline": "CLE -158",
+      "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Milwaukee Brewers @ Cincinnati Reds",
+      "moneyline": "CIN +136",
+      "total": "O/U 9.5"
     },
     {
       "matchup": "Bournemouth @ Newcastle United",
@@ -222,15 +222,63 @@
     },
     {
       "league": "EPL",
-      "away": "LIV",
-      "home": "IPS",
-      "awayScore": "2",
+      "away": "BOU",
+      "home": "NEW",
+      "awayScore": "0",
       "homeScore": "0",
-      "status": "FT"
+      "status": "Scheduled"
+    },
+    {
+      "league": "EPL",
+      "away": "SUN",
+      "home": "BRE",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
+    },
+    {
+      "league": "EPL",
+      "away": "LEE",
+      "home": "BHA",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
+    },
+    {
+      "league": "EPL",
+      "away": "CRY",
+      "home": "FUL",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
+    },
+    {
+      "league": "EPL",
+      "away": "COV",
+      "home": "MNC",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
+    },
+    {
+      "league": "EPL",
+      "away": "TOT",
+      "home": "NFO",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
+    },
+    {
+      "league": "EPL",
+      "away": "AVL",
+      "home": "HUL",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-05T04:07:55.217663+00:00",
+  "lastUpdated": "2026-09-05T10:25:44.990748+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
