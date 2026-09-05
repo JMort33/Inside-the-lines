@@ -54,11 +54,6 @@
       "total": "O/U 9.5"
     },
     {
-      "matchup": "Bournemouth @ Newcastle United",
-      "moneyline": "NEW +125",
-      "total": ""
-    },
-    {
       "matchup": "Sunderland @ Brentford",
       "moneyline": "BRE -181",
       "total": "O/U 2.5"
@@ -77,6 +72,11 @@
       "matchup": "Crystal Palace @ Fulham",
       "moneyline": "FUL +125",
       "total": ""
+    },
+    {
+      "matchup": "Tottenham Hotspur @ Nottingham Forest",
+      "moneyline": "NOT +200",
+      "total": "O/U 1.5"
     }
   ],
   "baseball": [
@@ -158,75 +158,75 @@
   "liveScores": [
     {
       "league": "MLB",
-      "away": "DET",
-      "home": "CLE",
-      "awayScore": "6",
-      "homeScore": "7",
-      "status": "Final"
+      "away": "CHC",
+      "home": "MIA",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/5 - 4:10 PM EDT"
     },
     {
       "league": "MLB",
-      "away": "MIL",
-      "home": "CIN",
-      "awayScore": "10",
-      "homeScore": "7",
-      "status": "Final"
+      "away": "SF",
+      "home": "NYM",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/5 - 4:10 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "ATL",
+      "home": "PHI",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/5 - 6:05 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "DET",
+      "home": "CLE",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/5 - 6:10 PM EDT"
     },
     {
       "league": "MLB",
       "away": "LAA",
       "home": "PIT",
       "awayScore": "0",
-      "homeScore": "1",
-      "status": "Final"
+      "homeScore": "0",
+      "status": "9/5 - 6:40 PM EDT"
     },
     {
       "league": "MLB",
-      "away": "ATL",
-      "home": "PHI",
-      "awayScore": "5",
-      "homeScore": "2",
-      "status": "Final"
+      "away": "MIL",
+      "home": "CIN",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/5 - 6:40 PM EDT"
     },
     {
       "league": "MLB",
       "away": "BOS",
       "home": "BAL",
-      "awayScore": "1",
+      "awayScore": "0",
       "homeScore": "0",
-      "status": "Final"
+      "status": "9/5 - 7:05 PM EDT"
     },
     {
       "league": "MLB",
-      "away": "CHC",
-      "home": "MIA",
-      "awayScore": "6",
-      "homeScore": "1",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "SF",
-      "home": "NYM",
-      "awayScore": "6",
-      "homeScore": "10",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "MIN",
-      "home": "CHW",
-      "awayScore": "1",
-      "homeScore": "4",
-      "status": "Final"
+      "away": "TB",
+      "home": "TEX",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/5 - 7:05 PM EDT"
     },
     {
       "league": "EPL",
       "away": "BOU",
       "home": "NEW",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "awayScore": "2",
+      "homeScore": "2",
+      "status": "FT"
     },
     {
       "league": "EPL",
@@ -234,31 +234,31 @@
       "home": "BRE",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "Scheduled"
+      "status": "HT"
     },
     {
       "league": "EPL",
       "away": "LEE",
       "home": "BHA",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "Scheduled"
+      "status": "HT"
     },
     {
       "league": "EPL",
       "away": "CRY",
       "home": "FUL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "awayScore": "1",
+      "homeScore": "2",
+      "status": "HT"
     },
     {
       "league": "EPL",
       "away": "COV",
       "home": "MNC",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "homeScore": "1",
+      "status": "HT"
     },
     {
       "league": "EPL",
@@ -266,7 +266,7 @@
       "home": "NFO",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "Scheduled"
+      "status": "HT"
     },
     {
       "league": "EPL",
@@ -278,7 +278,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-05T10:25:44.990748+00:00",
+  "lastUpdated": "2026-09-05T15:00:05.523959+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -310,72 +310,6 @@
     }
   ],
   "scoreArchive": {
-    "2026-08-06": [
-      {
-        "league": "MLB",
-        "away": "LAA",
-        "home": "BAL",
-        "awayScore": "4",
-        "homeScore": "1",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "ATH",
-        "home": "CIN",
-        "awayScore": "5",
-        "homeScore": "6",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "NYM",
-        "home": "CLE",
-        "awayScore": "13",
-        "homeScore": "6",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "PIT",
-        "home": "MIL",
-        "awayScore": "2",
-        "homeScore": "5",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "TOR",
-        "home": "CHC",
-        "awayScore": "2",
-        "homeScore": "3",
-        "status": "Final/11"
-      },
-      {
-        "league": "MLB",
-        "away": "DET",
-        "home": "SEA",
-        "awayScore": "11",
-        "homeScore": "0",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "WSH",
-        "home": "PHI",
-        "awayScore": "3",
-        "homeScore": "7",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "CHW",
-        "home": "BOS",
-        "awayScore": "11",
-        "homeScore": "12",
-        "status": "Final/13"
-      }
-    ],
     "2026-08-07": [
       {
         "league": "MLB",
@@ -2217,7 +2151,8 @@
         "homeScore": "4",
         "status": "Final"
       }
-    ]
+    ],
+    "2026-09-05": []
   },
   "transferBuzz": [
     {
