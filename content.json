@@ -54,29 +54,29 @@
       "total": "O/U 9.5"
     },
     {
-      "matchup": "Sunderland @ Brentford",
-      "moneyline": "BRE -181",
-      "total": "O/U 2.5"
-    },
-    {
-      "matchup": "Leeds United @ Brighton and Hove Albion",
-      "moneyline": "BRI -120",
-      "total": "O/U 2.5"
-    },
-    {
-      "matchup": "Coventry City @ Manchester City",
-      "moneyline": "MAN -650",
+      "matchup": "Aston Villa @ Hull City",
+      "moneyline": "HUL +380",
       "total": ""
     },
     {
-      "matchup": "Crystal Palace @ Fulham",
-      "moneyline": "FUL +125",
+      "matchup": "Manchester United @ Everton",
+      "moneyline": "EVE +240",
       "total": ""
     },
     {
-      "matchup": "Tottenham Hotspur @ Nottingham Forest",
-      "moneyline": "NOT +200",
-      "total": "O/U 1.5"
+      "matchup": "Chelsea @ Arsenal",
+      "moneyline": "ARS -144",
+      "total": "O/U 3.0"
+    },
+    {
+      "matchup": "Nottingham Forest @ Aston Villa",
+      "moneyline": "AST -109",
+      "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Brentford @ Bournemouth",
+      "moneyline": "BOU +148",
+      "total": "O/U 2.5"
     }
   ],
   "baseball": [
@@ -232,25 +232,25 @@
       "league": "EPL",
       "away": "SUN",
       "home": "BRE",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "HT"
+      "awayScore": "1",
+      "homeScore": "1",
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "LEE",
       "home": "BHA",
       "awayScore": "1",
-      "homeScore": "0",
-      "status": "HT"
+      "homeScore": "1",
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "CRY",
       "home": "FUL",
-      "awayScore": "1",
+      "awayScore": "3",
       "homeScore": "2",
-      "status": "HT"
+      "status": "FT"
     },
     {
       "league": "EPL",
@@ -258,7 +258,7 @@
       "home": "MNC",
       "awayScore": "0",
       "homeScore": "1",
-      "status": "HT"
+      "status": "FT"
     },
     {
       "league": "EPL",
@@ -266,7 +266,7 @@
       "home": "NFO",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "HT"
+      "status": "FT"
     },
     {
       "league": "EPL",
@@ -274,11 +274,11 @@
       "home": "HUL",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "Scheduled"
+      "status": "45'+1'"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-05T15:00:05.523959+00:00",
+  "lastUpdated": "2026-09-05T17:16:50.391915+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
