@@ -29,16 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Washington Nationals @ Los Angeles Dodgers",
-      "moneyline": "LOS -1800",
-      "total": "O/U 11.5"
-    },
-    {
-      "matchup": "Athletics @ Seattle Mariners",
-      "moneyline": "SEA +3000",
-      "total": "O/U 8.5"
-    },
-    {
       "matchup": "Milwaukee Brewers @ Cincinnati Reds",
       "moneyline": "CIN +136",
       "total": "O/U 9.5"
@@ -51,6 +41,16 @@
     {
       "matchup": "Boston Red Sox @ Baltimore Orioles",
       "moneyline": "BAL +113",
+      "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Los Angeles Angels @ Pittsburgh Pirates",
+      "moneyline": "PIT -199",
+      "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Detroit Tigers @ Cleveland Guardians",
+      "moneyline": "CLE -168",
       "total": "O/U 7.5"
     },
     {
@@ -222,63 +222,23 @@
     },
     {
       "league": "EPL",
-      "away": "BOU",
-      "home": "NEW",
-      "awayScore": "2",
-      "homeScore": "2",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "SUN",
-      "home": "BRE",
-      "awayScore": "1",
-      "homeScore": "1",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "LEE",
-      "home": "BHA",
-      "awayScore": "1",
-      "homeScore": "1",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "CRY",
-      "home": "FUL",
-      "awayScore": "3",
-      "homeScore": "2",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "COV",
-      "home": "MNC",
-      "awayScore": "0",
-      "homeScore": "1",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "TOT",
-      "home": "NFO",
+      "away": "MAN",
+      "home": "EVE",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "FT"
+      "status": "Scheduled"
     },
     {
       "league": "EPL",
-      "away": "AVL",
-      "home": "HUL",
+      "away": "CHE",
+      "home": "ARS",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "FT"
+      "status": "Scheduled"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-06T04:15:54.138723+00:00",
+  "lastUpdated": "2026-09-06T10:44:26.898151+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
