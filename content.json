@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Washington Nationals @ Los Angeles Dodgers",
-      "moneyline": "LOS -205",
-      "total": "O/U 8.5"
-    },
-    {
       "matchup": "Atlanta Braves @ Philadelphia Phillies",
       "moneyline": "PHI -174",
       "total": "O/U 8.0"
@@ -52,6 +47,11 @@
       "matchup": "Los Angeles Angels @ Boston Red Sox",
       "moneyline": "BOS -168",
       "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Arizona Diamondbacks @ Kansas City Royals",
+      "moneyline": "KAN -116",
+      "total": "O/U 9.0"
     },
     {
       "matchup": "Nottingham Forest @ Aston Villa",
@@ -238,7 +238,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-07T04:14:59.835963+00:00",
+  "lastUpdated": "2026-09-07T12:14:15.833308+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
