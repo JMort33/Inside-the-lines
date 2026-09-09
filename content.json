@@ -29,29 +29,29 @@
   ],
   "market": [
     {
-      "matchup": "Minnesota Twins @ Detroit Tigers",
-      "moneyline": "DET -142",
-      "total": "O/U 8.5"
-    },
-    {
-      "matchup": "Toronto Blue Jays @ Athletics",
-      "moneyline": "ATH +2000",
-      "total": "O/U 6.5"
-    },
-    {
-      "matchup": "St. Louis Cardinals @ San Francisco Giants",
-      "moneyline": "SAN -1600",
-      "total": "O/U 3.5"
-    },
-    {
       "matchup": "Washington Nationals @ San Diego Padres",
       "moneyline": "SAN -190",
       "total": "O/U 8.5"
     },
     {
-      "matchup": "Texas Rangers @ Seattle Mariners",
-      "moneyline": "",
-      "total": "O/U 14.5"
+      "matchup": "Cleveland Guardians @ Baltimore Orioles",
+      "moneyline": "BAL +240",
+      "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Houston Astros @ Philadelphia Phillies",
+      "moneyline": "PHI -170",
+      "total": "O/U 6.5"
+    },
+    {
+      "matchup": "New York Mets @ Miami Marlins",
+      "moneyline": "MIA +300",
+      "total": "O/U 11.5"
+    },
+    {
+      "matchup": "Los Angeles Angels @ Boston Red Sox",
+      "moneyline": "BOS -290",
+      "total": "O/U 7.5"
     },
     {
       "matchup": "Nottingham Forest @ Aston Villa",
@@ -161,8 +161,8 @@
       "away": "MIN",
       "home": "DET",
       "awayScore": "2",
-      "homeScore": "5",
-      "status": "Top 7th"
+      "homeScore": "7",
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -170,39 +170,39 @@
       "home": "ATH",
       "awayScore": "0",
       "homeScore": "2",
-      "status": "Bot 7th"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "STL",
       "home": "SF",
-      "awayScore": "4",
-      "homeScore": "1",
-      "status": "Bot 4th"
+      "awayScore": "6",
+      "homeScore": "7",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "TEX",
       "home": "SEA",
-      "awayScore": "1",
-      "homeScore": "1",
-      "status": "Top 3rd"
+      "awayScore": "2",
+      "homeScore": "3",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "WSH",
       "home": "SD",
-      "awayScore": "1",
-      "homeScore": "0",
-      "status": "Top 3rd"
+      "awayScore": "2",
+      "homeScore": "9",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "CLE",
       "home": "BAL",
-      "awayScore": "0",
+      "awayScore": "2",
       "homeScore": "0",
-      "status": "9/9 - 6:35 PM EDT"
+      "status": "End 2nd"
     },
     {
       "league": "MLB",
@@ -210,15 +210,15 @@
       "home": "PHI",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "9/9 - 6:40 PM EDT"
+      "status": "Bot 2nd"
     },
     {
       "league": "MLB",
       "away": "NYM",
       "home": "MIA",
-      "awayScore": "0",
+      "awayScore": "2",
       "homeScore": "0",
-      "status": "9/9 - 6:40 PM EDT"
+      "status": "Top 2nd"
     },
     {
       "league": "EPL",
@@ -278,7 +278,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-09T20:49:52.382326+00:00",
+  "lastUpdated": "2026-09-09T23:07:44.750696+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2152,7 +2152,48 @@
         "status": "Final/11"
       }
     ],
-    "2026-09-09": []
+    "2026-09-09": [
+      {
+        "league": "MLB",
+        "away": "MIN",
+        "home": "DET",
+        "awayScore": "2",
+        "homeScore": "7",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "TOR",
+        "home": "ATH",
+        "awayScore": "0",
+        "homeScore": "2",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "STL",
+        "home": "SF",
+        "awayScore": "6",
+        "homeScore": "7",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "TEX",
+        "home": "SEA",
+        "awayScore": "2",
+        "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "WSH",
+        "home": "SD",
+        "awayScore": "2",
+        "homeScore": "9",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
