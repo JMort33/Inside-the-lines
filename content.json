@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Cincinnati Reds @ Los Angeles Dodgers",
-      "moneyline": "",
-      "total": "O/U 15.5"
-    },
-    {
       "matchup": "Tampa Bay Rays @ Atlanta Braves",
       "moneyline": "ATL -122",
       "total": "O/U 8.5"
@@ -52,6 +47,11 @@
       "matchup": "Colorado Rockies @ New York Yankees",
       "moneyline": "NEW -344",
       "total": "O/U 9.0"
+    },
+    {
+      "matchup": "Pittsburgh Pirates @ Chicago White Sox",
+      "moneyline": "CHI -106",
+      "total": "O/U 7.5"
     },
     {
       "matchup": "Nottingham Forest @ Aston Villa",
@@ -278,7 +278,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-10T04:19:04.387636+00:00",
+  "lastUpdated": "2026-09-10T11:05:25.021264+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
