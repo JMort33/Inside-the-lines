@@ -29,6 +29,11 @@
   ],
   "market": [
     {
+      "matchup": "Pittsburgh Pirates @ Chicago Cubs",
+      "moneyline": "CHI -198",
+      "total": "O/U 8.5"
+    },
+    {
       "matchup": "Colorado Rockies @ Detroit Tigers",
       "moneyline": "DET -188",
       "total": "O/U 8.0"
@@ -46,11 +51,6 @@
     {
       "matchup": "Baltimore Orioles @ Toronto Blue Jays",
       "moneyline": "TOR -126",
-      "total": "O/U 8.5"
-    },
-    {
-      "matchup": "Kansas City Royals @ Boston Red Sox",
-      "moneyline": "BOS -198",
       "total": "O/U 8.5"
     },
     {
@@ -254,7 +254,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-11T04:18:31.979503+00:00",
+  "lastUpdated": "2026-09-11T11:04:12.176370+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
