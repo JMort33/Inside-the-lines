@@ -160,9 +160,9 @@
       "league": "MLB",
       "away": "PIT",
       "home": "CHC",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "9/11 - 2:20 PM EDT"
+      "awayScore": "2",
+      "homeScore": "12",
+      "status": "Mid 8th"
     },
     {
       "league": "MLB",
@@ -278,7 +278,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-11T16:19:59.732497+00:00",
+  "lastUpdated": "2026-09-11T20:51:07.125865+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
