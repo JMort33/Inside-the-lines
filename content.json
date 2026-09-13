@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Seattle Mariners @ Athletics",
-      "moneyline": "",
-      "total": "O/U 20.5"
-    },
-    {
       "matchup": "Colorado Rockies @ Detroit Tigers",
       "moneyline": "DET -154",
       "total": "O/U 8.5"
@@ -51,6 +46,11 @@
     {
       "matchup": "New York Mets @ New York Yankees",
       "moneyline": "NEW -184",
+      "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Baltimore Orioles @ Toronto Blue Jays",
+      "moneyline": "TOR -148",
       "total": "O/U 7.5"
     },
     {
@@ -222,63 +222,23 @@
     },
     {
       "league": "EPL",
-      "away": "BRE",
-      "home": "BOU",
-      "awayScore": "2",
-      "homeScore": "2",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "NFO",
-      "home": "AVL",
-      "awayScore": "2",
-      "homeScore": "1",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "HUL",
-      "home": "CHE",
-      "awayScore": "2",
-      "homeScore": "2",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "IPS",
-      "home": "CRY",
-      "awayScore": "3",
-      "homeScore": "2",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "FUL",
-      "home": "LIV",
+      "away": "BHA",
+      "home": "COV",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "FT"
+      "status": "Scheduled"
     },
     {
       "league": "EPL",
-      "away": "EVE",
-      "home": "TOT",
+      "away": "MNC",
+      "home": "MAN",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "ARS",
-      "home": "SUN",
-      "awayScore": "2",
-      "homeScore": "0",
-      "status": "FT"
+      "status": "Scheduled"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-13T04:30:31.668699+00:00",
+  "lastUpdated": "2026-09-13T11:35:55.310680+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
