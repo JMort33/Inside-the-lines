@@ -29,29 +29,29 @@
   ],
   "market": [
     {
+      "matchup": "Seattle Mariners @ Athletics",
+      "moneyline": "",
+      "total": "O/U 20.5"
+    },
+    {
+      "matchup": "Colorado Rockies @ Detroit Tigers",
+      "moneyline": "DET -154",
+      "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Philadelphia Phillies @ Atlanta Braves",
+      "moneyline": "ATL -130",
+      "total": "O/U 8.5"
+    },
+    {
       "matchup": "Los Angeles Angels @ Washington Nationals",
       "moneyline": "WAS -116",
       "total": "O/U 8.5"
     },
     {
-      "matchup": "San Diego Padres @ San Francisco Giants",
-      "moneyline": "SAN +1500",
-      "total": "O/U 13.5"
-    },
-    {
-      "matchup": "Cleveland Guardians @ Minnesota Twins",
-      "moneyline": "MIN -10000",
+      "matchup": "New York Mets @ New York Yankees",
+      "moneyline": "NEW -184",
       "total": "O/U 7.5"
-    },
-    {
-      "matchup": "Los Angeles Dodgers @ Miami Marlins",
-      "moneyline": "MIA -2500",
-      "total": "O/U 7.5"
-    },
-    {
-      "matchup": "Houston Astros @ Tampa Bay Rays",
-      "moneyline": "TAM +122",
-      "total": "O/U 6.5"
     },
     {
       "matchup": "Brighton and Hove Albion @ Coventry City",
@@ -193,8 +193,8 @@
       "away": "LAA",
       "home": "WSH",
       "awayScore": "5",
-      "homeScore": "5",
-      "status": "Top 10th"
+      "homeScore": "6",
+      "status": "Final/10"
     },
     {
       "league": "MLB",
@@ -278,7 +278,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-12T22:56:10.646315+00:00",
+  "lastUpdated": "2026-09-13T04:30:31.668699+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2184,6 +2184,14 @@
         "awayScore": "3",
         "homeScore": "4",
         "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "LAA",
+        "home": "WSH",
+        "awayScore": "5",
+        "homeScore": "6",
+        "status": "Final/10"
       }
     ]
   },
