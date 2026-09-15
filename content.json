@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Miami Marlins @ Arizona Diamondbacks",
-      "moneyline": "ARI +330",
-      "total": "O/U 13.5"
-    },
-    {
       "matchup": "Athletics @ Tampa Bay Rays",
       "moneyline": "TAM -231",
       "total": "O/U 8.0"
@@ -52,6 +47,11 @@
       "matchup": "Milwaukee Brewers @ Pittsburgh Pirates",
       "moneyline": "PIT +205",
       "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Philadelphia Phillies @ Washington Nationals",
+      "moneyline": "WAS +178",
+      "total": "O/U 8.0"
     },
     {
       "matchup": "Chelsea @ Brentford",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-15T04:36:38.257030+00:00",
+  "lastUpdated": "2026-09-15T11:33:13.538349+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
