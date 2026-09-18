@@ -54,11 +54,6 @@
       "total": "O/U 7.5"
     },
     {
-      "matchup": "Chelsea @ Brentford",
-      "moneyline": "BRE +195",
-      "total": ""
-    },
-    {
       "matchup": "Aston Villa @ Tottenham Hotspur",
       "moneyline": "TOT +100",
       "total": ""
@@ -77,6 +72,11 @@
       "matchup": "Hull City @ Newcastle United",
       "moneyline": "NEW -180",
       "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Coventry City @ Nottingham Forest",
+      "moneyline": "NOT -165",
+      "total": ""
     }
   ],
   "baseball": [
@@ -160,17 +160,17 @@
       "league": "MLB",
       "away": "CHC",
       "home": "CIN",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "9/18 - 6:40 PM EDT"
+      "awayScore": "1",
+      "homeScore": "2",
+      "status": "Top 2nd"
     },
     {
       "league": "MLB",
       "away": "KC",
       "home": "PIT",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "9/18 - 6:40 PM EDT"
+      "status": "Bot 2nd"
     },
     {
       "league": "MLB",
@@ -178,7 +178,7 @@
       "home": "BAL",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "9/18 - 7:05 PM EDT"
+      "status": "Top 1st"
     },
     {
       "league": "MLB",
@@ -225,12 +225,12 @@
       "away": "CHE",
       "home": "BRE",
       "awayScore": "0",
-      "homeScore": "2",
-      "status": "89'"
+      "homeScore": "3",
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-18T20:47:14.329216+00:00",
+  "lastUpdated": "2026-09-18T23:10:26.195974+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
