@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Minnesota Twins @ Los Angeles Angels",
-      "moneyline": "LOS +200",
-      "total": "O/U 8.5"
-    },
-    {
       "matchup": "Chicago Cubs @ Cincinnati Reds",
       "moneyline": "CIN +104",
       "total": "O/U 8.5"
@@ -52,6 +47,11 @@
       "matchup": "Athletics @ Cleveland Guardians",
       "moneyline": "CLE -198",
       "total": "O/U 8.5"
+    },
+    {
+      "matchup": "Boston Red Sox @ Tampa Bay Rays",
+      "moneyline": "TAM -126",
+      "total": "O/U 7.5"
     },
     {
       "matchup": "Chelsea @ Brentford",
@@ -230,7 +230,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-18T04:23:07.872817+00:00",
+  "lastUpdated": "2026-09-18T11:01:14.967210+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
