@@ -54,29 +54,29 @@
       "total": "O/U 7.5"
     },
     {
-      "matchup": "Arsenal @ Brighton and Hove Albion",
-      "moneyline": "BRI +350",
-      "total": "O/U 2.5"
-    },
-    {
-      "matchup": "Ipswich Town @ Everton",
-      "moneyline": "EVE -140",
-      "total": ""
-    },
-    {
-      "matchup": "Hull City @ Newcastle United",
-      "moneyline": "NEW -180",
-      "total": "O/U 2.5"
-    },
-    {
-      "matchup": "Coventry City @ Nottingham Forest",
-      "moneyline": "NOT -165",
-      "total": ""
-    },
-    {
       "matchup": "Liverpool @ Bournemouth",
       "moneyline": "BOU +210",
       "total": ""
+    },
+    {
+      "matchup": "Crystal Palace @ Leeds United",
+      "moneyline": "LEE -140",
+      "total": ""
+    },
+    {
+      "matchup": "Sunderland @ Manchester City",
+      "moneyline": "MAN -295",
+      "total": "O/U 3.0"
+    },
+    {
+      "matchup": "Manchester United @ Fulham",
+      "moneyline": "FUL +232",
+      "total": "O/U 3.0"
+    },
+    {
+      "matchup": "Leeds United @ Arsenal",
+      "moneyline": "ARS -330",
+      "total": "O/U 2.5"
     }
   ],
   "baseball": [
@@ -160,17 +160,17 @@
       "league": "MLB",
       "away": "DET",
       "home": "CHW",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "9/19 - 2:10 PM EDT"
+      "awayScore": "1",
+      "homeScore": "3",
+      "status": "Top 8th"
     },
     {
       "league": "MLB",
       "away": "MIL",
       "home": "BAL",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "9/19 - 4:05 PM EDT"
+      "status": "Top 2nd"
     },
     {
       "league": "MLB",
@@ -178,7 +178,7 @@
       "home": "TB",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "9/19 - 4:10 PM EDT"
+      "status": "Mid 2nd"
     },
     {
       "league": "MLB",
@@ -186,7 +186,7 @@
       "home": "NYM",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "9/19 - 4:10 PM EDT"
+      "status": "Delayed, Top 1st"
     },
     {
       "league": "MLB",
@@ -234,7 +234,7 @@
       "home": "BHA",
       "awayScore": "0",
       "homeScore": "3",
-      "status": "88'"
+      "status": "FT"
     },
     {
       "league": "EPL",
@@ -242,7 +242,7 @@
       "home": "EVE",
       "awayScore": "0",
       "homeScore": "1",
-      "status": "89'"
+      "status": "FT"
     },
     {
       "league": "EPL",
@@ -250,19 +250,19 @@
       "home": "NEW",
       "awayScore": "1",
       "homeScore": "2",
-      "status": "85'"
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "COV",
       "home": "NFO",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "Scheduled"
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-19T15:46:25.991089+00:00",
+  "lastUpdated": "2026-09-19T20:27:41.972789+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
