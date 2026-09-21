@@ -29,16 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Detroit Tigers @ Chicago White Sox",
-      "moneyline": "CHI -330",
-      "total": "O/U 5.5"
-    },
-    {
-      "matchup": "Milwaukee Brewers @ Baltimore Orioles",
-      "moneyline": "BAL +176",
-      "total": "O/U 7.5"
-    },
-    {
       "matchup": "Toronto Blue Jays @ Baltimore Orioles",
       "moneyline": "BAL -112",
       "total": "O/U 7.5"
@@ -208,9 +198,9 @@
       "league": "MLB",
       "away": "DET",
       "home": "CHW",
-      "awayScore": "0",
-      "homeScore": "1",
-      "status": "Bot 4th"
+      "awayScore": "1",
+      "homeScore": "8",
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -254,7 +244,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-20T23:08:02.786418+00:00",
+  "lastUpdated": "2026-09-21T04:36:43.616658+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2167,6 +2157,14 @@
         "home": "STL",
         "awayScore": "3",
         "homeScore": "5",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "DET",
+        "home": "CHW",
+        "awayScore": "1",
+        "homeScore": "8",
         "status": "Final"
       }
     ]
