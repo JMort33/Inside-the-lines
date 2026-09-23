@@ -29,16 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Washington Nationals @ Detroit Tigers",
-      "moneyline": "DET -156",
-      "total": "O/U 8.5"
-    },
-    {
-      "matchup": "Toronto Blue Jays @ Baltimore Orioles",
-      "moneyline": "BAL -120",
-      "total": "O/U 8.5"
-    },
-    {
       "matchup": "Minnesota Twins @ San Francisco Giants",
       "moneyline": "SAN +560",
       "total": "O/U 5.5"
@@ -52,6 +42,16 @@
       "matchup": "Milwaukee Brewers @ Philadelphia Phillies",
       "moneyline": "PHI +118",
       "total": "O/U 7.5"
+    },
+    {
+      "matchup": "St. Louis Cardinals @ Pittsburgh Pirates",
+      "moneyline": "PIT -134",
+      "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Tampa Bay Rays @ New York Yankees",
+      "moneyline": "NEW -144",
+      "total": "O/U 6.5"
     },
     {
       "matchup": "Leeds United @ Arsenal",
@@ -160,25 +160,25 @@
       "league": "MLB",
       "away": "WSH",
       "home": "DET",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "9/23 - 1:10 PM EDT"
+      "awayScore": "4",
+      "homeScore": "2",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "TOR",
       "home": "BAL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "9/23 - 1:35 PM EDT"
+      "awayScore": "2",
+      "homeScore": "4",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "MIN",
       "home": "SF",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "9/23 - 3:45 PM EDT"
+      "awayScore": "2",
+      "homeScore": "2",
+      "status": "Top 7th"
     },
     {
       "league": "MLB",
@@ -254,7 +254,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-23T16:41:41.651488+00:00",
+  "lastUpdated": "2026-09-23T21:24:03.602670+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2056,7 +2056,24 @@
         "status": "Final"
       }
     ],
-    "2026-09-23": []
+    "2026-09-23": [
+      {
+        "league": "MLB",
+        "away": "WSH",
+        "home": "DET",
+        "awayScore": "4",
+        "homeScore": "2",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "TOR",
+        "home": "BAL",
+        "awayScore": "2",
+        "homeScore": "4",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
