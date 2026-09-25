@@ -158,67 +158,67 @@
   "liveScores": [
     {
       "league": "MLB",
-      "away": "STL",
-      "home": "PIT",
-      "awayScore": "1",
-      "homeScore": "2",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "CHW",
-      "home": "KC",
-      "awayScore": "9",
-      "homeScore": "1",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "MIA",
-      "home": "CHC",
-      "awayScore": "1",
-      "homeScore": "2",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "NYM",
-      "home": "TEX",
-      "awayScore": "1",
-      "homeScore": "3",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "ARI",
-      "home": "COL",
-      "awayScore": "12",
-      "homeScore": "8",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "MIL",
-      "home": "PHI",
-      "awayScore": "5",
-      "homeScore": "1",
-      "status": "Final"
-    },
-    {
-      "league": "MLB",
-      "away": "CLE",
+      "away": "CHC",
       "home": "BOS",
-      "awayScore": "1",
+      "awayScore": "0",
       "homeScore": "0",
-      "status": "Final"
+      "status": "9/25 - 1:05 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "BAL",
+      "home": "NYY",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/25 - 4:05 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "CHC",
+      "home": "BOS",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/25 - 5:30 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "PIT",
+      "home": "DET",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/25 - 6:40 PM EDT"
     },
     {
       "league": "MLB",
       "away": "TB",
+      "home": "PHI",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/25 - 6:40 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "NYM",
+      "home": "WSH",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/25 - 6:45 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "BAL",
       "home": "NYY",
-      "awayScore": "4",
-      "homeScore": "6",
-      "status": "Final"
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/25 - 7:05 PM EDT"
+    },
+    {
+      "league": "MLB",
+      "away": "CIN",
+      "home": "TOR",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "9/25 - 7:07 PM EDT"
     },
     {
       "league": "EPL",
@@ -254,7 +254,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-25T11:39:16.797086+00:00",
+  "lastUpdated": "2026-09-25T17:01:23.717750+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -286,56 +286,6 @@
     }
   ],
   "scoreArchive": {
-    "2026-08-26": [
-      {
-        "league": "MLB",
-        "away": "TB",
-        "home": "DET",
-        "awayScore": "3",
-        "homeScore": "0",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "CHC",
-        "home": "ARI",
-        "awayScore": "0",
-        "homeScore": "2",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "CIN",
-        "home": "SF",
-        "awayScore": "10",
-        "homeScore": "9",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "CLE",
-        "home": "LAA",
-        "awayScore": "4",
-        "homeScore": "3",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "PHI",
-        "home": "SEA",
-        "awayScore": "6",
-        "homeScore": "0",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "PIT",
-        "home": "SD",
-        "awayScore": "0",
-        "homeScore": "3",
-        "status": "Final"
-      }
-    ],
     "2026-08-27": [
       {
         "league": "MLB",
@@ -2113,7 +2063,8 @@
         "homeScore": "6",
         "status": "Final"
       }
-    ]
+    ],
+    "2026-09-25": []
   },
   "transferBuzz": [
     {
