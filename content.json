@@ -44,14 +44,14 @@
       "total": "O/U 6.5"
     },
     {
-      "matchup": "Cincinnati Reds @ Toronto Blue Jays",
-      "moneyline": "TOR -178",
-      "total": "O/U 8.5"
+      "matchup": "Houston Astros @ Athletics",
+      "moneyline": "ATH +144",
+      "total": "O/U 9.5"
     },
     {
-      "matchup": "Atlanta Braves @ Miami Marlins",
-      "moneyline": "MIA -110",
-      "total": "O/U 8.5"
+      "matchup": "Chicago Cubs @ Boston Red Sox",
+      "moneyline": "BOS +106",
+      "total": "O/U 7.5"
     },
     {
       "matchup": "Leeds United @ Arsenal",
@@ -254,7 +254,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-09-27T05:01:48.379537+00:00",
+  "lastUpdated": "2026-09-27T11:51:48.862645+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
