@@ -34,11 +34,6 @@
       "total": "O/U 6.5"
     },
     {
-      "matchup": "Philadelphia Phillies @ Atlanta Braves",
-      "moneyline": "ATL -199",
-      "total": "O/U 6.5"
-    },
-    {
       "matchup": "Chicago White Sox @ Cleveland Guardians",
       "moneyline": "CLE -154",
       "total": "O/U 7.5"
@@ -238,7 +233,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-01T05:30:49.947776+00:00",
+  "lastUpdated": "2026-10-01T12:57:38.382786+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -2020,7 +2015,7 @@
   },
   "transferBuzz": [
     {
-      "title": "All done deals in September 2026",
+      "title": "All done deals in September & October 2026",
       "link": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
       "confirmed": false
     }
