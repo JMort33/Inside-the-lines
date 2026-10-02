@@ -29,14 +29,14 @@
   ],
   "market": [
     {
-      "matchup": "Philadelphia Phillies @ Atlanta Braves",
-      "moneyline": "ATL -199",
-      "total": "O/U 6.5"
-    },
-    {
       "matchup": "Chicago White Sox @ Cleveland Guardians",
       "moneyline": "CLE -154",
       "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Atlanta Braves @ Los Angeles Dodgers",
+      "moneyline": "LOS -206",
+      "total": "O/U 8.0"
     },
     {
       "matchup": "New York Yankees @ Tampa Bay Rays",
@@ -155,9 +155,9 @@
       "league": "MLB",
       "away": "PHI",
       "home": "ATL",
-      "awayScore": "0",
-      "homeScore": "3",
-      "status": "End 1st"
+      "awayScore": "2",
+      "homeScore": "6",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -209,7 +209,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-02T00:38:16.078689+00:00",
+  "lastUpdated": "2026-10-02T09:36:02.455453+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1922,7 +1922,16 @@
         "status": "Final"
       }
     ],
-    "2026-10-01": []
+    "2026-10-01": [
+      {
+        "league": "MLB",
+        "away": "PHI",
+        "home": "ATL",
+        "awayScore": "2",
+        "homeScore": "6",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
