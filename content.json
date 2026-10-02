@@ -156,8 +156,8 @@
       "away": "PHI",
       "home": "ATL",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "10/1 - 8:00 PM EDT"
+      "homeScore": "3",
+      "status": "End 1st"
     },
     {
       "league": "EPL",
@@ -209,7 +209,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-01T20:16:52.104657+00:00",
+  "lastUpdated": "2026-10-02T00:38:16.078689+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
