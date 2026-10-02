@@ -152,14 +152,6 @@
   ],
   "liveScores": [
     {
-      "league": "MLB",
-      "away": "PHI",
-      "home": "ATL",
-      "awayScore": "2",
-      "homeScore": "6",
-      "status": "Final"
-    },
-    {
       "league": "EPL",
       "away": "LEE",
       "home": "ARS",
@@ -209,7 +201,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-02T09:36:02.455453+00:00",
+  "lastUpdated": "2026-10-02T17:46:29.727216+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -241,72 +233,6 @@
     }
   ],
   "scoreArchive": {
-    "2026-09-02": [
-      {
-        "league": "MLB",
-        "away": "SD",
-        "home": "CIN",
-        "awayScore": "3",
-        "homeScore": "7",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "ATL",
-        "home": "WSH",
-        "awayScore": "9",
-        "homeScore": "0",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "ATH",
-        "home": "TEX",
-        "awayScore": "9",
-        "homeScore": "2",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "BAL",
-        "home": "COL",
-        "awayScore": "5",
-        "homeScore": "6",
-        "status": "Final/11"
-      },
-      {
-        "league": "MLB",
-        "away": "PHI",
-        "home": "ARI",
-        "awayScore": "0",
-        "homeScore": "1",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "SEA",
-        "home": "BOS",
-        "awayScore": "8",
-        "homeScore": "3",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "NYM",
-        "home": "TB",
-        "awayScore": "10",
-        "homeScore": "4",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "SF",
-        "home": "PIT",
-        "awayScore": "5",
-        "homeScore": "4",
-        "status": "Final/10"
-      }
-    ],
     "2026-09-03": [
       {
         "league": "MLB",
@@ -1931,7 +1857,8 @@
         "homeScore": "6",
         "status": "Final"
       }
-    ]
+    ],
+    "2026-10-02": []
   },
   "transferBuzz": [
     {
