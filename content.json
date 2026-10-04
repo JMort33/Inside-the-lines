@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "San Diego Padres @ Milwaukee Brewers",
-      "moneyline": "MIL -227",
-      "total": "O/U 7.0"
-    },
-    {
       "matchup": "Atlanta Braves @ Los Angeles Dodgers",
       "moneyline": "LOS -206",
       "total": "O/U 8.0"
@@ -46,6 +41,11 @@
     {
       "matchup": "New York Yankees @ Tampa Bay Rays",
       "moneyline": "TAM -134",
+      "total": "O/U 6.5"
+    },
+    {
+      "matchup": "Milwaukee Brewers @ San Diego Padres",
+      "moneyline": "SAN -126",
       "total": "O/U 6.5"
     },
     {
@@ -155,9 +155,9 @@
       "league": "MLB",
       "away": "SD",
       "home": "MIL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "10/4 - 4:00 PM EDT"
+      "awayScore": "3",
+      "homeScore": "4",
+      "status": "Final"
     },
     {
       "league": "MLB",
@@ -217,7 +217,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-04T18:35:17.110199+00:00",
+  "lastUpdated": "2026-10-04T23:54:27.430267+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1777,7 +1777,16 @@
         "status": "Final"
       }
     ],
-    "2026-10-04": []
+    "2026-10-04": [
+      {
+        "league": "MLB",
+        "away": "SD",
+        "home": "MIL",
+        "awayScore": "3",
+        "homeScore": "4",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
