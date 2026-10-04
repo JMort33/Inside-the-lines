@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "New York Yankees @ Tampa Bay Rays",
-      "moneyline": "TAM -134",
-      "total": "O/U 6.5"
-    },
-    {
       "matchup": "San Diego Padres @ Milwaukee Brewers",
       "moneyline": "MIL -227",
       "total": "O/U 7.0"
@@ -47,6 +42,11 @@
       "matchup": "Chicago White Sox @ Cleveland Guardians",
       "moneyline": "CLE -154",
       "total": "O/U 7.5"
+    },
+    {
+      "matchup": "New York Yankees @ Tampa Bay Rays",
+      "moneyline": "TAM -134",
+      "total": "O/U 6.5"
     },
     {
       "matchup": "Leeds United @ Arsenal",
@@ -173,15 +173,15 @@
       "home": "TB",
       "awayScore": "0",
       "homeScore": "1",
-      "status": "Top 4th"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "SD",
       "home": "MIL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "10/3 - 8:30 PM EDT"
+      "awayScore": "2",
+      "homeScore": "3",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -233,7 +233,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-03T23:43:16.691966+00:00",
+  "lastUpdated": "2026-10-04T05:34:02.116570+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1840,6 +1840,22 @@
         "home": "LAD",
         "awayScore": "3",
         "homeScore": "5",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "NYY",
+        "home": "TB",
+        "awayScore": "0",
+        "homeScore": "1",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "SD",
+        "home": "MIL",
+        "awayScore": "2",
+        "homeScore": "3",
         "status": "Final"
       }
     ]
