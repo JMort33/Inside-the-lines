@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Cleveland Guardians @ Chicago White Sox",
-      "moneyline": "CHI -124",
-      "total": "O/U 7.5"
-    },
-    {
       "matchup": "Los Angeles Dodgers @ Atlanta Braves",
       "moneyline": "ATL -107",
       "total": "O/U 6.5"
@@ -47,6 +42,11 @@
       "matchup": "Milwaukee Brewers @ San Diego Padres",
       "moneyline": "SAN -126",
       "total": "O/U 6.5"
+    },
+    {
+      "matchup": "Cleveland Guardians @ Chicago White Sox",
+      "moneyline": "CHI -124",
+      "total": "O/U 7.5"
     },
     {
       "matchup": "Leeds United @ Arsenal",
@@ -155,25 +155,25 @@
       "league": "MLB",
       "away": "CLE",
       "home": "CHW",
-      "awayScore": "0",
-      "homeScore": "1",
-      "status": "Top 2nd"
+      "awayScore": "9",
+      "homeScore": "3",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "LAD",
       "home": "ATL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "10/7 - 6:00 PM EDT"
+      "awayScore": "3",
+      "homeScore": "1",
+      "status": "Top 9th"
     },
     {
       "league": "MLB",
       "away": "TB",
       "home": "NYY",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "10/7 - 8:00 PM EDT"
+      "status": "Mid 3rd"
     },
     {
       "league": "MLB",
@@ -233,7 +233,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-07T20:32:13.610531+00:00",
+  "lastUpdated": "2026-10-08T00:53:56.490602+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1649,7 +1649,16 @@
         "status": "Final"
       }
     ],
-    "2026-10-07": []
+    "2026-10-07": [
+      {
+        "league": "MLB",
+        "away": "CLE",
+        "home": "CHW",
+        "awayScore": "9",
+        "homeScore": "3",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
