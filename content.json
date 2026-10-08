@@ -29,24 +29,14 @@
   ],
   "market": [
     {
-      "matchup": "Los Angeles Dodgers @ Atlanta Braves",
-      "moneyline": "ATL -107",
-      "total": "O/U 6.5"
-    },
-    {
-      "matchup": "Tampa Bay Rays @ New York Yankees",
-      "moneyline": "NEW -162",
-      "total": "O/U 7.5"
-    },
-    {
-      "matchup": "Milwaukee Brewers @ San Diego Padres",
-      "moneyline": "SAN -126",
-      "total": "O/U 6.5"
-    },
-    {
       "matchup": "Cleveland Guardians @ Chicago White Sox",
       "moneyline": "CHI -124",
       "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Los Angeles Dodgers @ Milwaukee Brewers",
+      "moneyline": "MIL -108",
+      "total": "O/U 6.5"
     },
     {
       "matchup": "Leeds United @ Arsenal",
@@ -163,25 +153,25 @@
       "league": "MLB",
       "away": "LAD",
       "home": "ATL",
-      "awayScore": "3",
+      "awayScore": "4",
       "homeScore": "1",
-      "status": "Top 9th"
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "TB",
       "home": "NYY",
-      "awayScore": "1",
-      "homeScore": "0",
-      "status": "Mid 3rd"
+      "awayScore": "4",
+      "homeScore": "3",
+      "status": "Final"
     },
     {
       "league": "MLB",
       "away": "MIL",
       "home": "SD",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "10/7 - 10:00 PM EDT"
+      "awayScore": "3",
+      "homeScore": "1",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -233,7 +223,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-08T00:53:56.490602+00:00",
+  "lastUpdated": "2026-10-08T10:20:37.486097+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1656,6 +1646,30 @@
         "home": "CHW",
         "awayScore": "9",
         "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "LAD",
+        "home": "ATL",
+        "awayScore": "4",
+        "homeScore": "1",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "TB",
+        "home": "NYY",
+        "awayScore": "4",
+        "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "MIL",
+        "home": "SD",
+        "awayScore": "3",
+        "homeScore": "1",
         "status": "Final"
       }
     ]
