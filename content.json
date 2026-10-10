@@ -39,11 +39,6 @@
       "total": "O/U 6.5"
     },
     {
-      "matchup": "Tottenham Hotspur @ Manchester United",
-      "moneyline": "MAN +110",
-      "total": "O/U 1.5"
-    },
-    {
       "matchup": "Nottingham Forest @ Crystal Palace",
       "moneyline": "CRY +171",
       "total": "O/U 2.5"
@@ -61,6 +56,11 @@
     {
       "matchup": "Newcastle United @ Coventry City",
       "moneyline": "COV +210",
+      "total": ""
+    },
+    {
+      "matchup": "Chelsea @ Everton",
+      "moneyline": "EVE +190",
       "total": ""
     }
   ],
@@ -193,13 +193,13 @@
       "league": "EPL",
       "away": "TOT",
       "home": "MAN",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "45'"
+      "awayScore": "1",
+      "homeScore": "1",
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-10T17:15:19.474769+00:00",
+  "lastUpdated": "2026-10-10T21:29:21.890132+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
