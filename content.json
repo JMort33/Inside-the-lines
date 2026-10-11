@@ -29,13 +29,13 @@
   ],
   "market": [
     {
-      "matchup": "Chicago White Sox @ Cleveland Guardians",
-      "moneyline": "CLE -136",
-      "total": "O/U 7.5"
-    },
-    {
       "matchup": "Los Angeles Dodgers @ Milwaukee Brewers",
       "moneyline": "MIL -108",
+      "total": "O/U 6.5"
+    },
+    {
+      "matchup": "Cleveland Guardians @ Tampa Bay Rays",
+      "moneyline": "TAM -164",
       "total": "O/U 6.5"
     },
     {
@@ -146,8 +146,8 @@
       "away": "CHW",
       "home": "CLE",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "10/10 - 8:00 PM EDT"
+      "homeScore": "2",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -199,7 +199,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-10T21:29:21.890132+00:00",
+  "lastUpdated": "2026-10-11T05:27:46.582029+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1486,7 +1486,16 @@
       }
     ],
     "2026-10-09": [],
-    "2026-10-10": []
+    "2026-10-10": [
+      {
+        "league": "MLB",
+        "away": "CHW",
+        "home": "CLE",
+        "awayScore": "0",
+        "homeScore": "2",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
