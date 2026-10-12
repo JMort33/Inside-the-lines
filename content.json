@@ -145,37 +145,21 @@
       "league": "MLB",
       "away": "LAD",
       "home": "MIL",
+      "awayScore": "1",
+      "homeScore": "2",
+      "status": "Final"
+    },
+    {
+      "league": "EPL",
+      "away": "NEW",
+      "home": "COV",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "Bot 1st"
-    },
-    {
-      "league": "EPL",
-      "away": "NFO",
-      "home": "CRY",
-      "awayScore": "1",
-      "homeScore": "3",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "EVE",
-      "home": "HUL",
-      "awayScore": "2",
-      "homeScore": "2",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "MNC",
-      "home": "LIV",
-      "awayScore": "3",
-      "homeScore": "0",
-      "status": "FT"
+      "status": "Scheduled"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-12T00:24:18.201249+00:00",
+  "lastUpdated": "2026-10-12T10:34:51.121678+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1406,7 +1390,16 @@
         "status": "Final"
       }
     ],
-    "2026-10-11": []
+    "2026-10-11": [
+      {
+        "league": "MLB",
+        "away": "LAD",
+        "home": "MIL",
+        "awayScore": "1",
+        "homeScore": "2",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
