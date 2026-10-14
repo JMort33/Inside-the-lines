@@ -29,14 +29,14 @@
   ],
   "market": [
     {
-      "matchup": "Cleveland Guardians @ Tampa Bay Rays",
-      "moneyline": "TAM -164",
-      "total": "O/U 6.5"
-    },
-    {
       "matchup": "Milwaukee Brewers @ Los Angeles Dodgers",
       "moneyline": "LOS -178",
       "total": "O/U 7.5"
+    },
+    {
+      "matchup": "Tampa Bay Rays @ Cleveland Guardians",
+      "moneyline": "CLE -134",
+      "total": "O/U 6.5"
     },
     {
       "matchup": "Chelsea @ Everton",
@@ -145,21 +145,53 @@
       "league": "MLB",
       "away": "CLE",
       "home": "TB",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "10/13 - 8:00 PM EDT"
+      "awayScore": "1",
+      "homeScore": "3",
+      "status": "Final"
     },
     {
       "league": "EPL",
-      "away": "NEW",
-      "home": "COV",
-      "awayScore": "1",
-      "homeScore": "4",
-      "status": "FT"
+      "away": "CHE",
+      "home": "EVE",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
+    },
+    {
+      "league": "EPL",
+      "away": "LIV",
+      "home": "BRE",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
+    },
+    {
+      "league": "EPL",
+      "away": "HUL",
+      "home": "FUL",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
+    },
+    {
+      "league": "EPL",
+      "away": "IPS",
+      "home": "MNC",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
+    },
+    {
+      "league": "EPL",
+      "away": "AVL",
+      "home": "NEW",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-13T22:33:40.167625+00:00",
+  "lastUpdated": "2026-10-14T04:35:39.122631+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1286,7 +1318,16 @@
         "status": "Final"
       }
     ],
-    "2026-10-13": []
+    "2026-10-13": [
+      {
+        "league": "MLB",
+        "away": "CLE",
+        "home": "TB",
+        "awayScore": "1",
+        "homeScore": "3",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
