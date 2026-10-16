@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Milwaukee Brewers @ Los Angeles Dodgers",
-      "moneyline": "LOS -178",
-      "total": "O/U 7.5"
-    },
-    {
       "matchup": "Tampa Bay Rays @ Cleveland Guardians",
       "moneyline": "CLE -134",
       "total": "O/U 6.5"
@@ -153,9 +148,9 @@
       "league": "MLB",
       "away": "MIL",
       "home": "LAD",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "10/15 - 8:00 PM EDT"
+      "awayScore": "6",
+      "homeScore": "4",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -199,7 +194,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-15T21:13:36.594970+00:00",
+  "lastUpdated": "2026-10-16T04:13:47.203352+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1221,6 +1216,14 @@
         "home": "CLE",
         "awayScore": "2",
         "homeScore": "3",
+        "status": "Final"
+      },
+      {
+        "league": "MLB",
+        "away": "MIL",
+        "home": "LAD",
+        "awayScore": "6",
+        "homeScore": "4",
         "status": "Final"
       }
     ]
