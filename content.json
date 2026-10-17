@@ -34,11 +34,6 @@
       "total": "O/U 6.5"
     },
     {
-      "matchup": "Chelsea @ Everton",
-      "moneyline": "EVE +190",
-      "total": ""
-    },
-    {
       "matchup": "Liverpool @ Brentford",
       "moneyline": "BRE +145",
       "total": ""
@@ -56,6 +51,11 @@
     {
       "matchup": "Aston Villa @ Newcastle United",
       "moneyline": "NEW +110",
+      "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Sunderland @ Bournemouth",
+      "moneyline": "BOU +113",
       "total": "O/U 2.5"
     }
   ],
@@ -142,39 +142,39 @@
       "home": "CLE",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "Postponed"
+      "status": "10/17 - 8:00 PM EDT"
     },
     {
       "league": "EPL",
       "away": "CHE",
       "home": "EVE",
-      "awayScore": "0",
+      "awayScore": "2",
       "homeScore": "0",
-      "status": "Scheduled"
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "LIV",
       "home": "BRE",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "homeScore": "1",
+      "status": "56'"
     },
     {
       "league": "EPL",
       "away": "HUL",
       "home": "FUL",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "homeScore": "1",
+      "status": "66'"
     },
     {
       "league": "EPL",
       "away": "IPS",
       "home": "MNC",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "awayScore": "1",
+      "homeScore": "2",
+      "status": "63'"
     },
     {
       "league": "EPL",
@@ -186,7 +186,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-17T10:29:36.221066+00:00",
+  "lastUpdated": "2026-10-17T15:23:30.717700+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -218,72 +218,6 @@
     }
   ],
   "scoreArchive": {
-    "2026-09-17": [
-      {
-        "league": "MLB",
-        "away": "MIL",
-        "home": "PIT",
-        "awayScore": "4",
-        "homeScore": "7",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "LAD",
-        "home": "CIN",
-        "awayScore": "8",
-        "homeScore": "2",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "ATH",
-        "home": "TB",
-        "awayScore": "1",
-        "homeScore": "10",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "SD",
-        "home": "COL",
-        "awayScore": "9",
-        "homeScore": "2",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "PHI",
-        "home": "NYM",
-        "awayScore": "3",
-        "homeScore": "0",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "KC",
-        "home": "HOU",
-        "awayScore": "2",
-        "homeScore": "6",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "DET",
-        "home": "CHW",
-        "awayScore": "1",
-        "homeScore": "3",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "BOS",
-        "home": "TEX",
-        "awayScore": "4",
-        "homeScore": "3",
-        "status": "Final"
-      }
-    ],
     "2026-09-18": [
       {
         "league": "MLB",
@@ -1153,7 +1087,8 @@
         "status": "Final"
       }
     ],
-    "2026-10-16": []
+    "2026-10-16": [],
+    "2026-10-17": []
   },
   "transferBuzz": [
     {
