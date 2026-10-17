@@ -34,29 +34,29 @@
       "total": "O/U 6.5"
     },
     {
-      "matchup": "Liverpool @ Brentford",
-      "moneyline": "BRE +145",
-      "total": ""
-    },
-    {
-      "matchup": "Hull City @ Fulham",
-      "moneyline": "FUL -165",
-      "total": ""
-    },
-    {
-      "matchup": "Ipswich Town @ Manchester City",
-      "moneyline": "MAN -475",
-      "total": ""
-    },
-    {
-      "matchup": "Aston Villa @ Newcastle United",
-      "moneyline": "NEW +110",
-      "total": "O/U 2.5"
-    },
-    {
       "matchup": "Sunderland @ Bournemouth",
       "moneyline": "BOU +113",
       "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Crystal Palace @ Brighton and Hove Albion",
+      "moneyline": "BRI -210",
+      "total": ""
+    },
+    {
+      "matchup": "Manchester United @ Leeds United",
+      "moneyline": "LEE +135",
+      "total": ""
+    },
+    {
+      "matchup": "Arsenal @ Nottingham Forest",
+      "moneyline": "NOT +440",
+      "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Coventry City @ Tottenham Hotspur",
+      "moneyline": "TOT -210",
+      "total": ""
     }
   ],
   "baseball": [
@@ -156,9 +156,9 @@
       "league": "EPL",
       "away": "LIV",
       "home": "BRE",
-      "awayScore": "0",
+      "awayScore": "2",
       "homeScore": "1",
-      "status": "56'"
+      "status": "FT"
     },
     {
       "league": "EPL",
@@ -166,27 +166,27 @@
       "home": "FUL",
       "awayScore": "0",
       "homeScore": "1",
-      "status": "66'"
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "IPS",
       "home": "MNC",
-      "awayScore": "1",
-      "homeScore": "2",
-      "status": "63'"
+      "awayScore": "2",
+      "homeScore": "3",
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "AVL",
       "home": "NEW",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "Scheduled"
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-17T15:23:30.717700+00:00",
+  "lastUpdated": "2026-10-17T20:26:28.151839+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
