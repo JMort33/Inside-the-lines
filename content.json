@@ -142,7 +142,7 @@
       "home": "CLE",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "Delayed, Top 1st"
+      "status": "Postponed"
     },
     {
       "league": "EPL",
@@ -186,7 +186,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-16T23:25:13.719020+00:00",
+  "lastUpdated": "2026-10-17T04:03:55.479698+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
