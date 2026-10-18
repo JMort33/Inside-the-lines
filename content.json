@@ -34,11 +34,6 @@
       "total": "O/U 6.5"
     },
     {
-      "matchup": "Arsenal @ Nottingham Forest",
-      "moneyline": "NOT +440",
-      "total": "O/U 2.5"
-    },
-    {
       "matchup": "Coventry City @ Tottenham Hotspur",
       "moneyline": "TOT -210",
       "total": ""
@@ -56,6 +51,11 @@
     {
       "matchup": "Everton @ Arsenal",
       "moneyline": "ARS -275",
+      "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Fulham @ Coventry City",
+      "moneyline": "COV +186",
       "total": "O/U 2.5"
     }
   ],
@@ -172,13 +172,13 @@
       "league": "EPL",
       "away": "ARS",
       "home": "NFO",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "14'"
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-18T15:44:17.048363+00:00",
+  "lastUpdated": "2026-10-18T20:27:13.234876+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
