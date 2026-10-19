@@ -138,23 +138,23 @@
   "liveScores": [
     {
       "league": "MLB",
-      "away": "TB",
-      "home": "CLE",
-      "awayScore": "3",
-      "homeScore": "1",
-      "status": "Final"
+      "away": "CLE",
+      "home": "TB",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "10/19 - 8:00 PM EDT"
     },
     {
       "league": "EPL",
       "away": "COV",
       "home": "TOT",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "awayScore": "1",
+      "homeScore": "2",
+      "status": "71'"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-19T12:51:09.037912+00:00",
+  "lastUpdated": "2026-10-19T20:30:31.618456+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -186,72 +186,6 @@
     }
   ],
   "scoreArchive": {
-    "2026-09-19": [
-      {
-        "league": "MLB",
-        "away": "DET",
-        "home": "CHW",
-        "awayScore": "1",
-        "homeScore": "3",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "MIL",
-        "home": "BAL",
-        "awayScore": "1",
-        "homeScore": "0",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "BOS",
-        "home": "TB",
-        "awayScore": "1",
-        "homeScore": "2",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "PHI",
-        "home": "NYM",
-        "awayScore": "3",
-        "homeScore": "10",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "ATH",
-        "home": "CLE",
-        "awayScore": "6",
-        "homeScore": "12",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "CHC",
-        "home": "CIN",
-        "awayScore": "5",
-        "homeScore": "2",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "KC",
-        "home": "PIT",
-        "awayScore": "5",
-        "homeScore": "6",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "TOR",
-        "home": "TEX",
-        "awayScore": "2",
-        "homeScore": "6",
-        "status": "Final"
-      }
-    ],
     "2026-09-20": [
       {
         "league": "MLB",
@@ -1009,7 +943,8 @@
         "homeScore": "1",
         "status": "Final"
       }
-    ]
+    ],
+    "2026-10-19": []
   },
   "transferBuzz": [
     {
