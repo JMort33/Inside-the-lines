@@ -29,8 +29,8 @@
   ],
   "market": [
     {
-      "matchup": "Tampa Bay Rays @ Cleveland Guardians",
-      "moneyline": "CLE -134",
+      "matchup": "Cleveland Guardians @ Tampa Bay Rays",
+      "moneyline": "TAM -142",
       "total": "O/U 6.5"
     },
     {
@@ -142,7 +142,7 @@
       "home": "CLE",
       "awayScore": "3",
       "homeScore": "1",
-      "status": "Bot 6th"
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -178,7 +178,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-18T22:57:28.324145+00:00",
+  "lastUpdated": "2026-10-19T04:20:39.804007+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -1024,7 +1024,16 @@
         "status": "Final"
       }
     ],
-    "2026-10-18": []
+    "2026-10-18": [
+      {
+        "league": "MLB",
+        "away": "TB",
+        "home": "CLE",
+        "awayScore": "3",
+        "homeScore": "1",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
