@@ -34,11 +34,6 @@
       "total": "O/U 6.5"
     },
     {
-      "matchup": "Coventry City @ Tottenham Hotspur",
-      "moneyline": "TOT -210",
-      "total": ""
-    },
-    {
       "matchup": "Nottingham Forest @ Ipswich Town",
       "moneyline": "IPS +202",
       "total": "O/U 2.5"
@@ -57,6 +52,11 @@
       "matchup": "Fulham @ Coventry City",
       "moneyline": "COV +186",
       "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Tottenham Hotspur @ Chelsea",
+      "moneyline": "CHE -150",
+      "total": "O/U 3.5"
     }
   ],
   "baseball": [
@@ -142,19 +142,19 @@
       "home": "TB",
       "awayScore": "0",
       "homeScore": "0",
-      "status": "10/19 - 8:00 PM EDT"
+      "status": "Top 1st"
     },
     {
       "league": "EPL",
       "away": "COV",
       "home": "TOT",
       "awayScore": "1",
-      "homeScore": "2",
-      "status": "71'"
+      "homeScore": "3",
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-19T20:30:31.618456+00:00",
+  "lastUpdated": "2026-10-20T00:11:35.960929+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
