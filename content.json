@@ -140,9 +140,9 @@
       "league": "MLB",
       "away": "TB",
       "home": "MIL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "10/23 - 8:00 PM EDT"
+      "awayScore": "2",
+      "homeScore": "3",
+      "status": "Final"
     },
     {
       "league": "EPL",
@@ -154,7 +154,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-23T21:17:16.239785+00:00",
+  "lastUpdated": "2026-10-24T04:17:42.674683+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -757,7 +757,16 @@
     "2026-10-20": [],
     "2026-10-21": [],
     "2026-10-22": [],
-    "2026-10-23": []
+    "2026-10-23": [
+      {
+        "league": "MLB",
+        "away": "TB",
+        "home": "MIL",
+        "awayScore": "2",
+        "homeScore": "3",
+        "status": "Final"
+      }
+    ]
   },
   "transferBuzz": [
     {
