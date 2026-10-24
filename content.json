@@ -34,21 +34,6 @@
       "total": "O/U 6.5"
     },
     {
-      "matchup": "Everton @ Arsenal",
-      "moneyline": "ARS -275",
-      "total": "O/U 2.5"
-    },
-    {
-      "matchup": "Fulham @ Coventry City",
-      "moneyline": "COV +186",
-      "total": "O/U 2.5"
-    },
-    {
-      "matchup": "Tottenham Hotspur @ Chelsea",
-      "moneyline": "CHE -150",
-      "total": "O/U 3.5"
-    },
-    {
       "matchup": "Bournemouth @ Manchester United",
       "moneyline": "MAN +125",
       "total": ""
@@ -57,6 +42,21 @@
       "matchup": "Brentford @ Hull City",
       "moneyline": "HUL +350",
       "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Brighton and Hove Albion @ Liverpool",
+      "moneyline": "LIV +112",
+      "total": "O/U 3.5"
+    },
+    {
+      "matchup": "Newcastle United @ Crystal Palace",
+      "moneyline": "CRY +180",
+      "total": "O/U 3.5"
+    },
+    {
+      "matchup": "Leeds United @ Sunderland",
+      "moneyline": "SUN +200",
+      "total": ""
     }
   ],
   "baseball": [
@@ -158,7 +158,7 @@
       "home": "ARS",
       "awayScore": "0",
       "homeScore": "2",
-      "status": "88'"
+      "status": "FT"
     },
     {
       "league": "EPL",
@@ -166,19 +166,19 @@
       "home": "COV",
       "awayScore": "1",
       "homeScore": "0",
-      "status": "87'"
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "TOT",
       "home": "CHE",
-      "awayScore": "0",
+      "awayScore": "2",
       "homeScore": "0",
-      "status": "Scheduled"
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-24T15:46:25.627555+00:00",
+  "lastUpdated": "2026-10-24T20:34:35.933545+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
