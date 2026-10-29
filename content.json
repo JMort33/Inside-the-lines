@@ -140,9 +140,9 @@
       "league": "MLB",
       "away": "MIL",
       "home": "TB",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "10/28 - 8:00 PM EDT"
+      "status": "End 2nd"
     },
     {
       "league": "EPL",
@@ -210,7 +210,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-28T20:10:59.112974+00:00",
+  "lastUpdated": "2026-10-29T00:44:09.742979+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
