@@ -29,16 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Crystal Palace @ Tottenham Hotspur",
-      "moneyline": "",
-      "total": "O/U 2.5"
-    },
-    {
-      "matchup": "Fulham @ Aston Villa",
-      "moneyline": "AST +105",
-      "total": ""
-    },
-    {
       "matchup": "Arsenal @ Liverpool",
       "moneyline": "LIV +190",
       "total": ""
@@ -52,6 +42,16 @@
       "matchup": "Coventry City @ Everton",
       "moneyline": "EVE -144",
       "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Tottenham Hotspur @ Leeds United",
+      "moneyline": "LEE +150",
+      "total": ""
+    },
+    {
+      "matchup": "Hull City @ Arsenal",
+      "moneyline": "ARS -625",
+      "total": "O/U 3.5"
     }
   ],
   "baseball": [
@@ -185,19 +185,19 @@
       "home": "TOT",
       "awayScore": "0",
       "homeScore": "2",
-      "status": "84'"
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "FUL",
       "home": "AVL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "awayScore": "1",
+      "homeScore": "1",
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-10-31T19:12:12.867188+00:00",
+  "lastUpdated": "2026-10-31T23:59:43.781131+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
