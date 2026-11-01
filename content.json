@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Arsenal @ Liverpool",
-      "moneyline": "LIV +190",
-      "total": ""
-    },
-    {
       "matchup": "Everton @ Newcastle United",
       "moneyline": "NEW +130",
       "total": ""
@@ -52,6 +47,11 @@
       "matchup": "Hull City @ Arsenal",
       "moneyline": "ARS -625",
       "total": "O/U 3.5"
+    },
+    {
+      "matchup": "Newcastle United @ Fulham",
+      "moneyline": "FUL +105",
+      "total": "O/U 2.5"
     }
   ],
   "baseball": [
@@ -135,13 +135,13 @@
       "league": "EPL",
       "away": "ARS",
       "home": "LIV",
-      "awayScore": "0",
+      "awayScore": "1",
       "homeScore": "0",
-      "status": "Scheduled"
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-01T13:05:56.144659+00:00",
+  "lastUpdated": "2026-11-01T19:28:42.951283+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -173,7 +173,6 @@
     }
   ],
   "scoreArchive": {
-    "2026-10-02": [],
     "2026-10-03": [
       {
         "league": "MLB",
@@ -470,7 +469,8 @@
     ],
     "2026-10-29": [],
     "2026-10-30": [],
-    "2026-10-31": []
+    "2026-10-31": [],
+    "2026-11-01": []
   },
   "transferBuzz": [
     {
