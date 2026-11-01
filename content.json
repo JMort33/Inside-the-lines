@@ -133,71 +133,15 @@
   "liveScores": [
     {
       "league": "EPL",
-      "away": "MAN",
-      "home": "CHE",
+      "away": "ARS",
+      "home": "LIV",
       "awayScore": "0",
-      "homeScore": "2",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "LEE",
-      "home": "BOU",
-      "awayScore": "0",
-      "homeScore": "2",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "NFO",
-      "home": "BRE",
-      "awayScore": "0",
-      "homeScore": "2",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "SUN",
-      "home": "COV",
-      "awayScore": "1",
-      "homeScore": "3",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "IPS",
-      "home": "HUL",
-      "awayScore": "2",
-      "homeScore": "2",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "BHA",
-      "home": "MNC",
-      "awayScore": "1",
       "homeScore": "0",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "CRY",
-      "home": "TOT",
-      "awayScore": "0",
-      "homeScore": "2",
-      "status": "FT"
-    },
-    {
-      "league": "EPL",
-      "away": "FUL",
-      "home": "AVL",
-      "awayScore": "1",
-      "homeScore": "1",
-      "status": "FT"
+      "status": "Scheduled"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-01T05:52:06.530781+00:00",
+  "lastUpdated": "2026-11-01T13:05:56.144659+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
