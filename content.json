@@ -133,15 +133,15 @@
   "liveScores": [
     {
       "league": "EPL",
-      "away": "ARS",
-      "home": "LIV",
-      "awayScore": "1",
+      "away": "EVE",
+      "home": "NEW",
+      "awayScore": "0",
       "homeScore": "0",
-      "status": "FT"
+      "status": "Scheduled"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-02T00:30:06.477605+00:00",
+  "lastUpdated": "2026-11-02T10:51:19.318272+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
