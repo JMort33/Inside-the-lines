@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Everton @ Newcastle United",
-      "moneyline": "NEW +130",
-      "total": ""
-    },
-    {
       "matchup": "Coventry City @ Everton",
       "moneyline": "EVE -144",
       "total": "O/U 2.5"
@@ -52,6 +47,11 @@
       "matchup": "Newcastle United @ Fulham",
       "moneyline": "FUL +105",
       "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Manchester City @ Nottingham Forest",
+      "moneyline": "NOT +360",
+      "total": ""
     }
   ],
   "baseball": [
@@ -133,15 +133,15 @@
   "liveScores": [
     {
       "league": "EPL",
-      "away": "EVE",
-      "home": "NEW",
-      "awayScore": "1",
+      "away": "COV",
+      "home": "EVE",
+      "awayScore": "0",
       "homeScore": "0",
-      "status": "81'"
+      "status": "Scheduled"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-02T21:38:49.683210+00:00",
+  "lastUpdated": "2026-11-03T06:22:01.768475+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
