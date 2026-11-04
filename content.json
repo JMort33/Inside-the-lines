@@ -141,7 +141,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-04T14:17:09.260993+00:00",
+  "lastUpdated": "2026-11-04T21:12:28.829977+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -173,24 +173,6 @@
     }
   ],
   "scoreArchive": {
-    "2026-10-05": [
-      {
-        "league": "MLB",
-        "away": "CHW",
-        "home": "CLE",
-        "awayScore": "4",
-        "homeScore": "3",
-        "status": "Final"
-      },
-      {
-        "league": "MLB",
-        "away": "NYY",
-        "home": "TB",
-        "awayScore": "2",
-        "homeScore": "5",
-        "status": "Final"
-      }
-    ],
     "2026-10-06": [
       {
         "league": "MLB",
@@ -420,11 +402,12 @@
     "2026-10-31": [],
     "2026-11-01": [],
     "2026-11-02": [],
-    "2026-11-03": []
+    "2026-11-03": [],
+    "2026-11-04": []
   },
   "transferBuzz": [
     {
-      "title": "All done deals in September & October 2026",
+      "title": "All done deals from September-November 2026",
       "link": "https://www.bbc.co.uk/sport/football/articles/cvgyxyxplkvo?at_medium=RSS&at_campaign=rss",
       "confirmed": false
     }
