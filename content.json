@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Coventry City @ Everton",
-      "moneyline": "EVE -144",
-      "total": "O/U 2.5"
-    },
-    {
       "matchup": "Tottenham Hotspur @ Leeds United",
       "moneyline": "LEE +150",
       "total": ""
@@ -51,6 +46,11 @@
     {
       "matchup": "Manchester City @ Nottingham Forest",
       "moneyline": "NOT +360",
+      "total": ""
+    },
+    {
+      "matchup": "Bournemouth @ Ipswich Town",
+      "moneyline": "IPS +300",
       "total": ""
     }
   ],
@@ -135,13 +135,13 @@
       "league": "EPL",
       "away": "COV",
       "home": "EVE",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "awayScore": "1",
+      "homeScore": "3",
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-06T16:41:04.795452+00:00",
+  "lastUpdated": "2026-11-06T22:57:31.081135+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
