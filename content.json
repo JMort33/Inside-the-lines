@@ -29,21 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Tottenham Hotspur @ Leeds United",
-      "moneyline": "LEE +150",
-      "total": ""
-    },
-    {
-      "matchup": "Hull City @ Arsenal",
-      "moneyline": "ARS -625",
-      "total": "O/U 3.5"
-    },
-    {
-      "matchup": "Newcastle United @ Fulham",
-      "moneyline": "FUL +105",
-      "total": "O/U 2.5"
-    },
-    {
       "matchup": "Manchester City @ Nottingham Forest",
       "moneyline": "NOT +360",
       "total": ""
@@ -52,6 +37,21 @@
       "matchup": "Bournemouth @ Ipswich Town",
       "moneyline": "IPS +300",
       "total": ""
+    },
+    {
+      "matchup": "Brentford @ Brighton and Hove Albion",
+      "moneyline": "BRI -113",
+      "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Chelsea @ Sunderland",
+      "moneyline": "SUN +270",
+      "total": ""
+    },
+    {
+      "matchup": "Liverpool @ Crystal Palace",
+      "moneyline": "CRY +420",
+      "total": "O/U 3.5"
     }
   ],
   "baseball": [
@@ -136,36 +136,36 @@
       "away": "TOT",
       "home": "LEE",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "19'"
+      "homeScore": "1",
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "HUL",
       "home": "ARS",
       "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "homeScore": "1",
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "NEW",
       "home": "FUL",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "awayScore": "1",
+      "homeScore": "1",
+      "status": "FT"
     },
     {
       "league": "EPL",
       "away": "MNC",
       "home": "NFO",
-      "awayScore": "0",
-      "homeScore": "0",
-      "status": "Scheduled"
+      "awayScore": "1",
+      "homeScore": "3",
+      "status": "89'"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-07T12:49:18.591750+00:00",
+  "lastUpdated": "2026-11-07T19:19:17.853010+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -197,16 +197,6 @@
     }
   ],
   "scoreArchive": {
-    "2026-10-08": [
-      {
-        "league": "MLB",
-        "away": "CLE",
-        "home": "CHW",
-        "awayScore": "9",
-        "homeScore": "5",
-        "status": "Final"
-      }
-    ],
     "2026-10-09": [],
     "2026-10-10": [
       {
@@ -377,7 +367,8 @@
     "2026-11-03": [],
     "2026-11-04": [],
     "2026-11-05": [],
-    "2026-11-06": []
+    "2026-11-06": [],
+    "2026-11-07": []
   },
   "transferBuzz": [
     {
