@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Aston Villa @ Manchester United",
-      "moneyline": "MAN +116",
-      "total": "O/U 2.5"
-    },
-    {
       "matchup": "Fulham @ Manchester City",
       "moneyline": "MAN -210",
       "total": "O/U 3.5"
@@ -51,6 +46,11 @@
     {
       "matchup": "Leeds United @ Chelsea",
       "moneyline": "CHE -124",
+      "total": "O/U 2.5"
+    },
+    {
+      "matchup": "Crystal Palace @ Coventry City",
+      "moneyline": "COV +133",
       "total": "O/U 2.5"
     }
   ],
@@ -168,12 +168,12 @@
       "away": "AVL",
       "home": "MAN",
       "awayScore": "4",
-      "homeScore": "2",
-      "status": "60'"
+      "homeScore": "4",
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-08T17:51:22.284235+00:00",
+  "lastUpdated": "2026-11-08T21:55:30.380739+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
