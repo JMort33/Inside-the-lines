@@ -133,39 +133,47 @@
   "liveScores": [
     {
       "league": "EPL",
-      "away": "TOT",
-      "home": "LEE",
+      "away": "BRE",
+      "home": "BHA",
       "awayScore": "0",
-      "homeScore": "1",
-      "status": "FT"
+      "homeScore": "0",
+      "status": "Scheduled"
     },
     {
       "league": "EPL",
-      "away": "HUL",
-      "home": "ARS",
+      "away": "LIV",
+      "home": "CRY",
       "awayScore": "0",
-      "homeScore": "1",
-      "status": "FT"
+      "homeScore": "0",
+      "status": "Scheduled"
     },
     {
       "league": "EPL",
-      "away": "NEW",
-      "home": "FUL",
-      "awayScore": "1",
-      "homeScore": "1",
-      "status": "FT"
+      "away": "BOU",
+      "home": "IPS",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
     },
     {
       "league": "EPL",
-      "away": "MNC",
-      "home": "NFO",
-      "awayScore": "1",
-      "homeScore": "3",
-      "status": "FT"
+      "away": "CHE",
+      "home": "SUN",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
+    },
+    {
+      "league": "EPL",
+      "away": "AVL",
+      "home": "MAN",
+      "awayScore": "0",
+      "homeScore": "0",
+      "status": "Scheduled"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-08T00:21:43.397876+00:00",
+  "lastUpdated": "2026-11-08T10:05:53.739139+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
