@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Manchester City @ Nottingham Forest",
-      "moneyline": "NOT +360",
-      "total": ""
-    },
-    {
       "matchup": "Bournemouth @ Ipswich Town",
       "moneyline": "IPS +300",
       "total": ""
@@ -52,6 +47,11 @@
       "matchup": "Liverpool @ Crystal Palace",
       "moneyline": "CRY +420",
       "total": "O/U 3.5"
+    },
+    {
+      "matchup": "Aston Villa @ Manchester United",
+      "moneyline": "MAN +116",
+      "total": "O/U 2.5"
     }
   ],
   "baseball": [
@@ -161,11 +161,11 @@
       "home": "NFO",
       "awayScore": "1",
       "homeScore": "3",
-      "status": "89'"
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-07T19:19:17.853010+00:00",
+  "lastUpdated": "2026-11-08T00:21:43.397876+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
