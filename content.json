@@ -173,7 +173,7 @@
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-09T05:53:58.511707+00:00",
+  "lastUpdated": "2026-11-09T15:55:46.032104+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
@@ -205,16 +205,6 @@
     }
   ],
   "scoreArchive": {
-    "2026-10-10": [
-      {
-        "league": "MLB",
-        "away": "CHW",
-        "home": "CLE",
-        "awayScore": "0",
-        "homeScore": "2",
-        "status": "Final"
-      }
-    ],
     "2026-10-11": [
       {
         "league": "MLB",
@@ -376,7 +366,8 @@
     "2026-11-05": [],
     "2026-11-06": [],
     "2026-11-07": [],
-    "2026-11-08": []
+    "2026-11-08": [],
+    "2026-11-09": []
   },
   "transferBuzz": [
     {
