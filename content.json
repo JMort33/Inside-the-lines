@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Arsenal @ Newcastle United",
-      "moneyline": "NEW -175",
-      "total": ""
-    },
-    {
       "matchup": "Brighton and Hove Albion @ Hull City",
       "moneyline": "HUL +540",
       "total": "O/U 2.5"
@@ -51,6 +46,11 @@
     {
       "matchup": "Chelsea @ Nottingham Forest",
       "moneyline": "NOT +175",
+      "total": ""
+    },
+    {
+      "matchup": "Brentford @ Manchester United",
+      "moneyline": "MAN -105",
       "total": ""
     }
   ],
@@ -183,13 +183,13 @@
       "league": "EPL",
       "away": "ARS",
       "home": "NEW",
-      "awayScore": "1",
+      "awayScore": "2",
       "homeScore": "2",
-      "status": "73'"
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-21T19:00:36.463761+00:00",
+  "lastUpdated": "2026-11-22T01:07:03.765690+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
