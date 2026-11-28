@@ -29,11 +29,6 @@
   ],
   "market": [
     {
-      "matchup": "Chelsea @ Nottingham Forest",
-      "moneyline": "NOT +175",
-      "total": ""
-    },
-    {
       "matchup": "Brentford @ Manchester United",
       "moneyline": "MAN -105",
       "total": ""
@@ -51,6 +46,11 @@
     {
       "matchup": "Liverpool @ Everton",
       "moneyline": "EVE +295",
+      "total": ""
+    },
+    {
+      "matchup": "Bournemouth @ Fulham",
+      "moneyline": "FUL +180",
       "total": ""
     }
   ],
@@ -135,13 +135,13 @@
       "league": "EPL",
       "away": "CHE",
       "home": "NFO",
-      "awayScore": "0",
-      "homeScore": "1",
-      "status": "46'"
+      "awayScore": "2",
+      "homeScore": "3",
+      "status": "FT"
     }
   ],
   "processedSubmissions": [],
-  "lastUpdated": "2026-11-27T21:04:28.593552+00:00",
+  "lastUpdated": "2026-11-28T07:27:29.585255+00:00",
   "golf": [
     {
       "type": "Weekend Preview",
